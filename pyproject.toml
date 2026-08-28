@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aps-engine"
+version = "0.2.0"
+description = "通用 APS 智能排产引擎：CP-SAT 两阶段排产 + 审计 + AHP 优先级 + 多模型预测 + 蒙特卡洛概率 + 公式联动 Excel"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Johnson369218", email = "kwoko_china@126.com" }]
+readme = "README.md"
+dependencies = [
+  "ortools>=9.5",
+  "openpyxl>=3.1",
+  "scikit-learn>=1.3",
+]
+
+[project.optional-dependencies]
+server = ["fastapi>=0.110", "uvicorn>=0.29"]
+forecast = ["timesfm-forecasting", "torch"]
+all = ["fastapi>=0.110", "uvicorn>=0.29", "timesfm-forecasting", "torch", "xgboost"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["aps_engine*"]

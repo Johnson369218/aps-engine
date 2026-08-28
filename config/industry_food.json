@@ -1,0 +1,35 @@
+{
+ "$schema_note": "APS Engine 行业适配配置——引擎核心保持通用，行业/场景特定规则外置。food=岐品福参考配置（仅用于可靠性验证与参考集成）。",
+ "industry": "food",
+ "plan_coefficient": 0.88,
+ "lead_days": 1,
+ "unit_conversions": {
+  "老面馒头400g": 4,
+  "刀切馒头400g": 4,
+  "西葫芦粉条包400g": 4,
+  "孜然牛肉包200g": 2,
+  "玉米粑粑240g": 4
+ },
+ "exclude_name_keywords": [
+  "样品",
+  "提货卡",
+  "盒子"
+ ],
+ "exclude_category_keywords": [
+  "原物辅料",
+  "工器具",
+  "低值易耗",
+  "外包材",
+  "粮食加工品"
+ ],
+ "quality_sensitive_categories": [
+  "面点",
+  "净菜",
+  "糕点"
+ ],
+ "default_setup_min": 30,
+ "food_redlines": {
+  "promise_days": 3,
+  "back_ops_same_day": true
+ }
+}

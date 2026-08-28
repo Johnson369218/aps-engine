@@ -1,0 +1,74 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "APS Engine 假设快照",
+ "version": "1.0.0",
+ "type": "object",
+ "required": [
+  "hypotheses",
+  "sensitivity",
+  "calibration"
+ ],
+ "properties": {
+  "hypotheses": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "required": [
+     "id",
+     "item",
+     "value",
+     "source",
+     "status"
+    ],
+    "properties": {
+     "id": {
+      "type": "string"
+     },
+     "item": {
+      "type": "string"
+     },
+     "value": {
+      "type": "string"
+     },
+     "source": {
+      "enum": [
+       "实测",
+       "源数据推断",
+       "参考值",
+       "估算",
+       "建模假设"
+      ]
+     },
+     "status": {
+      "enum": [
+       "已校准",
+       "待实测",
+       "待确认",
+       "待校准"
+      ]
+     }
+    }
+   }
+  },
+  "sensitivity": {
+   "type": "object"
+  },
+  "calibration": {
+   "type": "object",
+   "properties": {
+    "input_snapshot": {
+     "type": "string"
+    },
+    "engine_version": {
+     "type": "string"
+    },
+    "config_version": {
+     "type": "string"
+    },
+    "seed": {
+     "type": "integer"
+    }
+   }
+  }
+ }
+}

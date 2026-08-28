@@ -1,0 +1,39 @@
+name: aps-engine
+display_name: APS Engine · 智能排产引擎（通用）
+version: 0.2.0
+kind: skill-plugin
+description: >-
+  通用 APS 排产引擎：订单/产线/产品 JSON 输入 → 输入校验 → CP-SAT 两阶段排产
+  （排序指派 + 换型精确化，无 ortools 自动回退启发式）→ 6 项一致性审计 →
+  21 列排产表（Excel 公式联动）+ 甘特图 + 汇总；可选 AHP 多因素优先级、
+  多模型预测（TimesFM/GBDT）与蒙特卡洛概率层。行业规则（单位换算/红线/
+  排除清单）经 config/industry_food.json 适配，引擎核心不绑定任何企业。
+  岐品福为当前参考验证场景（见 adapters/ 参考集成与 aps_training/ 公开数据集评测）。
+author: Johnson369218
+email: kwoko_china@126.com
+license: MIT
+homepage: https://github.com/Johnson369218/aps-engine
+repository: https://github.com/Johnson369218/aps-engine.git
+entry: SKILL.md
+engine: aps_engine.api.solve
+priority: default|ahp（aps_engine.ahp，几何均值法+CR 一致性）
+requires:
+  python: ">=3.10"
+  packages: [ortools, openpyxl, scikit-learn]
+  optional: [fastapi, uvicorn, timesfm(torch), xgboost]
+capabilities:
+  - scheduling: cp-sat|heuristic（两阶段：排序 + 换型 2-opt）
+  - audit: 6 项一致性（prod_date/early_days/tardy/前后工序衔接）
+  - priority: ahp（6 因素几何均值 + CR）
+  - forecast: 多模型择优（dow_factor/wma4/naive7/gbdt/timesfm/ensemble）
+  - probability: bootstrap 蒙特卡洛（P10/P50/P90 + 超载概率）
+  - export: 21 列 Excel（公式联动）+ 甘特图 + 汇总
+  - server: FastAPI（/api/health /api/schedule）
+industry_config: config/industry_food.json
+outputs:
+  - output/schedule.json          # 引擎结果
+  - output/排产表-<日期>.xlsx     # 公式联动版（VLOOKUP/SUMIFS/COUNTIFS 勾稽 + fullCalcOnLoad，可核查）
+  - output/monte_carlo_*.json     # 概率层结果
+validation:
+  - tests/test_solve.py           # 岐品福回归（参考场景）
+  - aps_training/eval_suite.py    # 公开数据集评测（通用可靠性）

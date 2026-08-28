@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+output/
+aps_training/corpus/
+aps_training/output/
+*.log
+
+# 敏感/本地
+credentials*.json
+*.secret
+.DS_Store
