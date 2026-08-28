@@ -1,0 +1,50 @@
+[
+  {
+    "id": "M1",
+    "name": "机台M1",
+    "work_minutes_per_day": 480,
+    "shift_start": "08:00",
+    "first_date": "2026-01-01",
+    "weekends_off": true
+  },
+  {
+    "id": "M2",
+    "name": "机台M2",
+    "work_minutes_per_day": 480,
+    "shift_start": "08:00",
+    "first_date": "2026-01-01",
+    "weekends_off": true
+  },
+  {
+    "id": "M3",
+    "name": "机台M3",
+    "work_minutes_per_day": 480,
+    "shift_start": "08:00",
+    "first_date": "2026-01-01",
+    "weekends_off": true
+  },
+  {
+    "id": "M4",
+    "name": "机台M4",
+    "work_minutes_per_day": 480,
+    "shift_start": "08:00",
+    "first_date": "2026-01-01",
+    "weekends_off": true
+  },
+  {
+    "id": "M5",
+    "name": "机台M5",
+    "work_minutes_per_day": 480,
+    "shift_start": "08:00",
+    "first_date": "2026-01-01",
+    "weekends_off": true
+  },
+  {
+    "id": "M6",
+    "name": "机台M6",
+    "work_minutes_per_day": 480,
+    "shift_start": "08:00",
+    "first_date": "2026-01-01",
+    "weekends_off": true
+  }
+]

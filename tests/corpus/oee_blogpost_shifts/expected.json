@@ -1,0 +1,27 @@
+{
+  "scenario": "oee_blogpost_shifts",
+  "seed": 20260903,
+  "source_dataset": "kurtholst_oee",
+  "synthetic": true,
+  "oee_by_machine": {
+    "MC-A": {
+      "A": 0.87,
+      "P": 0.94,
+      "Q": 0.99,
+      "oee": 0.8
+    },
+    "MC-B": {
+      "A": 0.86,
+      "P": 0.94,
+      "Q": 0.99,
+      "oee": 0.8
+    }
+  },
+  "capacity_factor_expected": 0.88,
+  "on_time_rate_expected": 1,
+  "eval_scope": [
+    "oee",
+    "schedule"
+  ],
+  "note": "合成代表语料：OEE=A×P×Q 计算正确性 → 计划系数一致性"
+}

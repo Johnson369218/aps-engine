@@ -1,0 +1,6482 @@
+[
+  {
+    "id": "K-P1-20260105",
+    "product": "K-P1",
+    "qty": 247,
+    "due": "2026-01-05 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 198,
+    "order_time": "2026-01-04 09:00"
+  },
+  {
+    "id": "K-P2-20260105",
+    "product": "K-P2",
+    "qty": 437,
+    "due": "2026-01-05 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 233,
+    "order_time": "2026-01-04 09:00"
+  },
+  {
+    "id": "K-P3-20260105",
+    "product": "K-P3",
+    "qty": 489,
+    "due": "2026-01-05 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 196,
+    "order_time": "2026-01-04 09:00"
+  },
+  {
+    "id": "K-P4-20260105",
+    "product": "K-P4",
+    "qty": 575,
+    "due": "2026-01-05 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 184,
+    "order_time": "2026-01-04 09:00"
+  },
+  {
+    "id": "K-P5-20260105",
+    "product": "K-P5",
+    "qty": 442,
+    "due": "2026-01-05 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 212,
+    "order_time": "2026-01-04 09:00"
+  },
+  {
+    "id": "K-P6-20260105",
+    "product": "K-P6",
+    "qty": 780,
+    "due": "2026-01-05 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 208,
+    "order_time": "2026-01-04 09:00"
+  },
+  {
+    "id": "K-P1-20260106",
+    "product": "K-P1",
+    "qty": 302,
+    "due": "2026-01-06 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 242,
+    "order_time": "2026-01-05 09:00"
+  },
+  {
+    "id": "K-P2-20260106",
+    "product": "K-P2",
+    "qty": 434,
+    "due": "2026-01-06 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 231,
+    "order_time": "2026-01-05 09:00"
+  },
+  {
+    "id": "K-P3-20260106",
+    "product": "K-P3",
+    "qty": 482,
+    "due": "2026-01-06 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 193,
+    "order_time": "2026-01-05 09:00"
+  },
+  {
+    "id": "K-P4-20260106",
+    "product": "K-P4",
+    "qty": 653,
+    "due": "2026-01-06 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 209,
+    "order_time": "2026-01-05 09:00"
+  },
+  {
+    "id": "K-P5-20260106",
+    "product": "K-P5",
+    "qty": 540,
+    "due": "2026-01-06 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 259,
+    "order_time": "2026-01-05 09:00"
+  },
+  {
+    "id": "K-P6-20260106",
+    "product": "K-P6",
+    "qty": 984,
+    "due": "2026-01-06 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 262,
+    "order_time": "2026-01-05 09:00"
+  },
+  {
+    "id": "K-P1-20260107",
+    "product": "K-P1",
+    "qty": 244,
+    "due": "2026-01-07 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 195,
+    "order_time": "2026-01-06 09:00"
+  },
+  {
+    "id": "K-P2-20260107",
+    "product": "K-P2",
+    "qty": 407,
+    "due": "2026-01-07 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 217,
+    "order_time": "2026-01-06 09:00"
+  },
+  {
+    "id": "K-P3-20260107",
+    "product": "K-P3",
+    "qty": 503,
+    "due": "2026-01-07 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 201,
+    "order_time": "2026-01-06 09:00"
+  },
+  {
+    "id": "K-P4-20260107",
+    "product": "K-P4",
+    "qty": 902,
+    "due": "2026-01-07 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 289,
+    "order_time": "2026-01-06 09:00"
+  },
+  {
+    "id": "K-P5-20260107",
+    "product": "K-P5",
+    "qty": 519,
+    "due": "2026-01-07 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 249,
+    "order_time": "2026-01-06 09:00"
+  },
+  {
+    "id": "K-P6-20260107",
+    "product": "K-P6",
+    "qty": 1020,
+    "due": "2026-01-07 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 272,
+    "order_time": "2026-01-06 09:00"
+  },
+  {
+    "id": "K-P1-20260108",
+    "product": "K-P1",
+    "qty": 356,
+    "due": "2026-01-08 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 285,
+    "order_time": "2026-01-07 09:00"
+  },
+  {
+    "id": "K-P2-20260108",
+    "product": "K-P2",
+    "qty": 449,
+    "due": "2026-01-08 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 239,
+    "order_time": "2026-01-07 09:00"
+  },
+  {
+    "id": "K-P3-20260108",
+    "product": "K-P3",
+    "qty": 666,
+    "due": "2026-01-08 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 266,
+    "order_time": "2026-01-07 09:00"
+  },
+  {
+    "id": "K-P4-20260108",
+    "product": "K-P4",
+    "qty": 714,
+    "due": "2026-01-08 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 228,
+    "order_time": "2026-01-07 09:00"
+  },
+  {
+    "id": "K-P5-20260108",
+    "product": "K-P5",
+    "qty": 503,
+    "due": "2026-01-08 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 241,
+    "order_time": "2026-01-07 09:00"
+  },
+  {
+    "id": "K-P6-20260108",
+    "product": "K-P6",
+    "qty": 1030,
+    "due": "2026-01-08 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 275,
+    "order_time": "2026-01-07 09:00"
+  },
+  {
+    "id": "K-P1-20260109",
+    "product": "K-P1",
+    "qty": 322,
+    "due": "2026-01-09 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 258,
+    "order_time": "2026-01-08 09:00"
+  },
+  {
+    "id": "K-P2-20260109",
+    "product": "K-P2",
+    "qty": 474,
+    "due": "2026-01-09 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 253,
+    "order_time": "2026-01-08 09:00"
+  },
+  {
+    "id": "K-P3-20260109",
+    "product": "K-P3",
+    "qty": 832,
+    "due": "2026-01-09 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 333,
+    "order_time": "2026-01-08 09:00"
+  },
+  {
+    "id": "K-P4-20260109",
+    "product": "K-P4",
+    "qty": 887,
+    "due": "2026-01-09 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 284,
+    "order_time": "2026-01-08 09:00"
+  },
+  {
+    "id": "K-P5-20260109",
+    "product": "K-P5",
+    "qty": 706,
+    "due": "2026-01-09 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 339,
+    "order_time": "2026-01-08 09:00"
+  },
+  {
+    "id": "K-P6-20260109",
+    "product": "K-P6",
+    "qty": 960,
+    "due": "2026-01-09 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 256,
+    "order_time": "2026-01-08 09:00"
+  },
+  {
+    "id": "K-P1-20260110",
+    "product": "K-P1",
+    "qty": 257,
+    "due": "2026-01-10 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 206,
+    "order_time": "2026-01-09 09:00"
+  },
+  {
+    "id": "K-P2-20260110",
+    "product": "K-P2",
+    "qty": 454,
+    "due": "2026-01-10 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 242,
+    "order_time": "2026-01-09 09:00"
+  },
+  {
+    "id": "K-P3-20260110",
+    "product": "K-P3",
+    "qty": 487,
+    "due": "2026-01-10 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 195,
+    "order_time": "2026-01-09 09:00"
+  },
+  {
+    "id": "K-P4-20260110",
+    "product": "K-P4",
+    "qty": 523,
+    "due": "2026-01-10 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 167,
+    "order_time": "2026-01-09 09:00"
+  },
+  {
+    "id": "K-P5-20260110",
+    "product": "K-P5",
+    "qty": 360,
+    "due": "2026-01-10 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 173,
+    "order_time": "2026-01-09 09:00"
+  },
+  {
+    "id": "K-P6-20260110",
+    "product": "K-P6",
+    "qty": 806,
+    "due": "2026-01-10 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 215,
+    "order_time": "2026-01-09 09:00"
+  },
+  {
+    "id": "K-P1-20260111",
+    "product": "K-P1",
+    "qty": 174,
+    "due": "2026-01-11 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 139,
+    "order_time": "2026-01-10 09:00"
+  },
+  {
+    "id": "K-P2-20260111",
+    "product": "K-P2",
+    "qty": 282,
+    "due": "2026-01-11 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 150,
+    "order_time": "2026-01-10 09:00"
+  },
+  {
+    "id": "K-P3-20260111",
+    "product": "K-P3",
+    "qty": 475,
+    "due": "2026-01-11 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 190,
+    "order_time": "2026-01-10 09:00"
+  },
+  {
+    "id": "K-P4-20260111",
+    "product": "K-P4",
+    "qty": 463,
+    "due": "2026-01-11 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 148,
+    "order_time": "2026-01-10 09:00"
+  },
+  {
+    "id": "K-P5-20260111",
+    "product": "K-P5",
+    "qty": 297,
+    "due": "2026-01-11 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 143,
+    "order_time": "2026-01-10 09:00"
+  },
+  {
+    "id": "K-P6-20260111",
+    "product": "K-P6",
+    "qty": 616,
+    "due": "2026-01-11 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 164,
+    "order_time": "2026-01-10 09:00"
+  },
+  {
+    "id": "K-P1-20260112",
+    "product": "K-P1",
+    "qty": 239,
+    "due": "2026-01-12 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 191,
+    "order_time": "2026-01-11 09:00"
+  },
+  {
+    "id": "K-P2-20260112",
+    "product": "K-P2",
+    "qty": 352,
+    "due": "2026-01-12 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 188,
+    "order_time": "2026-01-11 09:00"
+  },
+  {
+    "id": "K-P3-20260112",
+    "product": "K-P3",
+    "qty": 511,
+    "due": "2026-01-12 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 204,
+    "order_time": "2026-01-11 09:00"
+  },
+  {
+    "id": "K-P4-20260112",
+    "product": "K-P4",
+    "qty": 705,
+    "due": "2026-01-12 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 226,
+    "order_time": "2026-01-11 09:00"
+  },
+  {
+    "id": "K-P5-20260112",
+    "product": "K-P5",
+    "qty": 523,
+    "due": "2026-01-12 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 251,
+    "order_time": "2026-01-11 09:00"
+  },
+  {
+    "id": "K-P6-20260112",
+    "product": "K-P6",
+    "qty": 967,
+    "due": "2026-01-12 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 258,
+    "order_time": "2026-01-11 09:00"
+  },
+  {
+    "id": "K-P1-20260113",
+    "product": "K-P1",
+    "qty": 269,
+    "due": "2026-01-13 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 215,
+    "order_time": "2026-01-12 09:00"
+  },
+  {
+    "id": "K-P2-20260113",
+    "product": "K-P2",
+    "qty": 395,
+    "due": "2026-01-13 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 211,
+    "order_time": "2026-01-12 09:00"
+  },
+  {
+    "id": "K-P3-20260113",
+    "product": "K-P3",
+    "qty": 692,
+    "due": "2026-01-13 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 277,
+    "order_time": "2026-01-12 09:00"
+  },
+  {
+    "id": "K-P4-20260113",
+    "product": "K-P4",
+    "qty": 804,
+    "due": "2026-01-13 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 257,
+    "order_time": "2026-01-12 09:00"
+  },
+  {
+    "id": "K-P5-20260113",
+    "product": "K-P5",
+    "qty": 442,
+    "due": "2026-01-13 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 212,
+    "order_time": "2026-01-12 09:00"
+  },
+  {
+    "id": "K-P6-20260113",
+    "product": "K-P6",
+    "qty": 1003,
+    "due": "2026-01-13 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 267,
+    "order_time": "2026-01-12 09:00"
+  },
+  {
+    "id": "K-P1-20260114",
+    "product": "K-P1",
+    "qty": 260,
+    "due": "2026-01-14 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 208,
+    "order_time": "2026-01-13 09:00"
+  },
+  {
+    "id": "K-P2-20260114",
+    "product": "K-P2",
+    "qty": 461,
+    "due": "2026-01-14 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 246,
+    "order_time": "2026-01-13 09:00"
+  },
+  {
+    "id": "K-P3-20260114",
+    "product": "K-P3",
+    "qty": 572,
+    "due": "2026-01-14 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 229,
+    "order_time": "2026-01-13 09:00"
+  },
+  {
+    "id": "K-P4-20260114",
+    "product": "K-P4",
+    "qty": 661,
+    "due": "2026-01-14 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 212,
+    "order_time": "2026-01-13 09:00"
+  },
+  {
+    "id": "K-P5-20260114",
+    "product": "K-P5",
+    "qty": 467,
+    "due": "2026-01-14 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 224,
+    "order_time": "2026-01-13 09:00"
+  },
+  {
+    "id": "K-P6-20260114",
+    "product": "K-P6",
+    "qty": 863,
+    "due": "2026-01-14 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 230,
+    "order_time": "2026-01-13 09:00"
+  },
+  {
+    "id": "K-P1-20260115",
+    "product": "K-P1",
+    "qty": 374,
+    "due": "2026-01-15 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 299,
+    "order_time": "2026-01-14 09:00"
+  },
+  {
+    "id": "K-P2-20260115",
+    "product": "K-P2",
+    "qty": 409,
+    "due": "2026-01-15 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 218,
+    "order_time": "2026-01-14 09:00"
+  },
+  {
+    "id": "K-P3-20260115",
+    "product": "K-P3",
+    "qty": 593,
+    "due": "2026-01-15 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 237,
+    "order_time": "2026-01-14 09:00"
+  },
+  {
+    "id": "K-P4-20260115",
+    "product": "K-P4",
+    "qty": 861,
+    "due": "2026-01-15 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 276,
+    "order_time": "2026-01-14 09:00"
+  },
+  {
+    "id": "K-P5-20260115",
+    "product": "K-P5",
+    "qty": 597,
+    "due": "2026-01-15 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 287,
+    "order_time": "2026-01-14 09:00"
+  },
+  {
+    "id": "K-P6-20260115",
+    "product": "K-P6",
+    "qty": 1153,
+    "due": "2026-01-15 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 307,
+    "order_time": "2026-01-14 09:00"
+  },
+  {
+    "id": "K-P1-20260116",
+    "product": "K-P1",
+    "qty": 382,
+    "due": "2026-01-16 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 306,
+    "order_time": "2026-01-15 09:00"
+  },
+  {
+    "id": "K-P2-20260116",
+    "product": "K-P2",
+    "qty": 625,
+    "due": "2026-01-16 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 333,
+    "order_time": "2026-01-15 09:00"
+  },
+  {
+    "id": "K-P3-20260116",
+    "product": "K-P3",
+    "qty": 696,
+    "due": "2026-01-16 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 278,
+    "order_time": "2026-01-15 09:00"
+  },
+  {
+    "id": "K-P4-20260116",
+    "product": "K-P4",
+    "qty": 874,
+    "due": "2026-01-16 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 280,
+    "order_time": "2026-01-15 09:00"
+  },
+  {
+    "id": "K-P5-20260116",
+    "product": "K-P5",
+    "qty": 551,
+    "due": "2026-01-16 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 264,
+    "order_time": "2026-01-15 09:00"
+  },
+  {
+    "id": "K-P6-20260116",
+    "product": "K-P6",
+    "qty": 1289,
+    "due": "2026-01-16 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 344,
+    "order_time": "2026-01-15 09:00"
+  },
+  {
+    "id": "K-P1-20260117",
+    "product": "K-P1",
+    "qty": 285,
+    "due": "2026-01-17 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 228,
+    "order_time": "2026-01-16 09:00"
+  },
+  {
+    "id": "K-P2-20260117",
+    "product": "K-P2",
+    "qty": 414,
+    "due": "2026-01-17 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 221,
+    "order_time": "2026-01-16 09:00"
+  },
+  {
+    "id": "K-P3-20260117",
+    "product": "K-P3",
+    "qty": 437,
+    "due": "2026-01-17 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 175,
+    "order_time": "2026-01-16 09:00"
+  },
+  {
+    "id": "K-P4-20260117",
+    "product": "K-P4",
+    "qty": 655,
+    "due": "2026-01-17 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 210,
+    "order_time": "2026-01-16 09:00"
+  },
+  {
+    "id": "K-P5-20260117",
+    "product": "K-P5",
+    "qty": 362,
+    "due": "2026-01-17 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 174,
+    "order_time": "2026-01-16 09:00"
+  },
+  {
+    "id": "K-P6-20260117",
+    "product": "K-P6",
+    "qty": 758,
+    "due": "2026-01-17 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 202,
+    "order_time": "2026-01-16 09:00"
+  },
+  {
+    "id": "K-P1-20260118",
+    "product": "K-P1",
+    "qty": 218,
+    "due": "2026-01-18 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 174,
+    "order_time": "2026-01-17 09:00"
+  },
+  {
+    "id": "K-P2-20260118",
+    "product": "K-P2",
+    "qty": 269,
+    "due": "2026-01-18 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 143,
+    "order_time": "2026-01-17 09:00"
+  },
+  {
+    "id": "K-P3-20260118",
+    "product": "K-P3",
+    "qty": 428,
+    "due": "2026-01-18 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 171,
+    "order_time": "2026-01-17 09:00"
+  },
+  {
+    "id": "K-P4-20260118",
+    "product": "K-P4",
+    "qty": 482,
+    "due": "2026-01-18 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 154,
+    "order_time": "2026-01-17 09:00"
+  },
+  {
+    "id": "K-P5-20260118",
+    "product": "K-P5",
+    "qty": 334,
+    "due": "2026-01-18 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 160,
+    "order_time": "2026-01-17 09:00"
+  },
+  {
+    "id": "K-P6-20260118",
+    "product": "K-P6",
+    "qty": 579,
+    "due": "2026-01-18 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 154,
+    "order_time": "2026-01-17 09:00"
+  },
+  {
+    "id": "K-P1-20260119",
+    "product": "K-P1",
+    "qty": 288,
+    "due": "2026-01-19 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 230,
+    "order_time": "2026-01-18 09:00"
+  },
+  {
+    "id": "K-P2-20260119",
+    "product": "K-P2",
+    "qty": 391,
+    "due": "2026-01-19 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 209,
+    "order_time": "2026-01-18 09:00"
+  },
+  {
+    "id": "K-P3-20260119",
+    "product": "K-P3",
+    "qty": 477,
+    "due": "2026-01-19 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 191,
+    "order_time": "2026-01-18 09:00"
+  },
+  {
+    "id": "K-P4-20260119",
+    "product": "K-P4",
+    "qty": 807,
+    "due": "2026-01-19 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 258,
+    "order_time": "2026-01-18 09:00"
+  },
+  {
+    "id": "K-P5-20260119",
+    "product": "K-P5",
+    "qty": 378,
+    "due": "2026-01-19 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 181,
+    "order_time": "2026-01-18 09:00"
+  },
+  {
+    "id": "K-P6-20260119",
+    "product": "K-P6",
+    "qty": 821,
+    "due": "2026-01-19 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 219,
+    "order_time": "2026-01-18 09:00"
+  },
+  {
+    "id": "K-P1-20260120",
+    "product": "K-P1",
+    "qty": 262,
+    "due": "2026-01-20 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 210,
+    "order_time": "2026-01-19 09:00"
+  },
+  {
+    "id": "K-P2-20260120",
+    "product": "K-P2",
+    "qty": 495,
+    "due": "2026-01-20 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 264,
+    "order_time": "2026-01-19 09:00"
+  },
+  {
+    "id": "K-P3-20260120",
+    "product": "K-P3",
+    "qty": 581,
+    "due": "2026-01-20 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 232,
+    "order_time": "2026-01-19 09:00"
+  },
+  {
+    "id": "K-P4-20260120",
+    "product": "K-P4",
+    "qty": 678,
+    "due": "2026-01-20 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 217,
+    "order_time": "2026-01-19 09:00"
+  },
+  {
+    "id": "K-P5-20260120",
+    "product": "K-P5",
+    "qty": 410,
+    "due": "2026-01-20 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 197,
+    "order_time": "2026-01-19 09:00"
+  },
+  {
+    "id": "K-P6-20260120",
+    "product": "K-P6",
+    "qty": 805,
+    "due": "2026-01-20 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 215,
+    "order_time": "2026-01-19 09:00"
+  },
+  {
+    "id": "K-P1-20260121",
+    "product": "K-P1",
+    "qty": 272,
+    "due": "2026-01-21 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 218,
+    "order_time": "2026-01-20 09:00"
+  },
+  {
+    "id": "K-P2-20260121",
+    "product": "K-P2",
+    "qty": 423,
+    "due": "2026-01-21 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 226,
+    "order_time": "2026-01-20 09:00"
+  },
+  {
+    "id": "K-P3-20260121",
+    "product": "K-P3",
+    "qty": 658,
+    "due": "2026-01-21 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 263,
+    "order_time": "2026-01-20 09:00"
+  },
+  {
+    "id": "K-P4-20260121",
+    "product": "K-P4",
+    "qty": 842,
+    "due": "2026-01-21 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 269,
+    "order_time": "2026-01-20 09:00"
+  },
+  {
+    "id": "K-P5-20260121",
+    "product": "K-P5",
+    "qty": 587,
+    "due": "2026-01-21 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 282,
+    "order_time": "2026-01-20 09:00"
+  },
+  {
+    "id": "K-P6-20260121",
+    "product": "K-P6",
+    "qty": 933,
+    "due": "2026-01-21 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 249,
+    "order_time": "2026-01-20 09:00"
+  },
+  {
+    "id": "K-P1-20260122",
+    "product": "K-P1",
+    "qty": 279,
+    "due": "2026-01-22 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 223,
+    "order_time": "2026-01-21 09:00"
+  },
+  {
+    "id": "K-P2-20260122",
+    "product": "K-P2",
+    "qty": 491,
+    "due": "2026-01-22 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 262,
+    "order_time": "2026-01-21 09:00"
+  },
+  {
+    "id": "K-P3-20260122",
+    "product": "K-P3",
+    "qty": 754,
+    "due": "2026-01-22 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 302,
+    "order_time": "2026-01-21 09:00"
+  },
+  {
+    "id": "K-P4-20260122",
+    "product": "K-P4",
+    "qty": 787,
+    "due": "2026-01-22 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 252,
+    "order_time": "2026-01-21 09:00"
+  },
+  {
+    "id": "K-P5-20260122",
+    "product": "K-P5",
+    "qty": 507,
+    "due": "2026-01-22 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 243,
+    "order_time": "2026-01-21 09:00"
+  },
+  {
+    "id": "K-P6-20260122",
+    "product": "K-P6",
+    "qty": 815,
+    "due": "2026-01-22 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 217,
+    "order_time": "2026-01-21 09:00"
+  },
+  {
+    "id": "K-P1-20260123",
+    "product": "K-P1",
+    "qty": 360,
+    "due": "2026-01-23 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 288,
+    "order_time": "2026-01-22 09:00"
+  },
+  {
+    "id": "K-P2-20260123",
+    "product": "K-P2",
+    "qty": 526,
+    "due": "2026-01-23 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 281,
+    "order_time": "2026-01-22 09:00"
+  },
+  {
+    "id": "K-P3-20260123",
+    "product": "K-P3",
+    "qty": 633,
+    "due": "2026-01-23 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 253,
+    "order_time": "2026-01-22 09:00"
+  },
+  {
+    "id": "K-P4-20260123",
+    "product": "K-P4",
+    "qty": 886,
+    "due": "2026-01-23 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 284,
+    "order_time": "2026-01-22 09:00"
+  },
+  {
+    "id": "K-P5-20260123",
+    "product": "K-P5",
+    "qty": 656,
+    "due": "2026-01-23 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 315,
+    "order_time": "2026-01-22 09:00"
+  },
+  {
+    "id": "K-P6-20260123",
+    "product": "K-P6",
+    "qty": 1264,
+    "due": "2026-01-23 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 337,
+    "order_time": "2026-01-22 09:00"
+  },
+  {
+    "id": "K-P1-20260124",
+    "product": "K-P1",
+    "qty": 222,
+    "due": "2026-01-24 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 178,
+    "order_time": "2026-01-23 09:00"
+  },
+  {
+    "id": "K-P2-20260124",
+    "product": "K-P2",
+    "qty": 442,
+    "due": "2026-01-24 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 236,
+    "order_time": "2026-01-23 09:00"
+  },
+  {
+    "id": "K-P3-20260124",
+    "product": "K-P3",
+    "qty": 489,
+    "due": "2026-01-24 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 196,
+    "order_time": "2026-01-23 09:00"
+  },
+  {
+    "id": "K-P4-20260124",
+    "product": "K-P4",
+    "qty": 613,
+    "due": "2026-01-24 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 196,
+    "order_time": "2026-01-23 09:00"
+  },
+  {
+    "id": "K-P5-20260124",
+    "product": "K-P5",
+    "qty": 437,
+    "due": "2026-01-24 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 210,
+    "order_time": "2026-01-23 09:00"
+  },
+  {
+    "id": "K-P6-20260124",
+    "product": "K-P6",
+    "qty": 842,
+    "due": "2026-01-24 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 225,
+    "order_time": "2026-01-23 09:00"
+  },
+  {
+    "id": "K-P1-20260125",
+    "product": "K-P1",
+    "qty": 181,
+    "due": "2026-01-25 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 145,
+    "order_time": "2026-01-24 09:00"
+  },
+  {
+    "id": "K-P2-20260125",
+    "product": "K-P2",
+    "qty": 377,
+    "due": "2026-01-25 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 201,
+    "order_time": "2026-01-24 09:00"
+  },
+  {
+    "id": "K-P3-20260125",
+    "product": "K-P3",
+    "qty": 434,
+    "due": "2026-01-25 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 174,
+    "order_time": "2026-01-24 09:00"
+  },
+  {
+    "id": "K-P4-20260125",
+    "product": "K-P4",
+    "qty": 464,
+    "due": "2026-01-25 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 148,
+    "order_time": "2026-01-24 09:00"
+  },
+  {
+    "id": "K-P5-20260125",
+    "product": "K-P5",
+    "qty": 332,
+    "due": "2026-01-25 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 159,
+    "order_time": "2026-01-24 09:00"
+  },
+  {
+    "id": "K-P6-20260125",
+    "product": "K-P6",
+    "qty": 756,
+    "due": "2026-01-25 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 202,
+    "order_time": "2026-01-24 09:00"
+  },
+  {
+    "id": "K-P1-20260126",
+    "product": "K-P1",
+    "qty": 234,
+    "due": "2026-01-26 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 187,
+    "order_time": "2026-01-25 09:00"
+  },
+  {
+    "id": "K-P2-20260126",
+    "product": "K-P2",
+    "qty": 497,
+    "due": "2026-01-26 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 265,
+    "order_time": "2026-01-25 09:00"
+  },
+  {
+    "id": "K-P3-20260126",
+    "product": "K-P3",
+    "qty": 624,
+    "due": "2026-01-26 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 250,
+    "order_time": "2026-01-25 09:00"
+  },
+  {
+    "id": "K-P4-20260126",
+    "product": "K-P4",
+    "qty": 740,
+    "due": "2026-01-26 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 237,
+    "order_time": "2026-01-25 09:00"
+  },
+  {
+    "id": "K-P5-20260126",
+    "product": "K-P5",
+    "qty": 380,
+    "due": "2026-01-26 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 182,
+    "order_time": "2026-01-25 09:00"
+  },
+  {
+    "id": "K-P6-20260126",
+    "product": "K-P6",
+    "qty": 835,
+    "due": "2026-01-26 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 223,
+    "order_time": "2026-01-25 09:00"
+  },
+  {
+    "id": "K-P1-20260127",
+    "product": "K-P1",
+    "qty": 300,
+    "due": "2026-01-27 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 240,
+    "order_time": "2026-01-26 09:00"
+  },
+  {
+    "id": "K-P2-20260127",
+    "product": "K-P2",
+    "qty": 510,
+    "due": "2026-01-27 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 272,
+    "order_time": "2026-01-26 09:00"
+  },
+  {
+    "id": "K-P3-20260127",
+    "product": "K-P3",
+    "qty": 683,
+    "due": "2026-01-27 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 273,
+    "order_time": "2026-01-26 09:00"
+  },
+  {
+    "id": "K-P4-20260127",
+    "product": "K-P4",
+    "qty": 695,
+    "due": "2026-01-27 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 222,
+    "order_time": "2026-01-26 09:00"
+  },
+  {
+    "id": "K-P5-20260127",
+    "product": "K-P5",
+    "qty": 584,
+    "due": "2026-01-27 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 280,
+    "order_time": "2026-01-26 09:00"
+  },
+  {
+    "id": "K-P6-20260127",
+    "product": "K-P6",
+    "qty": 1048,
+    "due": "2026-01-27 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 279,
+    "order_time": "2026-01-26 09:00"
+  },
+  {
+    "id": "K-P1-20260128",
+    "product": "K-P1",
+    "qty": 296,
+    "due": "2026-01-28 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 237,
+    "order_time": "2026-01-27 09:00"
+  },
+  {
+    "id": "K-P2-20260128",
+    "product": "K-P2",
+    "qty": 416,
+    "due": "2026-01-28 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 222,
+    "order_time": "2026-01-27 09:00"
+  },
+  {
+    "id": "K-P3-20260128",
+    "product": "K-P3",
+    "qty": 689,
+    "due": "2026-01-28 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 276,
+    "order_time": "2026-01-27 09:00"
+  },
+  {
+    "id": "K-P4-20260128",
+    "product": "K-P4",
+    "qty": 746,
+    "due": "2026-01-28 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 239,
+    "order_time": "2026-01-27 09:00"
+  },
+  {
+    "id": "K-P5-20260128",
+    "product": "K-P5",
+    "qty": 432,
+    "due": "2026-01-28 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 207,
+    "order_time": "2026-01-27 09:00"
+  },
+  {
+    "id": "K-P6-20260128",
+    "product": "K-P6",
+    "qty": 954,
+    "due": "2026-01-28 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 254,
+    "order_time": "2026-01-27 09:00"
+  },
+  {
+    "id": "K-P1-20260129",
+    "product": "K-P1",
+    "qty": 310,
+    "due": "2026-01-29 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 248,
+    "order_time": "2026-01-28 09:00"
+  },
+  {
+    "id": "K-P2-20260129",
+    "product": "K-P2",
+    "qty": 500,
+    "due": "2026-01-29 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 267,
+    "order_time": "2026-01-28 09:00"
+  },
+  {
+    "id": "K-P3-20260129",
+    "product": "K-P3",
+    "qty": 698,
+    "due": "2026-01-29 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 279,
+    "order_time": "2026-01-28 09:00"
+  },
+  {
+    "id": "K-P4-20260129",
+    "product": "K-P4",
+    "qty": 720,
+    "due": "2026-01-29 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 230,
+    "order_time": "2026-01-28 09:00"
+  },
+  {
+    "id": "K-P5-20260129",
+    "product": "K-P5",
+    "qty": 512,
+    "due": "2026-01-29 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 246,
+    "order_time": "2026-01-28 09:00"
+  },
+  {
+    "id": "K-P6-20260129",
+    "product": "K-P6",
+    "qty": 1113,
+    "due": "2026-01-29 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 297,
+    "order_time": "2026-01-28 09:00"
+  },
+  {
+    "id": "K-P1-20260130",
+    "product": "K-P1",
+    "qty": 358,
+    "due": "2026-01-30 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 286,
+    "order_time": "2026-01-29 09:00"
+  },
+  {
+    "id": "K-P2-20260130",
+    "product": "K-P2",
+    "qty": 654,
+    "due": "2026-01-30 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 349,
+    "order_time": "2026-01-29 09:00"
+  },
+  {
+    "id": "K-P3-20260130",
+    "product": "K-P3",
+    "qty": 751,
+    "due": "2026-01-30 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 300,
+    "order_time": "2026-01-29 09:00"
+  },
+  {
+    "id": "K-P4-20260130",
+    "product": "K-P4",
+    "qty": 887,
+    "due": "2026-01-30 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 284,
+    "order_time": "2026-01-29 09:00"
+  },
+  {
+    "id": "K-P5-20260130",
+    "product": "K-P5",
+    "qty": 587,
+    "due": "2026-01-30 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 282,
+    "order_time": "2026-01-29 09:00"
+  },
+  {
+    "id": "K-P6-20260130",
+    "product": "K-P6",
+    "qty": 1132,
+    "due": "2026-01-30 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 302,
+    "order_time": "2026-01-29 09:00"
+  },
+  {
+    "id": "K-P1-20260131",
+    "product": "K-P1",
+    "qty": 291,
+    "due": "2026-01-31 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 233,
+    "order_time": "2026-01-30 09:00"
+  },
+  {
+    "id": "K-P2-20260131",
+    "product": "K-P2",
+    "qty": 425,
+    "due": "2026-01-31 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 227,
+    "order_time": "2026-01-30 09:00"
+  },
+  {
+    "id": "K-P3-20260131",
+    "product": "K-P3",
+    "qty": 549,
+    "due": "2026-01-31 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 220,
+    "order_time": "2026-01-30 09:00"
+  },
+  {
+    "id": "K-P4-20260131",
+    "product": "K-P4",
+    "qty": 556,
+    "due": "2026-01-31 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 178,
+    "order_time": "2026-01-30 09:00"
+  },
+  {
+    "id": "K-P5-20260131",
+    "product": "K-P5",
+    "qty": 476,
+    "due": "2026-01-31 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 228,
+    "order_time": "2026-01-30 09:00"
+  },
+  {
+    "id": "K-P6-20260131",
+    "product": "K-P6",
+    "qty": 711,
+    "due": "2026-01-31 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 190,
+    "order_time": "2026-01-30 09:00"
+  },
+  {
+    "id": "K-P1-20260201",
+    "product": "K-P1",
+    "qty": 259,
+    "due": "2026-02-01 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 207,
+    "order_time": "2026-01-31 09:00"
+  },
+  {
+    "id": "K-P2-20260201",
+    "product": "K-P2",
+    "qty": 377,
+    "due": "2026-02-01 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 201,
+    "order_time": "2026-01-31 09:00"
+  },
+  {
+    "id": "K-P3-20260201",
+    "product": "K-P3",
+    "qty": 370,
+    "due": "2026-02-01 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 148,
+    "order_time": "2026-01-31 09:00"
+  },
+  {
+    "id": "K-P4-20260201",
+    "product": "K-P4",
+    "qty": 624,
+    "due": "2026-02-01 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 200,
+    "order_time": "2026-01-31 09:00"
+  },
+  {
+    "id": "K-P5-20260201",
+    "product": "K-P5",
+    "qty": 381,
+    "due": "2026-02-01 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 183,
+    "order_time": "2026-01-31 09:00"
+  },
+  {
+    "id": "K-P6-20260201",
+    "product": "K-P6",
+    "qty": 625,
+    "due": "2026-02-01 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 167,
+    "order_time": "2026-01-31 09:00"
+  },
+  {
+    "id": "K-P1-20260202",
+    "product": "K-P1",
+    "qty": 296,
+    "due": "2026-02-02 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 237,
+    "order_time": "2026-02-01 09:00"
+  },
+  {
+    "id": "K-P2-20260202",
+    "product": "K-P2",
+    "qty": 345,
+    "due": "2026-02-02 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 184,
+    "order_time": "2026-02-01 09:00"
+  },
+  {
+    "id": "K-P3-20260202",
+    "product": "K-P3",
+    "qty": 655,
+    "due": "2026-02-02 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 262,
+    "order_time": "2026-02-01 09:00"
+  },
+  {
+    "id": "K-P4-20260202",
+    "product": "K-P4",
+    "qty": 753,
+    "due": "2026-02-02 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 241,
+    "order_time": "2026-02-01 09:00"
+  },
+  {
+    "id": "K-P5-20260202",
+    "product": "K-P5",
+    "qty": 419,
+    "due": "2026-02-02 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 201,
+    "order_time": "2026-02-01 09:00"
+  },
+  {
+    "id": "K-P6-20260202",
+    "product": "K-P6",
+    "qty": 942,
+    "due": "2026-02-02 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 251,
+    "order_time": "2026-02-01 09:00"
+  },
+  {
+    "id": "K-P1-20260203",
+    "product": "K-P1",
+    "qty": 260,
+    "due": "2026-02-03 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 208,
+    "order_time": "2026-02-02 09:00"
+  },
+  {
+    "id": "K-P2-20260203",
+    "product": "K-P2",
+    "qty": 447,
+    "due": "2026-02-03 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 238,
+    "order_time": "2026-02-02 09:00"
+  },
+  {
+    "id": "K-P3-20260203",
+    "product": "K-P3",
+    "qty": 624,
+    "due": "2026-02-03 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 250,
+    "order_time": "2026-02-02 09:00"
+  },
+  {
+    "id": "K-P4-20260203",
+    "product": "K-P4",
+    "qty": 786,
+    "due": "2026-02-03 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 252,
+    "order_time": "2026-02-02 09:00"
+  },
+  {
+    "id": "K-P5-20260203",
+    "product": "K-P5",
+    "qty": 471,
+    "due": "2026-02-03 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 226,
+    "order_time": "2026-02-02 09:00"
+  },
+  {
+    "id": "K-P6-20260203",
+    "product": "K-P6",
+    "qty": 770,
+    "due": "2026-02-03 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 205,
+    "order_time": "2026-02-02 09:00"
+  },
+  {
+    "id": "K-P1-20260204",
+    "product": "K-P1",
+    "qty": 349,
+    "due": "2026-02-04 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 279,
+    "order_time": "2026-02-03 09:00"
+  },
+  {
+    "id": "K-P2-20260204",
+    "product": "K-P2",
+    "qty": 419,
+    "due": "2026-02-04 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 223,
+    "order_time": "2026-02-03 09:00"
+  },
+  {
+    "id": "K-P3-20260204",
+    "product": "K-P3",
+    "qty": 632,
+    "due": "2026-02-04 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 253,
+    "order_time": "2026-02-03 09:00"
+  },
+  {
+    "id": "K-P4-20260204",
+    "product": "K-P4",
+    "qty": 801,
+    "due": "2026-02-04 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 256,
+    "order_time": "2026-02-03 09:00"
+  },
+  {
+    "id": "K-P5-20260204",
+    "product": "K-P5",
+    "qty": 450,
+    "due": "2026-02-04 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 216,
+    "order_time": "2026-02-03 09:00"
+  },
+  {
+    "id": "K-P6-20260204",
+    "product": "K-P6",
+    "qty": 875,
+    "due": "2026-02-04 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 233,
+    "order_time": "2026-02-03 09:00"
+  },
+  {
+    "id": "K-P1-20260205",
+    "product": "K-P1",
+    "qty": 360,
+    "due": "2026-02-05 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 288,
+    "order_time": "2026-02-04 09:00"
+  },
+  {
+    "id": "K-P2-20260205",
+    "product": "K-P2",
+    "qty": 411,
+    "due": "2026-02-05 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 219,
+    "order_time": "2026-02-04 09:00"
+  },
+  {
+    "id": "K-P3-20260205",
+    "product": "K-P3",
+    "qty": 752,
+    "due": "2026-02-05 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 301,
+    "order_time": "2026-02-04 09:00"
+  },
+  {
+    "id": "K-P4-20260205",
+    "product": "K-P4",
+    "qty": 902,
+    "due": "2026-02-05 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 289,
+    "order_time": "2026-02-04 09:00"
+  },
+  {
+    "id": "K-P5-20260205",
+    "product": "K-P5",
+    "qty": 466,
+    "due": "2026-02-05 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 224,
+    "order_time": "2026-02-04 09:00"
+  },
+  {
+    "id": "K-P6-20260205",
+    "product": "K-P6",
+    "qty": 1045,
+    "due": "2026-02-05 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 279,
+    "order_time": "2026-02-04 09:00"
+  },
+  {
+    "id": "K-P1-20260206",
+    "product": "K-P1",
+    "qty": 416,
+    "due": "2026-02-06 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 333,
+    "order_time": "2026-02-05 09:00"
+  },
+  {
+    "id": "K-P2-20260206",
+    "product": "K-P2",
+    "qty": 543,
+    "due": "2026-02-06 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 290,
+    "order_time": "2026-02-05 09:00"
+  },
+  {
+    "id": "K-P3-20260206",
+    "product": "K-P3",
+    "qty": 728,
+    "due": "2026-02-06 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 291,
+    "order_time": "2026-02-05 09:00"
+  },
+  {
+    "id": "K-P4-20260206",
+    "product": "K-P4",
+    "qty": 782,
+    "due": "2026-02-06 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 250,
+    "order_time": "2026-02-05 09:00"
+  },
+  {
+    "id": "K-P5-20260206",
+    "product": "K-P5",
+    "qty": 684,
+    "due": "2026-02-06 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 328,
+    "order_time": "2026-02-05 09:00"
+  },
+  {
+    "id": "K-P6-20260206",
+    "product": "K-P6",
+    "qty": 1166,
+    "due": "2026-02-06 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 311,
+    "order_time": "2026-02-05 09:00"
+  },
+  {
+    "id": "K-P1-20260207",
+    "product": "K-P1",
+    "qty": 236,
+    "due": "2026-02-07 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 189,
+    "order_time": "2026-02-06 09:00"
+  },
+  {
+    "id": "K-P2-20260207",
+    "product": "K-P2",
+    "qty": 377,
+    "due": "2026-02-07 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 201,
+    "order_time": "2026-02-06 09:00"
+  },
+  {
+    "id": "K-P3-20260207",
+    "product": "K-P3",
+    "qty": 499,
+    "due": "2026-02-07 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 200,
+    "order_time": "2026-02-06 09:00"
+  },
+  {
+    "id": "K-P4-20260207",
+    "product": "K-P4",
+    "qty": 694,
+    "due": "2026-02-07 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 222,
+    "order_time": "2026-02-06 09:00"
+  },
+  {
+    "id": "K-P5-20260207",
+    "product": "K-P5",
+    "qty": 408,
+    "due": "2026-02-07 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 196,
+    "order_time": "2026-02-06 09:00"
+  },
+  {
+    "id": "K-P6-20260207",
+    "product": "K-P6",
+    "qty": 679,
+    "due": "2026-02-07 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 181,
+    "order_time": "2026-02-06 09:00"
+  },
+  {
+    "id": "K-P1-20260208",
+    "product": "K-P1",
+    "qty": 198,
+    "due": "2026-02-08 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 158,
+    "order_time": "2026-02-07 09:00"
+  },
+  {
+    "id": "K-P2-20260208",
+    "product": "K-P2",
+    "qty": 298,
+    "due": "2026-02-08 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 159,
+    "order_time": "2026-02-07 09:00"
+  },
+  {
+    "id": "K-P3-20260208",
+    "product": "K-P3",
+    "qty": 366,
+    "due": "2026-02-08 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 146,
+    "order_time": "2026-02-07 09:00"
+  },
+  {
+    "id": "K-P4-20260208",
+    "product": "K-P4",
+    "qty": 661,
+    "due": "2026-02-08 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 212,
+    "order_time": "2026-02-07 09:00"
+  },
+  {
+    "id": "K-P5-20260208",
+    "product": "K-P5",
+    "qty": 313,
+    "due": "2026-02-08 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 150,
+    "order_time": "2026-02-07 09:00"
+  },
+  {
+    "id": "K-P6-20260208",
+    "product": "K-P6",
+    "qty": 745,
+    "due": "2026-02-08 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 199,
+    "order_time": "2026-02-07 09:00"
+  },
+  {
+    "id": "K-P1-20260209",
+    "product": "K-P1",
+    "qty": 311,
+    "due": "2026-02-09 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 249,
+    "order_time": "2026-02-08 09:00"
+  },
+  {
+    "id": "K-P2-20260209",
+    "product": "K-P2",
+    "qty": 429,
+    "due": "2026-02-09 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 229,
+    "order_time": "2026-02-08 09:00"
+  },
+  {
+    "id": "K-P3-20260209",
+    "product": "K-P3",
+    "qty": 511,
+    "due": "2026-02-09 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 204,
+    "order_time": "2026-02-08 09:00"
+  },
+  {
+    "id": "K-P4-20260209",
+    "product": "K-P4",
+    "qty": 742,
+    "due": "2026-02-09 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 237,
+    "order_time": "2026-02-08 09:00"
+  },
+  {
+    "id": "K-P5-20260209",
+    "product": "K-P5",
+    "qty": 548,
+    "due": "2026-02-09 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 263,
+    "order_time": "2026-02-08 09:00"
+  },
+  {
+    "id": "K-P6-20260209",
+    "product": "K-P6",
+    "qty": 803,
+    "due": "2026-02-09 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 214,
+    "order_time": "2026-02-08 09:00"
+  },
+  {
+    "id": "K-P1-20260210",
+    "product": "K-P1",
+    "qty": 294,
+    "due": "2026-02-10 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 235,
+    "order_time": "2026-02-09 09:00"
+  },
+  {
+    "id": "K-P2-20260210",
+    "product": "K-P2",
+    "qty": 531,
+    "due": "2026-02-10 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 283,
+    "order_time": "2026-02-09 09:00"
+  },
+  {
+    "id": "K-P3-20260210",
+    "product": "K-P3",
+    "qty": 549,
+    "due": "2026-02-10 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 220,
+    "order_time": "2026-02-09 09:00"
+  },
+  {
+    "id": "K-P4-20260210",
+    "product": "K-P4",
+    "qty": 830,
+    "due": "2026-02-10 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 266,
+    "order_time": "2026-02-09 09:00"
+  },
+  {
+    "id": "K-P5-20260210",
+    "product": "K-P5",
+    "qty": 586,
+    "due": "2026-02-10 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 281,
+    "order_time": "2026-02-09 09:00"
+  },
+  {
+    "id": "K-P6-20260210",
+    "product": "K-P6",
+    "qty": 751,
+    "due": "2026-02-10 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 200,
+    "order_time": "2026-02-09 09:00"
+  },
+  {
+    "id": "K-P1-20260211",
+    "product": "K-P1",
+    "qty": 360,
+    "due": "2026-02-11 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 288,
+    "order_time": "2026-02-10 09:00"
+  },
+  {
+    "id": "K-P2-20260211",
+    "product": "K-P2",
+    "qty": 561,
+    "due": "2026-02-11 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 299,
+    "order_time": "2026-02-10 09:00"
+  },
+  {
+    "id": "K-P3-20260211",
+    "product": "K-P3",
+    "qty": 743,
+    "due": "2026-02-11 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 297,
+    "order_time": "2026-02-10 09:00"
+  },
+  {
+    "id": "K-P4-20260211",
+    "product": "K-P4",
+    "qty": 864,
+    "due": "2026-02-11 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 276,
+    "order_time": "2026-02-10 09:00"
+  },
+  {
+    "id": "K-P5-20260211",
+    "product": "K-P5",
+    "qty": 471,
+    "due": "2026-02-11 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 226,
+    "order_time": "2026-02-10 09:00"
+  },
+  {
+    "id": "K-P6-20260211",
+    "product": "K-P6",
+    "qty": 907,
+    "due": "2026-02-11 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 242,
+    "order_time": "2026-02-10 09:00"
+  },
+  {
+    "id": "K-P1-20260212",
+    "product": "K-P1",
+    "qty": 307,
+    "due": "2026-02-12 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 246,
+    "order_time": "2026-02-11 09:00"
+  },
+  {
+    "id": "K-P2-20260212",
+    "product": "K-P2",
+    "qty": 609,
+    "due": "2026-02-12 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 325,
+    "order_time": "2026-02-11 09:00"
+  },
+  {
+    "id": "K-P3-20260212",
+    "product": "K-P3",
+    "qty": 625,
+    "due": "2026-02-12 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 250,
+    "order_time": "2026-02-11 09:00"
+  },
+  {
+    "id": "K-P4-20260212",
+    "product": "K-P4",
+    "qty": 734,
+    "due": "2026-02-12 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 235,
+    "order_time": "2026-02-11 09:00"
+  },
+  {
+    "id": "K-P5-20260212",
+    "product": "K-P5",
+    "qty": 621,
+    "due": "2026-02-12 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 298,
+    "order_time": "2026-02-11 09:00"
+  },
+  {
+    "id": "K-P6-20260212",
+    "product": "K-P6",
+    "qty": 897,
+    "due": "2026-02-12 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 239,
+    "order_time": "2026-02-11 09:00"
+  },
+  {
+    "id": "K-P1-20260213",
+    "product": "K-P1",
+    "qty": 395,
+    "due": "2026-02-13 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 316,
+    "order_time": "2026-02-12 09:00"
+  },
+  {
+    "id": "K-P2-20260213",
+    "product": "K-P2",
+    "qty": 656,
+    "due": "2026-02-13 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 350,
+    "order_time": "2026-02-12 09:00"
+  },
+  {
+    "id": "K-P3-20260213",
+    "product": "K-P3",
+    "qty": 818,
+    "due": "2026-02-13 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 327,
+    "order_time": "2026-02-12 09:00"
+  },
+  {
+    "id": "K-P4-20260213",
+    "product": "K-P4",
+    "qty": 1053,
+    "due": "2026-02-13 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 337,
+    "order_time": "2026-02-12 09:00"
+  },
+  {
+    "id": "K-P5-20260213",
+    "product": "K-P5",
+    "qty": 536,
+    "due": "2026-02-13 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 257,
+    "order_time": "2026-02-12 09:00"
+  },
+  {
+    "id": "K-P6-20260213",
+    "product": "K-P6",
+    "qty": 1108,
+    "due": "2026-02-13 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 295,
+    "order_time": "2026-02-12 09:00"
+  },
+  {
+    "id": "K-P1-20260214",
+    "product": "K-P1",
+    "qty": 304,
+    "due": "2026-02-14 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 243,
+    "order_time": "2026-02-13 09:00"
+  },
+  {
+    "id": "K-P2-20260214",
+    "product": "K-P2",
+    "qty": 383,
+    "due": "2026-02-14 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 204,
+    "order_time": "2026-02-13 09:00"
+  },
+  {
+    "id": "K-P3-20260214",
+    "product": "K-P3",
+    "qty": 629,
+    "due": "2026-02-14 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 252,
+    "order_time": "2026-02-13 09:00"
+  },
+  {
+    "id": "K-P4-20260214",
+    "product": "K-P4",
+    "qty": 578,
+    "due": "2026-02-14 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 185,
+    "order_time": "2026-02-13 09:00"
+  },
+  {
+    "id": "K-P5-20260214",
+    "product": "K-P5",
+    "qty": 400,
+    "due": "2026-02-14 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 192,
+    "order_time": "2026-02-13 09:00"
+  },
+  {
+    "id": "K-P6-20260214",
+    "product": "K-P6",
+    "qty": 660,
+    "due": "2026-02-14 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 176,
+    "order_time": "2026-02-13 09:00"
+  },
+  {
+    "id": "K-P1-20260215",
+    "product": "K-P1",
+    "qty": 254,
+    "due": "2026-02-15 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 203,
+    "order_time": "2026-02-14 09:00"
+  },
+  {
+    "id": "K-P2-20260215",
+    "product": "K-P2",
+    "qty": 270,
+    "due": "2026-02-15 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 144,
+    "order_time": "2026-02-14 09:00"
+  },
+  {
+    "id": "K-P3-20260215",
+    "product": "K-P3",
+    "qty": 407,
+    "due": "2026-02-15 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 163,
+    "order_time": "2026-02-14 09:00"
+  },
+  {
+    "id": "K-P4-20260215",
+    "product": "K-P4",
+    "qty": 542,
+    "due": "2026-02-15 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 173,
+    "order_time": "2026-02-14 09:00"
+  },
+  {
+    "id": "K-P5-20260215",
+    "product": "K-P5",
+    "qty": 381,
+    "due": "2026-02-15 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 183,
+    "order_time": "2026-02-14 09:00"
+  },
+  {
+    "id": "K-P6-20260215",
+    "product": "K-P6",
+    "qty": 784,
+    "due": "2026-02-15 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 209,
+    "order_time": "2026-02-14 09:00"
+  },
+  {
+    "id": "K-P1-20260216",
+    "product": "K-P1",
+    "qty": 244,
+    "due": "2026-02-16 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 195,
+    "order_time": "2026-02-15 09:00"
+  },
+  {
+    "id": "K-P2-20260216",
+    "product": "K-P2",
+    "qty": 491,
+    "due": "2026-02-16 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 262,
+    "order_time": "2026-02-15 09:00"
+  },
+  {
+    "id": "K-P3-20260216",
+    "product": "K-P3",
+    "qty": 485,
+    "due": "2026-02-16 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 194,
+    "order_time": "2026-02-15 09:00"
+  },
+  {
+    "id": "K-P4-20260216",
+    "product": "K-P4",
+    "qty": 842,
+    "due": "2026-02-16 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 269,
+    "order_time": "2026-02-15 09:00"
+  },
+  {
+    "id": "K-P5-20260216",
+    "product": "K-P5",
+    "qty": 558,
+    "due": "2026-02-16 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 268,
+    "order_time": "2026-02-15 09:00"
+  },
+  {
+    "id": "K-P6-20260216",
+    "product": "K-P6",
+    "qty": 915,
+    "due": "2026-02-16 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 244,
+    "order_time": "2026-02-15 09:00"
+  },
+  {
+    "id": "K-P1-20260217",
+    "product": "K-P1",
+    "qty": 313,
+    "due": "2026-02-17 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 250,
+    "order_time": "2026-02-16 09:00"
+  },
+  {
+    "id": "K-P2-20260217",
+    "product": "K-P2",
+    "qty": 548,
+    "due": "2026-02-17 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 292,
+    "order_time": "2026-02-16 09:00"
+  },
+  {
+    "id": "K-P3-20260217",
+    "product": "K-P3",
+    "qty": 717,
+    "due": "2026-02-17 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 287,
+    "order_time": "2026-02-16 09:00"
+  },
+  {
+    "id": "K-P4-20260217",
+    "product": "K-P4",
+    "qty": 702,
+    "due": "2026-02-17 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 225,
+    "order_time": "2026-02-16 09:00"
+  },
+  {
+    "id": "K-P5-20260217",
+    "product": "K-P5",
+    "qty": 430,
+    "due": "2026-02-17 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 206,
+    "order_time": "2026-02-16 09:00"
+  },
+  {
+    "id": "K-P6-20260217",
+    "product": "K-P6",
+    "qty": 864,
+    "due": "2026-02-17 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 230,
+    "order_time": "2026-02-16 09:00"
+  },
+  {
+    "id": "K-P1-20260218",
+    "product": "K-P1",
+    "qty": 329,
+    "due": "2026-02-18 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 263,
+    "order_time": "2026-02-17 09:00"
+  },
+  {
+    "id": "K-P2-20260218",
+    "product": "K-P2",
+    "qty": 400,
+    "due": "2026-02-18 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 213,
+    "order_time": "2026-02-17 09:00"
+  },
+  {
+    "id": "K-P3-20260218",
+    "product": "K-P3",
+    "qty": 640,
+    "due": "2026-02-18 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 256,
+    "order_time": "2026-02-17 09:00"
+  },
+  {
+    "id": "K-P4-20260218",
+    "product": "K-P4",
+    "qty": 860,
+    "due": "2026-02-18 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 275,
+    "order_time": "2026-02-17 09:00"
+  },
+  {
+    "id": "K-P5-20260218",
+    "product": "K-P5",
+    "qty": 430,
+    "due": "2026-02-18 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 206,
+    "order_time": "2026-02-17 09:00"
+  },
+  {
+    "id": "K-P6-20260218",
+    "product": "K-P6",
+    "qty": 1002,
+    "due": "2026-02-18 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 267,
+    "order_time": "2026-02-17 09:00"
+  },
+  {
+    "id": "K-P1-20260219",
+    "product": "K-P1",
+    "qty": 359,
+    "due": "2026-02-19 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 287,
+    "order_time": "2026-02-18 09:00"
+  },
+  {
+    "id": "K-P2-20260219",
+    "product": "K-P2",
+    "qty": 543,
+    "due": "2026-02-19 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 290,
+    "order_time": "2026-02-18 09:00"
+  },
+  {
+    "id": "K-P3-20260219",
+    "product": "K-P3",
+    "qty": 696,
+    "due": "2026-02-19 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 278,
+    "order_time": "2026-02-18 09:00"
+  },
+  {
+    "id": "K-P4-20260219",
+    "product": "K-P4",
+    "qty": 783,
+    "due": "2026-02-19 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 251,
+    "order_time": "2026-02-18 09:00"
+  },
+  {
+    "id": "K-P5-20260219",
+    "product": "K-P5",
+    "qty": 551,
+    "due": "2026-02-19 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 264,
+    "order_time": "2026-02-18 09:00"
+  },
+  {
+    "id": "K-P6-20260219",
+    "product": "K-P6",
+    "qty": 967,
+    "due": "2026-02-19 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 258,
+    "order_time": "2026-02-18 09:00"
+  },
+  {
+    "id": "K-P1-20260220",
+    "product": "K-P1",
+    "qty": 446,
+    "due": "2026-02-20 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 357,
+    "order_time": "2026-02-19 09:00"
+  },
+  {
+    "id": "K-P2-20260220",
+    "product": "K-P2",
+    "qty": 544,
+    "due": "2026-02-20 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 290,
+    "order_time": "2026-02-19 09:00"
+  },
+  {
+    "id": "K-P3-20260220",
+    "product": "K-P3",
+    "qty": 625,
+    "due": "2026-02-20 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 250,
+    "order_time": "2026-02-19 09:00"
+  },
+  {
+    "id": "K-P4-20260220",
+    "product": "K-P4",
+    "qty": 1145,
+    "due": "2026-02-20 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 366,
+    "order_time": "2026-02-19 09:00"
+  },
+  {
+    "id": "K-P5-20260220",
+    "product": "K-P5",
+    "qty": 585,
+    "due": "2026-02-20 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 281,
+    "order_time": "2026-02-19 09:00"
+  },
+  {
+    "id": "K-P6-20260220",
+    "product": "K-P6",
+    "qty": 1018,
+    "due": "2026-02-20 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 271,
+    "order_time": "2026-02-19 09:00"
+  },
+  {
+    "id": "K-P1-20260221",
+    "product": "K-P1",
+    "qty": 256,
+    "due": "2026-02-21 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 205,
+    "order_time": "2026-02-20 09:00"
+  },
+  {
+    "id": "K-P2-20260221",
+    "product": "K-P2",
+    "qty": 359,
+    "due": "2026-02-21 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 191,
+    "order_time": "2026-02-20 09:00"
+  },
+  {
+    "id": "K-P3-20260221",
+    "product": "K-P3",
+    "qty": 643,
+    "due": "2026-02-21 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 257,
+    "order_time": "2026-02-20 09:00"
+  },
+  {
+    "id": "K-P4-20260221",
+    "product": "K-P4",
+    "qty": 591,
+    "due": "2026-02-21 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 189,
+    "order_time": "2026-02-20 09:00"
+  },
+  {
+    "id": "K-P5-20260221",
+    "product": "K-P5",
+    "qty": 507,
+    "due": "2026-02-21 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 243,
+    "order_time": "2026-02-20 09:00"
+  },
+  {
+    "id": "K-P6-20260221",
+    "product": "K-P6",
+    "qty": 661,
+    "due": "2026-02-21 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 176,
+    "order_time": "2026-02-20 09:00"
+  },
+  {
+    "id": "K-P1-20260222",
+    "product": "K-P1",
+    "qty": 208,
+    "due": "2026-02-22 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 166,
+    "order_time": "2026-02-21 09:00"
+  },
+  {
+    "id": "K-P2-20260222",
+    "product": "K-P2",
+    "qty": 316,
+    "due": "2026-02-22 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 169,
+    "order_time": "2026-02-21 09:00"
+  },
+  {
+    "id": "K-P3-20260222",
+    "product": "K-P3",
+    "qty": 401,
+    "due": "2026-02-22 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 160,
+    "order_time": "2026-02-21 09:00"
+  },
+  {
+    "id": "K-P4-20260222",
+    "product": "K-P4",
+    "qty": 678,
+    "due": "2026-02-22 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 217,
+    "order_time": "2026-02-21 09:00"
+  },
+  {
+    "id": "K-P5-20260222",
+    "product": "K-P5",
+    "qty": 335,
+    "due": "2026-02-22 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 161,
+    "order_time": "2026-02-21 09:00"
+  },
+  {
+    "id": "K-P6-20260222",
+    "product": "K-P6",
+    "qty": 641,
+    "due": "2026-02-22 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 171,
+    "order_time": "2026-02-21 09:00"
+  },
+  {
+    "id": "K-P1-20260223",
+    "product": "K-P1",
+    "qty": 257,
+    "due": "2026-02-23 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 206,
+    "order_time": "2026-02-22 09:00"
+  },
+  {
+    "id": "K-P2-20260223",
+    "product": "K-P2",
+    "qty": 501,
+    "due": "2026-02-23 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 267,
+    "order_time": "2026-02-22 09:00"
+  },
+  {
+    "id": "K-P3-20260223",
+    "product": "K-P3",
+    "qty": 579,
+    "due": "2026-02-23 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 232,
+    "order_time": "2026-02-22 09:00"
+  },
+  {
+    "id": "K-P4-20260223",
+    "product": "K-P4",
+    "qty": 593,
+    "due": "2026-02-23 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 190,
+    "order_time": "2026-02-22 09:00"
+  },
+  {
+    "id": "K-P5-20260223",
+    "product": "K-P5",
+    "qty": 457,
+    "due": "2026-02-23 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 219,
+    "order_time": "2026-02-22 09:00"
+  },
+  {
+    "id": "K-P6-20260223",
+    "product": "K-P6",
+    "qty": 914,
+    "due": "2026-02-23 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 244,
+    "order_time": "2026-02-22 09:00"
+  },
+  {
+    "id": "K-P1-20260224",
+    "product": "K-P1",
+    "qty": 283,
+    "due": "2026-02-24 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 226,
+    "order_time": "2026-02-23 09:00"
+  },
+  {
+    "id": "K-P2-20260224",
+    "product": "K-P2",
+    "qty": 521,
+    "due": "2026-02-24 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 278,
+    "order_time": "2026-02-23 09:00"
+  },
+  {
+    "id": "K-P3-20260224",
+    "product": "K-P3",
+    "qty": 640,
+    "due": "2026-02-24 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 256,
+    "order_time": "2026-02-23 09:00"
+  },
+  {
+    "id": "K-P4-20260224",
+    "product": "K-P4",
+    "qty": 735,
+    "due": "2026-02-24 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 235,
+    "order_time": "2026-02-23 09:00"
+  },
+  {
+    "id": "K-P5-20260224",
+    "product": "K-P5",
+    "qty": 425,
+    "due": "2026-02-24 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 204,
+    "order_time": "2026-02-23 09:00"
+  },
+  {
+    "id": "K-P6-20260224",
+    "product": "K-P6",
+    "qty": 1049,
+    "due": "2026-02-24 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 280,
+    "order_time": "2026-02-23 09:00"
+  },
+  {
+    "id": "K-P1-20260225",
+    "product": "K-P1",
+    "qty": 297,
+    "due": "2026-02-25 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 238,
+    "order_time": "2026-02-24 09:00"
+  },
+  {
+    "id": "K-P2-20260225",
+    "product": "K-P2",
+    "qty": 444,
+    "due": "2026-02-25 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 237,
+    "order_time": "2026-02-24 09:00"
+  },
+  {
+    "id": "K-P3-20260225",
+    "product": "K-P3",
+    "qty": 619,
+    "due": "2026-02-25 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 248,
+    "order_time": "2026-02-24 09:00"
+  },
+  {
+    "id": "K-P4-20260225",
+    "product": "K-P4",
+    "qty": 830,
+    "due": "2026-02-25 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 266,
+    "order_time": "2026-02-24 09:00"
+  },
+  {
+    "id": "K-P5-20260225",
+    "product": "K-P5",
+    "qty": 543,
+    "due": "2026-02-25 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 261,
+    "order_time": "2026-02-24 09:00"
+  },
+  {
+    "id": "K-P6-20260225",
+    "product": "K-P6",
+    "qty": 810,
+    "due": "2026-02-25 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 216,
+    "order_time": "2026-02-24 09:00"
+  },
+  {
+    "id": "K-P1-20260226",
+    "product": "K-P1",
+    "qty": 333,
+    "due": "2026-02-26 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 266,
+    "order_time": "2026-02-25 09:00"
+  },
+  {
+    "id": "K-P2-20260226",
+    "product": "K-P2",
+    "qty": 584,
+    "due": "2026-02-26 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 311,
+    "order_time": "2026-02-25 09:00"
+  },
+  {
+    "id": "K-P3-20260226",
+    "product": "K-P3",
+    "qty": 631,
+    "due": "2026-02-26 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 252,
+    "order_time": "2026-02-25 09:00"
+  },
+  {
+    "id": "K-P4-20260226",
+    "product": "K-P4",
+    "qty": 885,
+    "due": "2026-02-26 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 283,
+    "order_time": "2026-02-25 09:00"
+  },
+  {
+    "id": "K-P5-20260226",
+    "product": "K-P5",
+    "qty": 649,
+    "due": "2026-02-26 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 312,
+    "order_time": "2026-02-25 09:00"
+  },
+  {
+    "id": "K-P6-20260226",
+    "product": "K-P6",
+    "qty": 1126,
+    "due": "2026-02-26 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 300,
+    "order_time": "2026-02-25 09:00"
+  },
+  {
+    "id": "K-P1-20260227",
+    "product": "K-P1",
+    "qty": 436,
+    "due": "2026-02-27 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 349,
+    "order_time": "2026-02-26 09:00"
+  },
+  {
+    "id": "K-P2-20260227",
+    "product": "K-P2",
+    "qty": 591,
+    "due": "2026-02-27 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 315,
+    "order_time": "2026-02-26 09:00"
+  },
+  {
+    "id": "K-P3-20260227",
+    "product": "K-P3",
+    "qty": 906,
+    "due": "2026-02-27 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 362,
+    "order_time": "2026-02-26 09:00"
+  },
+  {
+    "id": "K-P4-20260227",
+    "product": "K-P4",
+    "qty": 1018,
+    "due": "2026-02-27 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 326,
+    "order_time": "2026-02-26 09:00"
+  },
+  {
+    "id": "K-P5-20260227",
+    "product": "K-P5",
+    "qty": 702,
+    "due": "2026-02-27 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 337,
+    "order_time": "2026-02-26 09:00"
+  },
+  {
+    "id": "K-P6-20260227",
+    "product": "K-P6",
+    "qty": 1052,
+    "due": "2026-02-27 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 281,
+    "order_time": "2026-02-26 09:00"
+  },
+  {
+    "id": "K-P1-20260228",
+    "product": "K-P1",
+    "qty": 229,
+    "due": "2026-02-28 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 183,
+    "order_time": "2026-02-27 09:00"
+  },
+  {
+    "id": "K-P2-20260228",
+    "product": "K-P2",
+    "qty": 402,
+    "due": "2026-02-28 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 214,
+    "order_time": "2026-02-27 09:00"
+  },
+  {
+    "id": "K-P3-20260228",
+    "product": "K-P3",
+    "qty": 461,
+    "due": "2026-02-28 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 184,
+    "order_time": "2026-02-27 09:00"
+  },
+  {
+    "id": "K-P4-20260228",
+    "product": "K-P4",
+    "qty": 797,
+    "due": "2026-02-28 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 255,
+    "order_time": "2026-02-27 09:00"
+  },
+  {
+    "id": "K-P5-20260228",
+    "product": "K-P5",
+    "qty": 414,
+    "due": "2026-02-28 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 199,
+    "order_time": "2026-02-27 09:00"
+  },
+  {
+    "id": "K-P6-20260228",
+    "product": "K-P6",
+    "qty": 779,
+    "due": "2026-02-28 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 208,
+    "order_time": "2026-02-27 09:00"
+  },
+  {
+    "id": "K-P1-20260301",
+    "product": "K-P1",
+    "qty": 223,
+    "due": "2026-03-01 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 178,
+    "order_time": "2026-02-28 09:00"
+  },
+  {
+    "id": "K-P2-20260301",
+    "product": "K-P2",
+    "qty": 325,
+    "due": "2026-03-01 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 173,
+    "order_time": "2026-02-28 09:00"
+  },
+  {
+    "id": "K-P3-20260301",
+    "product": "K-P3",
+    "qty": 535,
+    "due": "2026-03-01 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 214,
+    "order_time": "2026-02-28 09:00"
+  },
+  {
+    "id": "K-P4-20260301",
+    "product": "K-P4",
+    "qty": 549,
+    "due": "2026-03-01 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 176,
+    "order_time": "2026-02-28 09:00"
+  },
+  {
+    "id": "K-P5-20260301",
+    "product": "K-P5",
+    "qty": 441,
+    "due": "2026-03-01 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 212,
+    "order_time": "2026-02-28 09:00"
+  },
+  {
+    "id": "K-P6-20260301",
+    "product": "K-P6",
+    "qty": 657,
+    "due": "2026-03-01 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 175,
+    "order_time": "2026-02-28 09:00"
+  },
+  {
+    "id": "K-P1-20260302",
+    "product": "K-P1",
+    "qty": 346,
+    "due": "2026-03-02 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 277,
+    "order_time": "2026-03-01 09:00"
+  },
+  {
+    "id": "K-P2-20260302",
+    "product": "K-P2",
+    "qty": 497,
+    "due": "2026-03-02 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 265,
+    "order_time": "2026-03-01 09:00"
+  },
+  {
+    "id": "K-P3-20260302",
+    "product": "K-P3",
+    "qty": 579,
+    "due": "2026-03-02 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 232,
+    "order_time": "2026-03-01 09:00"
+  },
+  {
+    "id": "K-P4-20260302",
+    "product": "K-P4",
+    "qty": 604,
+    "due": "2026-03-02 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 193,
+    "order_time": "2026-03-01 09:00"
+  },
+  {
+    "id": "K-P5-20260302",
+    "product": "K-P5",
+    "qty": 572,
+    "due": "2026-03-02 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 275,
+    "order_time": "2026-03-01 09:00"
+  },
+  {
+    "id": "K-P6-20260302",
+    "product": "K-P6",
+    "qty": 1029,
+    "due": "2026-03-02 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 274,
+    "order_time": "2026-03-01 09:00"
+  },
+  {
+    "id": "K-P1-20260303",
+    "product": "K-P1",
+    "qty": 281,
+    "due": "2026-03-03 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 225,
+    "order_time": "2026-03-02 09:00"
+  },
+  {
+    "id": "K-P2-20260303",
+    "product": "K-P2",
+    "qty": 445,
+    "due": "2026-03-03 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 237,
+    "order_time": "2026-03-02 09:00"
+  },
+  {
+    "id": "K-P3-20260303",
+    "product": "K-P3",
+    "qty": 611,
+    "due": "2026-03-03 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 244,
+    "order_time": "2026-03-02 09:00"
+  },
+  {
+    "id": "K-P4-20260303",
+    "product": "K-P4",
+    "qty": 891,
+    "due": "2026-03-03 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 285,
+    "order_time": "2026-03-02 09:00"
+  },
+  {
+    "id": "K-P5-20260303",
+    "product": "K-P5",
+    "qty": 539,
+    "due": "2026-03-03 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 259,
+    "order_time": "2026-03-02 09:00"
+  },
+  {
+    "id": "K-P6-20260303",
+    "product": "K-P6",
+    "qty": 1023,
+    "due": "2026-03-03 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 273,
+    "order_time": "2026-03-02 09:00"
+  },
+  {
+    "id": "K-P1-20260304",
+    "product": "K-P1",
+    "qty": 359,
+    "due": "2026-03-04 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 287,
+    "order_time": "2026-03-03 09:00"
+  },
+  {
+    "id": "K-P2-20260304",
+    "product": "K-P2",
+    "qty": 513,
+    "due": "2026-03-04 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 274,
+    "order_time": "2026-03-03 09:00"
+  },
+  {
+    "id": "K-P3-20260304",
+    "product": "K-P3",
+    "qty": 548,
+    "due": "2026-03-04 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 219,
+    "order_time": "2026-03-03 09:00"
+  },
+  {
+    "id": "K-P4-20260304",
+    "product": "K-P4",
+    "qty": 675,
+    "due": "2026-03-04 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 216,
+    "order_time": "2026-03-03 09:00"
+  },
+  {
+    "id": "K-P5-20260304",
+    "product": "K-P5",
+    "qty": 587,
+    "due": "2026-03-04 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 282,
+    "order_time": "2026-03-03 09:00"
+  },
+  {
+    "id": "K-P6-20260304",
+    "product": "K-P6",
+    "qty": 1050,
+    "due": "2026-03-04 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 280,
+    "order_time": "2026-03-03 09:00"
+  },
+  {
+    "id": "K-P1-20260305",
+    "product": "K-P1",
+    "qty": 361,
+    "due": "2026-03-05 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 289,
+    "order_time": "2026-03-04 09:00"
+  },
+  {
+    "id": "K-P2-20260305",
+    "product": "K-P2",
+    "qty": 613,
+    "due": "2026-03-05 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 327,
+    "order_time": "2026-03-04 09:00"
+  },
+  {
+    "id": "K-P3-20260305",
+    "product": "K-P3",
+    "qty": 696,
+    "due": "2026-03-05 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 278,
+    "order_time": "2026-03-04 09:00"
+  },
+  {
+    "id": "K-P4-20260305",
+    "product": "K-P4",
+    "qty": 881,
+    "due": "2026-03-05 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 282,
+    "order_time": "2026-03-04 09:00"
+  },
+  {
+    "id": "K-P5-20260305",
+    "product": "K-P5",
+    "qty": 702,
+    "due": "2026-03-05 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 337,
+    "order_time": "2026-03-04 09:00"
+  },
+  {
+    "id": "K-P6-20260305",
+    "product": "K-P6",
+    "qty": 887,
+    "due": "2026-03-05 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 237,
+    "order_time": "2026-03-04 09:00"
+  },
+  {
+    "id": "K-P1-20260306",
+    "product": "K-P1",
+    "qty": 362,
+    "due": "2026-03-06 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 290,
+    "order_time": "2026-03-05 09:00"
+  },
+  {
+    "id": "K-P2-20260306",
+    "product": "K-P2",
+    "qty": 654,
+    "due": "2026-03-06 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 349,
+    "order_time": "2026-03-05 09:00"
+  },
+  {
+    "id": "K-P3-20260306",
+    "product": "K-P3",
+    "qty": 659,
+    "due": "2026-03-06 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 264,
+    "order_time": "2026-03-05 09:00"
+  },
+  {
+    "id": "K-P4-20260306",
+    "product": "K-P4",
+    "qty": 1088,
+    "due": "2026-03-06 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 348,
+    "order_time": "2026-03-05 09:00"
+  },
+  {
+    "id": "K-P5-20260306",
+    "product": "K-P5",
+    "qty": 533,
+    "due": "2026-03-06 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 256,
+    "order_time": "2026-03-05 09:00"
+  },
+  {
+    "id": "K-P6-20260306",
+    "product": "K-P6",
+    "qty": 1269,
+    "due": "2026-03-06 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 338,
+    "order_time": "2026-03-05 09:00"
+  },
+  {
+    "id": "K-P1-20260307",
+    "product": "K-P1",
+    "qty": 251,
+    "due": "2026-03-07 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 201,
+    "order_time": "2026-03-06 09:00"
+  },
+  {
+    "id": "K-P2-20260307",
+    "product": "K-P2",
+    "qty": 441,
+    "due": "2026-03-07 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 235,
+    "order_time": "2026-03-06 09:00"
+  },
+  {
+    "id": "K-P3-20260307",
+    "product": "K-P3",
+    "qty": 663,
+    "due": "2026-03-07 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 265,
+    "order_time": "2026-03-06 09:00"
+  },
+  {
+    "id": "K-P4-20260307",
+    "product": "K-P4",
+    "qty": 660,
+    "due": "2026-03-07 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 211,
+    "order_time": "2026-03-06 09:00"
+  },
+  {
+    "id": "K-P5-20260307",
+    "product": "K-P5",
+    "qty": 487,
+    "due": "2026-03-07 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 234,
+    "order_time": "2026-03-06 09:00"
+  },
+  {
+    "id": "K-P6-20260307",
+    "product": "K-P6",
+    "qty": 800,
+    "due": "2026-03-07 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 213,
+    "order_time": "2026-03-06 09:00"
+  },
+  {
+    "id": "K-P1-20260308",
+    "product": "K-P1",
+    "qty": 209,
+    "due": "2026-03-08 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 167,
+    "order_time": "2026-03-07 09:00"
+  },
+  {
+    "id": "K-P2-20260308",
+    "product": "K-P2",
+    "qty": 409,
+    "due": "2026-03-08 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 218,
+    "order_time": "2026-03-07 09:00"
+  },
+  {
+    "id": "K-P3-20260308",
+    "product": "K-P3",
+    "qty": 534,
+    "due": "2026-03-08 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 214,
+    "order_time": "2026-03-07 09:00"
+  },
+  {
+    "id": "K-P4-20260308",
+    "product": "K-P4",
+    "qty": 679,
+    "due": "2026-03-08 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 217,
+    "order_time": "2026-03-07 09:00"
+  },
+  {
+    "id": "K-P5-20260308",
+    "product": "K-P5",
+    "qty": 371,
+    "due": "2026-03-08 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 178,
+    "order_time": "2026-03-07 09:00"
+  },
+  {
+    "id": "K-P6-20260308",
+    "product": "K-P6",
+    "qty": 757,
+    "due": "2026-03-08 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 202,
+    "order_time": "2026-03-07 09:00"
+  },
+  {
+    "id": "K-P1-20260309",
+    "product": "K-P1",
+    "qty": 254,
+    "due": "2026-03-09 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 203,
+    "order_time": "2026-03-08 09:00"
+  },
+  {
+    "id": "K-P2-20260309",
+    "product": "K-P2",
+    "qty": 398,
+    "due": "2026-03-09 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 212,
+    "order_time": "2026-03-08 09:00"
+  },
+  {
+    "id": "K-P3-20260309",
+    "product": "K-P3",
+    "qty": 713,
+    "due": "2026-03-09 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 285,
+    "order_time": "2026-03-08 09:00"
+  },
+  {
+    "id": "K-P4-20260309",
+    "product": "K-P4",
+    "qty": 895,
+    "due": "2026-03-09 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 286,
+    "order_time": "2026-03-08 09:00"
+  },
+  {
+    "id": "K-P5-20260309",
+    "product": "K-P5",
+    "qty": 441,
+    "due": "2026-03-09 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 212,
+    "order_time": "2026-03-08 09:00"
+  },
+  {
+    "id": "K-P6-20260309",
+    "product": "K-P6",
+    "qty": 910,
+    "due": "2026-03-09 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 243,
+    "order_time": "2026-03-08 09:00"
+  },
+  {
+    "id": "K-P1-20260310",
+    "product": "K-P1",
+    "qty": 378,
+    "due": "2026-03-10 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 302,
+    "order_time": "2026-03-09 09:00"
+  },
+  {
+    "id": "K-P2-20260310",
+    "product": "K-P2",
+    "qty": 454,
+    "due": "2026-03-10 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 242,
+    "order_time": "2026-03-09 09:00"
+  },
+  {
+    "id": "K-P3-20260310",
+    "product": "K-P3",
+    "qty": 699,
+    "due": "2026-03-10 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 280,
+    "order_time": "2026-03-09 09:00"
+  },
+  {
+    "id": "K-P4-20260310",
+    "product": "K-P4",
+    "qty": 789,
+    "due": "2026-03-10 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 252,
+    "order_time": "2026-03-09 09:00"
+  },
+  {
+    "id": "K-P5-20260310",
+    "product": "K-P5",
+    "qty": 598,
+    "due": "2026-03-10 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 287,
+    "order_time": "2026-03-09 09:00"
+  },
+  {
+    "id": "K-P6-20260310",
+    "product": "K-P6",
+    "qty": 792,
+    "due": "2026-03-10 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 211,
+    "order_time": "2026-03-09 09:00"
+  },
+  {
+    "id": "K-P1-20260311",
+    "product": "K-P1",
+    "qty": 273,
+    "due": "2026-03-11 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 218,
+    "order_time": "2026-03-10 09:00"
+  },
+  {
+    "id": "K-P2-20260311",
+    "product": "K-P2",
+    "qty": 469,
+    "due": "2026-03-11 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 250,
+    "order_time": "2026-03-10 09:00"
+  },
+  {
+    "id": "K-P3-20260311",
+    "product": "K-P3",
+    "qty": 620,
+    "due": "2026-03-11 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 248,
+    "order_time": "2026-03-10 09:00"
+  },
+  {
+    "id": "K-P4-20260311",
+    "product": "K-P4",
+    "qty": 925,
+    "due": "2026-03-11 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 296,
+    "order_time": "2026-03-10 09:00"
+  },
+  {
+    "id": "K-P5-20260311",
+    "product": "K-P5",
+    "qty": 460,
+    "due": "2026-03-11 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 221,
+    "order_time": "2026-03-10 09:00"
+  },
+  {
+    "id": "K-P6-20260311",
+    "product": "K-P6",
+    "qty": 823,
+    "due": "2026-03-11 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 219,
+    "order_time": "2026-03-10 09:00"
+  },
+  {
+    "id": "K-P1-20260312",
+    "product": "K-P1",
+    "qty": 388,
+    "due": "2026-03-12 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 310,
+    "order_time": "2026-03-11 09:00"
+  },
+  {
+    "id": "K-P2-20260312",
+    "product": "K-P2",
+    "qty": 458,
+    "due": "2026-03-12 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 244,
+    "order_time": "2026-03-11 09:00"
+  },
+  {
+    "id": "K-P3-20260312",
+    "product": "K-P3",
+    "qty": 618,
+    "due": "2026-03-12 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 247,
+    "order_time": "2026-03-11 09:00"
+  },
+  {
+    "id": "K-P4-20260312",
+    "product": "K-P4",
+    "qty": 823,
+    "due": "2026-03-12 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 263,
+    "order_time": "2026-03-11 09:00"
+  },
+  {
+    "id": "K-P5-20260312",
+    "product": "K-P5",
+    "qty": 565,
+    "due": "2026-03-12 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 271,
+    "order_time": "2026-03-11 09:00"
+  },
+  {
+    "id": "K-P6-20260312",
+    "product": "K-P6",
+    "qty": 965,
+    "due": "2026-03-12 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 257,
+    "order_time": "2026-03-11 09:00"
+  },
+  {
+    "id": "K-P1-20260313",
+    "product": "K-P1",
+    "qty": 343,
+    "due": "2026-03-13 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 274,
+    "order_time": "2026-03-12 09:00"
+  },
+  {
+    "id": "K-P2-20260313",
+    "product": "K-P2",
+    "qty": 539,
+    "due": "2026-03-13 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 287,
+    "order_time": "2026-03-12 09:00"
+  },
+  {
+    "id": "K-P3-20260313",
+    "product": "K-P3",
+    "qty": 884,
+    "due": "2026-03-13 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 354,
+    "order_time": "2026-03-12 09:00"
+  },
+  {
+    "id": "K-P4-20260313",
+    "product": "K-P4",
+    "qty": 881,
+    "due": "2026-03-13 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 282,
+    "order_time": "2026-03-12 09:00"
+  },
+  {
+    "id": "K-P5-20260313",
+    "product": "K-P5",
+    "qty": 684,
+    "due": "2026-03-13 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 328,
+    "order_time": "2026-03-12 09:00"
+  },
+  {
+    "id": "K-P6-20260313",
+    "product": "K-P6",
+    "qty": 1314,
+    "due": "2026-03-13 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 350,
+    "order_time": "2026-03-12 09:00"
+  },
+  {
+    "id": "K-P1-20260314",
+    "product": "K-P1",
+    "qty": 305,
+    "due": "2026-03-14 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 244,
+    "order_time": "2026-03-13 09:00"
+  },
+  {
+    "id": "K-P2-20260314",
+    "product": "K-P2",
+    "qty": 498,
+    "due": "2026-03-14 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 266,
+    "order_time": "2026-03-13 09:00"
+  },
+  {
+    "id": "K-P3-20260314",
+    "product": "K-P3",
+    "qty": 624,
+    "due": "2026-03-14 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 250,
+    "order_time": "2026-03-13 09:00"
+  },
+  {
+    "id": "K-P4-20260314",
+    "product": "K-P4",
+    "qty": 828,
+    "due": "2026-03-14 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 265,
+    "order_time": "2026-03-13 09:00"
+  },
+  {
+    "id": "K-P5-20260314",
+    "product": "K-P5",
+    "qty": 416,
+    "due": "2026-03-14 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 200,
+    "order_time": "2026-03-13 09:00"
+  },
+  {
+    "id": "K-P6-20260314",
+    "product": "K-P6",
+    "qty": 826,
+    "due": "2026-03-14 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 220,
+    "order_time": "2026-03-13 09:00"
+  },
+  {
+    "id": "K-P1-20260315",
+    "product": "K-P1",
+    "qty": 230,
+    "due": "2026-03-15 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 184,
+    "order_time": "2026-03-14 09:00"
+  },
+  {
+    "id": "K-P2-20260315",
+    "product": "K-P2",
+    "qty": 414,
+    "due": "2026-03-15 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 221,
+    "order_time": "2026-03-14 09:00"
+  },
+  {
+    "id": "K-P3-20260315",
+    "product": "K-P3",
+    "qty": 556,
+    "due": "2026-03-15 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 222,
+    "order_time": "2026-03-14 09:00"
+  },
+  {
+    "id": "K-P4-20260315",
+    "product": "K-P4",
+    "qty": 634,
+    "due": "2026-03-15 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 203,
+    "order_time": "2026-03-14 09:00"
+  },
+  {
+    "id": "K-P5-20260315",
+    "product": "K-P5",
+    "qty": 465,
+    "due": "2026-03-15 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 223,
+    "order_time": "2026-03-14 09:00"
+  },
+  {
+    "id": "K-P6-20260315",
+    "product": "K-P6",
+    "qty": 792,
+    "due": "2026-03-15 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 211,
+    "order_time": "2026-03-14 09:00"
+  },
+  {
+    "id": "K-P1-20260316",
+    "product": "K-P1",
+    "qty": 346,
+    "due": "2026-03-16 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 277,
+    "order_time": "2026-03-15 09:00"
+  },
+  {
+    "id": "K-P2-20260316",
+    "product": "K-P2",
+    "qty": 522,
+    "due": "2026-03-16 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 278,
+    "order_time": "2026-03-15 09:00"
+  },
+  {
+    "id": "K-P3-20260316",
+    "product": "K-P3",
+    "qty": 675,
+    "due": "2026-03-16 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 270,
+    "order_time": "2026-03-15 09:00"
+  },
+  {
+    "id": "K-P4-20260316",
+    "product": "K-P4",
+    "qty": 691,
+    "due": "2026-03-16 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 221,
+    "order_time": "2026-03-15 09:00"
+  },
+  {
+    "id": "K-P5-20260316",
+    "product": "K-P5",
+    "qty": 525,
+    "due": "2026-03-16 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 252,
+    "order_time": "2026-03-15 09:00"
+  },
+  {
+    "id": "K-P6-20260316",
+    "product": "K-P6",
+    "qty": 877,
+    "due": "2026-03-16 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 234,
+    "order_time": "2026-03-15 09:00"
+  },
+  {
+    "id": "K-P1-20260317",
+    "product": "K-P1",
+    "qty": 270,
+    "due": "2026-03-17 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 216,
+    "order_time": "2026-03-16 09:00"
+  },
+  {
+    "id": "K-P2-20260317",
+    "product": "K-P2",
+    "qty": 458,
+    "due": "2026-03-17 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 244,
+    "order_time": "2026-03-16 09:00"
+  },
+  {
+    "id": "K-P3-20260317",
+    "product": "K-P3",
+    "qty": 733,
+    "due": "2026-03-17 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 293,
+    "order_time": "2026-03-16 09:00"
+  },
+  {
+    "id": "K-P4-20260317",
+    "product": "K-P4",
+    "qty": 877,
+    "due": "2026-03-17 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 281,
+    "order_time": "2026-03-16 09:00"
+  },
+  {
+    "id": "K-P5-20260317",
+    "product": "K-P5",
+    "qty": 606,
+    "due": "2026-03-17 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 291,
+    "order_time": "2026-03-16 09:00"
+  },
+  {
+    "id": "K-P6-20260317",
+    "product": "K-P6",
+    "qty": 901,
+    "due": "2026-03-17 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 240,
+    "order_time": "2026-03-16 09:00"
+  },
+  {
+    "id": "K-P1-20260318",
+    "product": "K-P1",
+    "qty": 394,
+    "due": "2026-03-18 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 315,
+    "order_time": "2026-03-17 09:00"
+  },
+  {
+    "id": "K-P2-20260318",
+    "product": "K-P2",
+    "qty": 441,
+    "due": "2026-03-18 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 235,
+    "order_time": "2026-03-17 09:00"
+  },
+  {
+    "id": "K-P3-20260318",
+    "product": "K-P3",
+    "qty": 706,
+    "due": "2026-03-18 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 282,
+    "order_time": "2026-03-17 09:00"
+  },
+  {
+    "id": "K-P4-20260318",
+    "product": "K-P4",
+    "qty": 826,
+    "due": "2026-03-18 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 264,
+    "order_time": "2026-03-17 09:00"
+  },
+  {
+    "id": "K-P5-20260318",
+    "product": "K-P5",
+    "qty": 471,
+    "due": "2026-03-18 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 226,
+    "order_time": "2026-03-17 09:00"
+  },
+  {
+    "id": "K-P6-20260318",
+    "product": "K-P6",
+    "qty": 907,
+    "due": "2026-03-18 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 242,
+    "order_time": "2026-03-17 09:00"
+  },
+  {
+    "id": "K-P1-20260319",
+    "product": "K-P1",
+    "qty": 419,
+    "due": "2026-03-19 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 335,
+    "order_time": "2026-03-18 09:00"
+  },
+  {
+    "id": "K-P2-20260319",
+    "product": "K-P2",
+    "qty": 646,
+    "due": "2026-03-19 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 345,
+    "order_time": "2026-03-18 09:00"
+  },
+  {
+    "id": "K-P3-20260319",
+    "product": "K-P3",
+    "qty": 713,
+    "due": "2026-03-19 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 285,
+    "order_time": "2026-03-18 09:00"
+  },
+  {
+    "id": "K-P4-20260319",
+    "product": "K-P4",
+    "qty": 1056,
+    "due": "2026-03-19 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 338,
+    "order_time": "2026-03-18 09:00"
+  },
+  {
+    "id": "K-P5-20260319",
+    "product": "K-P5",
+    "qty": 689,
+    "due": "2026-03-19 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 331,
+    "order_time": "2026-03-18 09:00"
+  },
+  {
+    "id": "K-P6-20260319",
+    "product": "K-P6",
+    "qty": 1208,
+    "due": "2026-03-19 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 322,
+    "order_time": "2026-03-18 09:00"
+  },
+  {
+    "id": "K-P1-20260320",
+    "product": "K-P1",
+    "qty": 417,
+    "due": "2026-03-20 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 334,
+    "order_time": "2026-03-19 09:00"
+  },
+  {
+    "id": "K-P2-20260320",
+    "product": "K-P2",
+    "qty": 491,
+    "due": "2026-03-20 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 262,
+    "order_time": "2026-03-19 09:00"
+  },
+  {
+    "id": "K-P3-20260320",
+    "product": "K-P3",
+    "qty": 829,
+    "due": "2026-03-20 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 332,
+    "order_time": "2026-03-19 09:00"
+  },
+  {
+    "id": "K-P4-20260320",
+    "product": "K-P4",
+    "qty": 1022,
+    "due": "2026-03-20 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 327,
+    "order_time": "2026-03-19 09:00"
+  },
+  {
+    "id": "K-P5-20260320",
+    "product": "K-P5",
+    "qty": 540,
+    "due": "2026-03-20 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 259,
+    "order_time": "2026-03-19 09:00"
+  },
+  {
+    "id": "K-P6-20260320",
+    "product": "K-P6",
+    "qty": 972,
+    "due": "2026-03-20 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 259,
+    "order_time": "2026-03-19 09:00"
+  },
+  {
+    "id": "K-P1-20260321",
+    "product": "K-P1",
+    "qty": 255,
+    "due": "2026-03-21 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 204,
+    "order_time": "2026-03-20 09:00"
+  },
+  {
+    "id": "K-P2-20260321",
+    "product": "K-P2",
+    "qty": 468,
+    "due": "2026-03-21 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 250,
+    "order_time": "2026-03-20 09:00"
+  },
+  {
+    "id": "K-P3-20260321",
+    "product": "K-P3",
+    "qty": 554,
+    "due": "2026-03-21 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 222,
+    "order_time": "2026-03-20 09:00"
+  },
+  {
+    "id": "K-P4-20260321",
+    "product": "K-P4",
+    "qty": 654,
+    "due": "2026-03-21 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 209,
+    "order_time": "2026-03-20 09:00"
+  },
+  {
+    "id": "K-P5-20260321",
+    "product": "K-P5",
+    "qty": 492,
+    "due": "2026-03-21 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 236,
+    "order_time": "2026-03-20 09:00"
+  },
+  {
+    "id": "K-P6-20260321",
+    "product": "K-P6",
+    "qty": 1020,
+    "due": "2026-03-21 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 272,
+    "order_time": "2026-03-20 09:00"
+  },
+  {
+    "id": "K-P1-20260322",
+    "product": "K-P1",
+    "qty": 229,
+    "due": "2026-03-22 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 183,
+    "order_time": "2026-03-21 09:00"
+  },
+  {
+    "id": "K-P2-20260322",
+    "product": "K-P2",
+    "qty": 309,
+    "due": "2026-03-22 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 165,
+    "order_time": "2026-03-21 09:00"
+  },
+  {
+    "id": "K-P3-20260322",
+    "product": "K-P3",
+    "qty": 432,
+    "due": "2026-03-22 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 173,
+    "order_time": "2026-03-21 09:00"
+  },
+  {
+    "id": "K-P4-20260322",
+    "product": "K-P4",
+    "qty": 583,
+    "due": "2026-03-22 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 187,
+    "order_time": "2026-03-21 09:00"
+  },
+  {
+    "id": "K-P5-20260322",
+    "product": "K-P5",
+    "qty": 320,
+    "due": "2026-03-22 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 154,
+    "order_time": "2026-03-21 09:00"
+  },
+  {
+    "id": "K-P6-20260322",
+    "product": "K-P6",
+    "qty": 600,
+    "due": "2026-03-22 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 160,
+    "order_time": "2026-03-21 09:00"
+  },
+  {
+    "id": "K-P1-20260323",
+    "product": "K-P1",
+    "qty": 288,
+    "due": "2026-03-23 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 230,
+    "order_time": "2026-03-22 09:00"
+  },
+  {
+    "id": "K-P2-20260323",
+    "product": "K-P2",
+    "qty": 546,
+    "due": "2026-03-23 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 291,
+    "order_time": "2026-03-22 09:00"
+  },
+  {
+    "id": "K-P3-20260323",
+    "product": "K-P3",
+    "qty": 613,
+    "due": "2026-03-23 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 245,
+    "order_time": "2026-03-22 09:00"
+  },
+  {
+    "id": "K-P4-20260323",
+    "product": "K-P4",
+    "qty": 746,
+    "due": "2026-03-23 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 239,
+    "order_time": "2026-03-22 09:00"
+  },
+  {
+    "id": "K-P5-20260323",
+    "product": "K-P5",
+    "qty": 415,
+    "due": "2026-03-23 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 199,
+    "order_time": "2026-03-22 09:00"
+  },
+  {
+    "id": "K-P6-20260323",
+    "product": "K-P6",
+    "qty": 860,
+    "due": "2026-03-23 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 229,
+    "order_time": "2026-03-22 09:00"
+  },
+  {
+    "id": "K-P1-20260324",
+    "product": "K-P1",
+    "qty": 268,
+    "due": "2026-03-24 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 214,
+    "order_time": "2026-03-23 09:00"
+  },
+  {
+    "id": "K-P2-20260324",
+    "product": "K-P2",
+    "qty": 487,
+    "due": "2026-03-24 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 260,
+    "order_time": "2026-03-23 09:00"
+  },
+  {
+    "id": "K-P3-20260324",
+    "product": "K-P3",
+    "qty": 609,
+    "due": "2026-03-24 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 244,
+    "order_time": "2026-03-23 09:00"
+  },
+  {
+    "id": "K-P4-20260324",
+    "product": "K-P4",
+    "qty": 703,
+    "due": "2026-03-24 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 225,
+    "order_time": "2026-03-23 09:00"
+  },
+  {
+    "id": "K-P5-20260324",
+    "product": "K-P5",
+    "qty": 431,
+    "due": "2026-03-24 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 207,
+    "order_time": "2026-03-23 09:00"
+  },
+  {
+    "id": "K-P6-20260324",
+    "product": "K-P6",
+    "qty": 777,
+    "due": "2026-03-24 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 207,
+    "order_time": "2026-03-23 09:00"
+  },
+  {
+    "id": "K-P1-20260325",
+    "product": "K-P1",
+    "qty": 345,
+    "due": "2026-03-25 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 276,
+    "order_time": "2026-03-24 09:00"
+  },
+  {
+    "id": "K-P2-20260325",
+    "product": "K-P2",
+    "qty": 493,
+    "due": "2026-03-25 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 263,
+    "order_time": "2026-03-24 09:00"
+  },
+  {
+    "id": "K-P3-20260325",
+    "product": "K-P3",
+    "qty": 685,
+    "due": "2026-03-25 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 274,
+    "order_time": "2026-03-24 09:00"
+  },
+  {
+    "id": "K-P4-20260325",
+    "product": "K-P4",
+    "qty": 1019,
+    "due": "2026-03-25 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 326,
+    "order_time": "2026-03-24 09:00"
+  },
+  {
+    "id": "K-P5-20260325",
+    "product": "K-P5",
+    "qty": 633,
+    "due": "2026-03-25 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 304,
+    "order_time": "2026-03-24 09:00"
+  },
+  {
+    "id": "K-P6-20260325",
+    "product": "K-P6",
+    "qty": 1029,
+    "due": "2026-03-25 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 274,
+    "order_time": "2026-03-24 09:00"
+  },
+  {
+    "id": "K-P1-20260326",
+    "product": "K-P1",
+    "qty": 436,
+    "due": "2026-03-26 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 349,
+    "order_time": "2026-03-25 09:00"
+  },
+  {
+    "id": "K-P2-20260326",
+    "product": "K-P2",
+    "qty": 596,
+    "due": "2026-03-26 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 318,
+    "order_time": "2026-03-25 09:00"
+  },
+  {
+    "id": "K-P3-20260326",
+    "product": "K-P3",
+    "qty": 654,
+    "due": "2026-03-26 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 262,
+    "order_time": "2026-03-25 09:00"
+  },
+  {
+    "id": "K-P4-20260326",
+    "product": "K-P4",
+    "qty": 966,
+    "due": "2026-03-26 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 309,
+    "order_time": "2026-03-25 09:00"
+  },
+  {
+    "id": "K-P5-20260326",
+    "product": "K-P5",
+    "qty": 651,
+    "due": "2026-03-26 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 312,
+    "order_time": "2026-03-25 09:00"
+  },
+  {
+    "id": "K-P6-20260326",
+    "product": "K-P6",
+    "qty": 983,
+    "due": "2026-03-26 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 262,
+    "order_time": "2026-03-25 09:00"
+  },
+  {
+    "id": "K-P1-20260327",
+    "product": "K-P1",
+    "qty": 370,
+    "due": "2026-03-27 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 296,
+    "order_time": "2026-03-26 09:00"
+  },
+  {
+    "id": "K-P2-20260327",
+    "product": "K-P2",
+    "qty": 639,
+    "due": "2026-03-27 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 341,
+    "order_time": "2026-03-26 09:00"
+  },
+  {
+    "id": "K-P3-20260327",
+    "product": "K-P3",
+    "qty": 870,
+    "due": "2026-03-27 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 348,
+    "order_time": "2026-03-26 09:00"
+  },
+  {
+    "id": "K-P4-20260327",
+    "product": "K-P4",
+    "qty": 897,
+    "due": "2026-03-27 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 287,
+    "order_time": "2026-03-26 09:00"
+  },
+  {
+    "id": "K-P5-20260327",
+    "product": "K-P5",
+    "qty": 797,
+    "due": "2026-03-27 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 383,
+    "order_time": "2026-03-26 09:00"
+  },
+  {
+    "id": "K-P6-20260327",
+    "product": "K-P6",
+    "qty": 1382,
+    "due": "2026-03-27 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 369,
+    "order_time": "2026-03-26 09:00"
+  },
+  {
+    "id": "K-P1-20260328",
+    "product": "K-P1",
+    "qty": 307,
+    "due": "2026-03-28 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 246,
+    "order_time": "2026-03-27 09:00"
+  },
+  {
+    "id": "K-P2-20260328",
+    "product": "K-P2",
+    "qty": 449,
+    "due": "2026-03-28 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 239,
+    "order_time": "2026-03-27 09:00"
+  },
+  {
+    "id": "K-P3-20260328",
+    "product": "K-P3",
+    "qty": 492,
+    "due": "2026-03-28 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 197,
+    "order_time": "2026-03-27 09:00"
+  },
+  {
+    "id": "K-P4-20260328",
+    "product": "K-P4",
+    "qty": 585,
+    "due": "2026-03-28 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 187,
+    "order_time": "2026-03-27 09:00"
+  },
+  {
+    "id": "K-P5-20260328",
+    "product": "K-P5",
+    "qty": 444,
+    "due": "2026-03-28 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 213,
+    "order_time": "2026-03-27 09:00"
+  },
+  {
+    "id": "K-P6-20260328",
+    "product": "K-P6",
+    "qty": 783,
+    "due": "2026-03-28 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 209,
+    "order_time": "2026-03-27 09:00"
+  },
+  {
+    "id": "K-P1-20260329",
+    "product": "K-P1",
+    "qty": 223,
+    "due": "2026-03-29 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 178,
+    "order_time": "2026-03-28 09:00"
+  },
+  {
+    "id": "K-P2-20260329",
+    "product": "K-P2",
+    "qty": 295,
+    "due": "2026-03-29 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 157,
+    "order_time": "2026-03-28 09:00"
+  },
+  {
+    "id": "K-P3-20260329",
+    "product": "K-P3",
+    "qty": 414,
+    "due": "2026-03-29 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 166,
+    "order_time": "2026-03-28 09:00"
+  },
+  {
+    "id": "K-P4-20260329",
+    "product": "K-P4",
+    "qty": 686,
+    "due": "2026-03-29 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 220,
+    "order_time": "2026-03-28 09:00"
+  },
+  {
+    "id": "K-P5-20260329",
+    "product": "K-P5",
+    "qty": 340,
+    "due": "2026-03-29 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 163,
+    "order_time": "2026-03-28 09:00"
+  },
+  {
+    "id": "K-P6-20260329",
+    "product": "K-P6",
+    "qty": 621,
+    "due": "2026-03-29 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 166,
+    "order_time": "2026-03-28 09:00"
+  },
+  {
+    "id": "K-P1-20260330",
+    "product": "K-P1",
+    "qty": 256,
+    "due": "2026-03-30 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 205,
+    "order_time": "2026-03-29 09:00"
+  },
+  {
+    "id": "K-P2-20260330",
+    "product": "K-P2",
+    "qty": 476,
+    "due": "2026-03-30 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 254,
+    "order_time": "2026-03-29 09:00"
+  },
+  {
+    "id": "K-P3-20260330",
+    "product": "K-P3",
+    "qty": 548,
+    "due": "2026-03-30 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 219,
+    "order_time": "2026-03-29 09:00"
+  },
+  {
+    "id": "K-P4-20260330",
+    "product": "K-P4",
+    "qty": 731,
+    "due": "2026-03-30 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 234,
+    "order_time": "2026-03-29 09:00"
+  },
+  {
+    "id": "K-P5-20260330",
+    "product": "K-P5",
+    "qty": 530,
+    "due": "2026-03-30 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 254,
+    "order_time": "2026-03-29 09:00"
+  },
+  {
+    "id": "K-P6-20260330",
+    "product": "K-P6",
+    "qty": 758,
+    "due": "2026-03-30 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 202,
+    "order_time": "2026-03-29 09:00"
+  },
+  {
+    "id": "K-P1-20260331",
+    "product": "K-P1",
+    "qty": 368,
+    "due": "2026-03-31 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 294,
+    "order_time": "2026-03-30 09:00"
+  },
+  {
+    "id": "K-P2-20260331",
+    "product": "K-P2",
+    "qty": 556,
+    "due": "2026-03-31 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 297,
+    "order_time": "2026-03-30 09:00"
+  },
+  {
+    "id": "K-P3-20260331",
+    "product": "K-P3",
+    "qty": 781,
+    "due": "2026-03-31 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 312,
+    "order_time": "2026-03-30 09:00"
+  },
+  {
+    "id": "K-P4-20260331",
+    "product": "K-P4",
+    "qty": 703,
+    "due": "2026-03-31 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 225,
+    "order_time": "2026-03-30 09:00"
+  },
+  {
+    "id": "K-P5-20260331",
+    "product": "K-P5",
+    "qty": 589,
+    "due": "2026-03-31 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 283,
+    "order_time": "2026-03-30 09:00"
+  },
+  {
+    "id": "K-P6-20260331",
+    "product": "K-P6",
+    "qty": 889,
+    "due": "2026-03-31 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 237,
+    "order_time": "2026-03-30 09:00"
+  },
+  {
+    "id": "K-P1-20260401",
+    "product": "K-P1",
+    "qty": 276,
+    "due": "2026-04-01 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 221,
+    "order_time": "2026-03-31 09:00"
+  },
+  {
+    "id": "K-P2-20260401",
+    "product": "K-P2",
+    "qty": 612,
+    "due": "2026-04-01 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 326,
+    "order_time": "2026-03-31 09:00"
+  },
+  {
+    "id": "K-P3-20260401",
+    "product": "K-P3",
+    "qty": 793,
+    "due": "2026-04-01 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 317,
+    "order_time": "2026-03-31 09:00"
+  },
+  {
+    "id": "K-P4-20260401",
+    "product": "K-P4",
+    "qty": 714,
+    "due": "2026-04-01 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 228,
+    "order_time": "2026-03-31 09:00"
+  },
+  {
+    "id": "K-P5-20260401",
+    "product": "K-P5",
+    "qty": 575,
+    "due": "2026-04-01 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 276,
+    "order_time": "2026-03-31 09:00"
+  },
+  {
+    "id": "K-P6-20260401",
+    "product": "K-P6",
+    "qty": 1017,
+    "due": "2026-04-01 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 271,
+    "order_time": "2026-03-31 09:00"
+  },
+  {
+    "id": "K-P1-20260402",
+    "product": "K-P1",
+    "qty": 365,
+    "due": "2026-04-02 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 292,
+    "order_time": "2026-04-01 09:00"
+  },
+  {
+    "id": "K-P2-20260402",
+    "product": "K-P2",
+    "qty": 648,
+    "due": "2026-04-02 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 346,
+    "order_time": "2026-04-01 09:00"
+  },
+  {
+    "id": "K-P3-20260402",
+    "product": "K-P3",
+    "qty": 872,
+    "due": "2026-04-02 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 349,
+    "order_time": "2026-04-01 09:00"
+  },
+  {
+    "id": "K-P4-20260402",
+    "product": "K-P4",
+    "qty": 962,
+    "due": "2026-04-02 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 308,
+    "order_time": "2026-04-01 09:00"
+  },
+  {
+    "id": "K-P5-20260402",
+    "product": "K-P5",
+    "qty": 517,
+    "due": "2026-04-02 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 248,
+    "order_time": "2026-04-01 09:00"
+  },
+  {
+    "id": "K-P6-20260402",
+    "product": "K-P6",
+    "qty": 1000,
+    "due": "2026-04-02 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 267,
+    "order_time": "2026-04-01 09:00"
+  },
+  {
+    "id": "K-P1-20260403",
+    "product": "K-P1",
+    "qty": 437,
+    "due": "2026-04-03 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 350,
+    "order_time": "2026-04-02 09:00"
+  },
+  {
+    "id": "K-P2-20260403",
+    "product": "K-P2",
+    "qty": 585,
+    "due": "2026-04-03 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 312,
+    "order_time": "2026-04-02 09:00"
+  },
+  {
+    "id": "K-P3-20260403",
+    "product": "K-P3",
+    "qty": 989,
+    "due": "2026-04-03 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 396,
+    "order_time": "2026-04-02 09:00"
+  },
+  {
+    "id": "K-P4-20260403",
+    "product": "K-P4",
+    "qty": 1051,
+    "due": "2026-04-03 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 336,
+    "order_time": "2026-04-02 09:00"
+  },
+  {
+    "id": "K-P5-20260403",
+    "product": "K-P5",
+    "qty": 701,
+    "due": "2026-04-03 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 336,
+    "order_time": "2026-04-02 09:00"
+  },
+  {
+    "id": "K-P6-20260403",
+    "product": "K-P6",
+    "qty": 1474,
+    "due": "2026-04-03 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 393,
+    "order_time": "2026-04-02 09:00"
+  },
+  {
+    "id": "K-P1-20260404",
+    "product": "K-P1",
+    "qty": 262,
+    "due": "2026-04-04 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 210,
+    "order_time": "2026-04-03 09:00"
+  },
+  {
+    "id": "K-P2-20260404",
+    "product": "K-P2",
+    "qty": 472,
+    "due": "2026-04-04 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L1"
+    ],
+    "duration_min": 252,
+    "order_time": "2026-04-03 09:00"
+  },
+  {
+    "id": "K-P3-20260404",
+    "product": "K-P3",
+    "qty": 602,
+    "due": "2026-04-04 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 241,
+    "order_time": "2026-04-03 09:00"
+  },
+  {
+    "id": "K-P4-20260404",
+    "product": "K-P4",
+    "qty": 735,
+    "due": "2026-04-04 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L2"
+    ],
+    "duration_min": 235,
+    "order_time": "2026-04-03 09:00"
+  },
+  {
+    "id": "K-P5-20260404",
+    "product": "K-P5",
+    "qty": 486,
+    "due": "2026-04-04 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 233,
+    "order_time": "2026-04-03 09:00"
+  },
+  {
+    "id": "K-P6-20260404",
+    "product": "K-P6",
+    "qty": 738,
+    "due": "2026-04-04 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "K-L3"
+    ],
+    "duration_min": 197,
+    "order_time": "2026-04-03 09:00"
+  }
+]

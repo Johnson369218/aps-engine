@@ -1,0 +1,90 @@
+[
+  {
+    "id": "ASM-01",
+    "name": "装配件01",
+    "speed_per_hour": 200,
+    "overhead_min": 5,
+    "setup_min": {},
+    "capacity_8h": 1200,
+    "front_cap_8h": 2160,
+    "line": "M01",
+    "unit": "件"
+  },
+  {
+    "id": "ASM-02",
+    "name": "装配件02",
+    "speed_per_hour": 200,
+    "overhead_min": 5,
+    "setup_min": {},
+    "capacity_8h": 1100,
+    "front_cap_8h": 1980,
+    "line": "M02",
+    "unit": "件"
+  },
+  {
+    "id": "ASM-03",
+    "name": "装配件03",
+    "speed_per_hour": 200,
+    "overhead_min": 5,
+    "setup_min": {},
+    "capacity_8h": 1000,
+    "front_cap_8h": 1800,
+    "line": "M03",
+    "unit": "件"
+  },
+  {
+    "id": "ASM-04",
+    "name": "装配件04",
+    "speed_per_hour": 200,
+    "overhead_min": 5,
+    "setup_min": {},
+    "capacity_8h": 1500,
+    "front_cap_8h": 2700,
+    "line": "M04",
+    "unit": "件"
+  },
+  {
+    "id": "ASM-05",
+    "name": "装配件05",
+    "speed_per_hour": 200,
+    "overhead_min": 5,
+    "setup_min": {},
+    "capacity_8h": 1400,
+    "front_cap_8h": 2520,
+    "line": "M05",
+    "unit": "件"
+  },
+  {
+    "id": "ASM-06",
+    "name": "装配件06",
+    "speed_per_hour": 200,
+    "overhead_min": 5,
+    "setup_min": {},
+    "capacity_8h": 1300,
+    "front_cap_8h": 2340,
+    "line": "M06",
+    "unit": "件"
+  },
+  {
+    "id": "ASM-07",
+    "name": "装配件07",
+    "speed_per_hour": 200,
+    "overhead_min": 5,
+    "setup_min": {},
+    "capacity_8h": 1600,
+    "front_cap_8h": 2880,
+    "line": "M01",
+    "unit": "件"
+  },
+  {
+    "id": "ASM-08",
+    "name": "装配件08",
+    "speed_per_hour": 200,
+    "overhead_min": 5,
+    "setup_min": {},
+    "capacity_8h": 1700,
+    "front_cap_8h": 3060,
+    "line": "M02",
+    "unit": "件"
+  }
+]

@@ -1,6 +1,6 @@
 name: aps-engine
 display_name: APS Engine · 智能排产引擎（通用）
-version: 0.2.0
+version: 0.2.1
 kind: skill-plugin
 description: >-
   通用 APS 排产引擎：订单/产线/产品 JSON 输入 → 输入校验 → CP-SAT 两阶段排产
@@ -8,7 +8,7 @@ description: >-
   21 列排产表（Excel 公式联动）+ 甘特图 + 汇总；可选 AHP 多因素优先级、
   多模型预测（TimesFM/GBDT）与蒙特卡洛概率层。行业规则（单位换算/红线/
   排除清单）经 config/industry_food.json 适配，引擎核心不绑定任何企业。
-  岐品福为当前参考验证场景（见 adapters/ 参考集成与 aps_training/ 公开数据集评测）。
+  参考试点为当前参考验证场景（见 adapters/ 参考集成与 aps_training/ 公开数据集评测）。
 author: Johnson369218
 email: kwoko_china@126.com
 license: MIT
@@ -35,5 +35,5 @@ outputs:
   - output/排产表-<日期>.xlsx     # 公式联动版（VLOOKUP/SUMIFS/COUNTIFS 勾稽 + fullCalcOnLoad，可核查）
   - output/monte_carlo_*.json     # 概率层结果
 validation:
-  - tests/test_solve.py           # 岐品福回归（参考场景）
+  - tests/test_solve.py           # 参考试点回归（参考场景）
   - aps_training/eval_suite.py    # 公开数据集评测（通用可靠性）

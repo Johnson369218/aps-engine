@@ -1,0 +1,23 @@
+{
+  "scenario": "kaggle_oee_downtime",
+  "seed": 20260906,
+  "source_dataset": "kaggle_oee",
+  "synthetic": true,
+  "availability_by_machine": {
+    "KD-1": 0.87,
+    "KD-2": 0.84,
+    "KD-3": 0.87
+  },
+  "top_reason_by_machine": {
+    "KD-1": "换型",
+    "KD-2": "故障",
+    "KD-3": "换型"
+  },
+  "capacity_factor_expected": 0.88,
+  "on_time_rate_expected": 1,
+  "eval_scope": [
+    "oee",
+    "schedule"
+  ],
+  "note": "合成代表语料：停机原因分布 → 可用率/计划系数、停机归因"
+}

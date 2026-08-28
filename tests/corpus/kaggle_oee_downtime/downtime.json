@@ -1,0 +1,338 @@
+[
+  {
+    "machine": "KD-1",
+    "date": "2026-08-24",
+    "shift": 1,
+    "planned": 480,
+    "down": 33,
+    "reason": "故障"
+  },
+  {
+    "machine": "KD-2",
+    "date": "2026-08-24",
+    "shift": 1,
+    "planned": 480,
+    "down": 98,
+    "reason": "故障"
+  },
+  {
+    "machine": "KD-3",
+    "date": "2026-08-24",
+    "shift": 1,
+    "planned": 480,
+    "down": 65,
+    "reason": "换型"
+  },
+  {
+    "machine": "KD-1",
+    "date": "2026-08-25",
+    "shift": 1,
+    "planned": 480,
+    "down": 49,
+    "reason": "待料"
+  },
+  {
+    "machine": "KD-2",
+    "date": "2026-08-25",
+    "shift": 1,
+    "planned": 480,
+    "down": 80,
+    "reason": "故障"
+  },
+  {
+    "machine": "KD-3",
+    "date": "2026-08-25",
+    "shift": 1,
+    "planned": 480,
+    "down": 86,
+    "reason": "换型"
+  },
+  {
+    "machine": "KD-1",
+    "date": "2026-08-26",
+    "shift": 1,
+    "planned": 480,
+    "down": 46,
+    "reason": "换型"
+  },
+  {
+    "machine": "KD-2",
+    "date": "2026-08-26",
+    "shift": 1,
+    "planned": 480,
+    "down": 87,
+    "reason": "换型"
+  },
+  {
+    "machine": "KD-3",
+    "date": "2026-08-26",
+    "shift": 1,
+    "planned": 480,
+    "down": 44,
+    "reason": "清洗"
+  },
+  {
+    "machine": "KD-1",
+    "date": "2026-08-27",
+    "shift": 1,
+    "planned": 480,
+    "down": 42,
+    "reason": "清洗"
+  },
+  {
+    "machine": "KD-2",
+    "date": "2026-08-27",
+    "shift": 1,
+    "planned": 480,
+    "down": 119,
+    "reason": "清洗"
+  },
+  {
+    "machine": "KD-3",
+    "date": "2026-08-27",
+    "shift": 1,
+    "planned": 480,
+    "down": 26,
+    "reason": "换型"
+  },
+  {
+    "machine": "KD-1",
+    "date": "2026-08-28",
+    "shift": 1,
+    "planned": 480,
+    "down": 107,
+    "reason": "故障"
+  },
+  {
+    "machine": "KD-2",
+    "date": "2026-08-28",
+    "shift": 1,
+    "planned": 480,
+    "down": 15,
+    "reason": "故障"
+  },
+  {
+    "machine": "KD-3",
+    "date": "2026-08-28",
+    "shift": 1,
+    "planned": 480,
+    "down": 66,
+    "reason": "换型"
+  },
+  {
+    "machine": "KD-1",
+    "date": "2026-08-29",
+    "shift": 1,
+    "planned": 480,
+    "down": 30,
+    "reason": "待料"
+  },
+  {
+    "machine": "KD-2",
+    "date": "2026-08-29",
+    "shift": 1,
+    "planned": 480,
+    "down": 76,
+    "reason": "清洗"
+  },
+  {
+    "machine": "KD-3",
+    "date": "2026-08-29",
+    "shift": 1,
+    "planned": 480,
+    "down": 31,
+    "reason": "换型"
+  },
+  {
+    "machine": "KD-1",
+    "date": "2026-08-30",
+    "shift": 1,
+    "planned": 480,
+    "down": 41,
+    "reason": "待料"
+  },
+  {
+    "machine": "KD-2",
+    "date": "2026-08-30",
+    "shift": 1,
+    "planned": 480,
+    "down": 112,
+    "reason": "换型"
+  },
+  {
+    "machine": "KD-3",
+    "date": "2026-08-30",
+    "shift": 1,
+    "planned": 480,
+    "down": 115,
+    "reason": "故障"
+  },
+  {
+    "machine": "KD-1",
+    "date": "2026-08-31",
+    "shift": 1,
+    "planned": 480,
+    "down": 53,
+    "reason": "换型"
+  },
+  {
+    "machine": "KD-2",
+    "date": "2026-08-31",
+    "shift": 1,
+    "planned": 480,
+    "down": 77,
+    "reason": "待料"
+  },
+  {
+    "machine": "KD-3",
+    "date": "2026-08-31",
+    "shift": 1,
+    "planned": 480,
+    "down": 42,
+    "reason": "待料"
+  },
+  {
+    "machine": "KD-1",
+    "date": "2026-09-01",
+    "shift": 1,
+    "planned": 480,
+    "down": 61,
+    "reason": "换型"
+  },
+  {
+    "machine": "KD-2",
+    "date": "2026-09-01",
+    "shift": 1,
+    "planned": 480,
+    "down": 76,
+    "reason": "缺人"
+  },
+  {
+    "machine": "KD-3",
+    "date": "2026-09-01",
+    "shift": 1,
+    "planned": 480,
+    "down": 97,
+    "reason": "换型"
+  },
+  {
+    "machine": "KD-1",
+    "date": "2026-09-02",
+    "shift": 1,
+    "planned": 480,
+    "down": 110,
+    "reason": "待料"
+  },
+  {
+    "machine": "KD-2",
+    "date": "2026-09-02",
+    "shift": 1,
+    "planned": 480,
+    "down": 36,
+    "reason": "故障"
+  },
+  {
+    "machine": "KD-3",
+    "date": "2026-09-02",
+    "shift": 1,
+    "planned": 480,
+    "down": 43,
+    "reason": "清洗"
+  },
+  {
+    "machine": "KD-1",
+    "date": "2026-09-03",
+    "shift": 1,
+    "planned": 480,
+    "down": 95,
+    "reason": "换型"
+  },
+  {
+    "machine": "KD-2",
+    "date": "2026-09-03",
+    "shift": 1,
+    "planned": 480,
+    "down": 18,
+    "reason": "换型"
+  },
+  {
+    "machine": "KD-3",
+    "date": "2026-09-03",
+    "shift": 1,
+    "planned": 480,
+    "down": 91,
+    "reason": "换型"
+  },
+  {
+    "machine": "KD-1",
+    "date": "2026-09-04",
+    "shift": 1,
+    "planned": 480,
+    "down": 66,
+    "reason": "缺人"
+  },
+  {
+    "machine": "KD-2",
+    "date": "2026-09-04",
+    "shift": 1,
+    "planned": 480,
+    "down": 106,
+    "reason": "待料"
+  },
+  {
+    "machine": "KD-3",
+    "date": "2026-09-04",
+    "shift": 1,
+    "planned": 480,
+    "down": 65,
+    "reason": "清洗"
+  },
+  {
+    "machine": "KD-1",
+    "date": "2026-09-05",
+    "shift": 1,
+    "planned": 480,
+    "down": 77,
+    "reason": "换型"
+  },
+  {
+    "machine": "KD-2",
+    "date": "2026-09-05",
+    "shift": 1,
+    "planned": 480,
+    "down": 106,
+    "reason": "故障"
+  },
+  {
+    "machine": "KD-3",
+    "date": "2026-09-05",
+    "shift": 1,
+    "planned": 480,
+    "down": 49,
+    "reason": "故障"
+  },
+  {
+    "machine": "KD-1",
+    "date": "2026-09-06",
+    "shift": 1,
+    "planned": 480,
+    "down": 51,
+    "reason": "故障"
+  },
+  {
+    "machine": "KD-2",
+    "date": "2026-09-06",
+    "shift": 1,
+    "planned": 480,
+    "down": 77,
+    "reason": "换型"
+  },
+  {
+    "machine": "KD-3",
+    "date": "2026-09-06",
+    "shift": 1,
+    "planned": 480,
+    "down": 55,
+    "reason": "换型"
+  }
+]

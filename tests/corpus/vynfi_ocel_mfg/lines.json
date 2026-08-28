@@ -1,0 +1,50 @@
+[
+  {
+    "id": "M01",
+    "name": "工站M01",
+    "work_minutes_per_day": 480,
+    "shift_start": "08:00",
+    "first_date": "2026-08-24",
+    "weekends_off": true
+  },
+  {
+    "id": "M02",
+    "name": "工站M02",
+    "work_minutes_per_day": 480,
+    "shift_start": "08:00",
+    "first_date": "2026-08-24",
+    "weekends_off": true
+  },
+  {
+    "id": "M03",
+    "name": "工站M03",
+    "work_minutes_per_day": 480,
+    "shift_start": "08:00",
+    "first_date": "2026-08-24",
+    "weekends_off": true
+  },
+  {
+    "id": "M04",
+    "name": "工站M04",
+    "work_minutes_per_day": 480,
+    "shift_start": "08:00",
+    "first_date": "2026-08-24",
+    "weekends_off": true
+  },
+  {
+    "id": "M05",
+    "name": "工站M05",
+    "work_minutes_per_day": 480,
+    "shift_start": "08:00",
+    "first_date": "2026-08-24",
+    "weekends_off": true
+  },
+  {
+    "id": "M06",
+    "name": "工站M06",
+    "work_minutes_per_day": 480,
+    "shift_start": "08:00",
+    "first_date": "2026-08-24",
+    "weekends_off": true
+  }
+]

@@ -1,0 +1,202 @@
+[
+  {
+    "machine": "MC-A",
+    "date": "2026-08-03",
+    "shift": 1,
+    "planned": 480,
+    "down": 52,
+    "ideal": 100,
+    "good": 677,
+    "defect": 5
+  },
+  {
+    "machine": "MC-A",
+    "date": "2026-08-03",
+    "shift": 2,
+    "planned": 480,
+    "down": 99,
+    "ideal": 100,
+    "good": 562,
+    "defect": 11
+  },
+  {
+    "machine": "MC-A",
+    "date": "2026-08-04",
+    "shift": 1,
+    "planned": 480,
+    "down": 72,
+    "ideal": 100,
+    "good": 611,
+    "defect": 8
+  },
+  {
+    "machine": "MC-A",
+    "date": "2026-08-04",
+    "shift": 2,
+    "planned": 480,
+    "down": 31,
+    "ideal": 100,
+    "good": 712,
+    "defect": 6
+  },
+  {
+    "machine": "MC-A",
+    "date": "2026-08-05",
+    "shift": 1,
+    "planned": 480,
+    "down": 61,
+    "ideal": 100,
+    "good": 638,
+    "defect": 9
+  },
+  {
+    "machine": "MC-A",
+    "date": "2026-08-05",
+    "shift": 2,
+    "planned": 480,
+    "down": 44,
+    "ideal": 100,
+    "good": 664,
+    "defect": 8
+  },
+  {
+    "machine": "MC-A",
+    "date": "2026-08-06",
+    "shift": 1,
+    "planned": 480,
+    "down": 51,
+    "ideal": 100,
+    "good": 645,
+    "defect": 7
+  },
+  {
+    "machine": "MC-A",
+    "date": "2026-08-06",
+    "shift": 2,
+    "planned": 480,
+    "down": 81,
+    "ideal": 100,
+    "good": 630,
+    "defect": 4
+  },
+  {
+    "machine": "MC-A",
+    "date": "2026-08-07",
+    "shift": 1,
+    "planned": 480,
+    "down": 107,
+    "ideal": 100,
+    "good": 588,
+    "defect": 8
+  },
+  {
+    "machine": "MC-A",
+    "date": "2026-08-07",
+    "shift": 2,
+    "planned": 480,
+    "down": 49,
+    "ideal": 100,
+    "good": 680,
+    "defect": 8
+  },
+  {
+    "machine": "MC-B",
+    "date": "2026-08-03",
+    "shift": 1,
+    "planned": 480,
+    "down": 94,
+    "ideal": 120,
+    "good": 698,
+    "defect": 9
+  },
+  {
+    "machine": "MC-B",
+    "date": "2026-08-03",
+    "shift": 2,
+    "planned": 480,
+    "down": 70,
+    "ideal": 120,
+    "good": 767,
+    "defect": 11
+  },
+  {
+    "machine": "MC-B",
+    "date": "2026-08-04",
+    "shift": 1,
+    "planned": 480,
+    "down": 99,
+    "ideal": 120,
+    "good": 723,
+    "defect": 6
+  },
+  {
+    "machine": "MC-B",
+    "date": "2026-08-04",
+    "shift": 2,
+    "planned": 480,
+    "down": 29,
+    "ideal": 120,
+    "good": 854,
+    "defect": 11
+  },
+  {
+    "machine": "MC-B",
+    "date": "2026-08-05",
+    "shift": 1,
+    "planned": 480,
+    "down": 72,
+    "ideal": 120,
+    "good": 735,
+    "defect": 12
+  },
+  {
+    "machine": "MC-B",
+    "date": "2026-08-05",
+    "shift": 2,
+    "planned": 480,
+    "down": 89,
+    "ideal": 120,
+    "good": 749,
+    "defect": 14
+  },
+  {
+    "machine": "MC-B",
+    "date": "2026-08-06",
+    "shift": 1,
+    "planned": 480,
+    "down": 29,
+    "ideal": 120,
+    "good": 851,
+    "defect": 10
+  },
+  {
+    "machine": "MC-B",
+    "date": "2026-08-06",
+    "shift": 2,
+    "planned": 480,
+    "down": 72,
+    "ideal": 120,
+    "good": 776,
+    "defect": 10
+  },
+  {
+    "machine": "MC-B",
+    "date": "2026-08-07",
+    "shift": 1,
+    "planned": 480,
+    "down": 64,
+    "ideal": 120,
+    "good": 736,
+    "defect": 7
+  },
+  {
+    "machine": "MC-B",
+    "date": "2026-08-07",
+    "shift": 2,
+    "planned": 480,
+    "down": 37,
+    "ideal": 120,
+    "good": 795,
+    "defect": 15
+  }
+]

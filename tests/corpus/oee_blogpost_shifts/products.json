@@ -1,0 +1,22 @@
+[
+  {
+    "id": "OEE-P1",
+    "name": "包装品P1",
+    "speed_per_hour": 100,
+    "overhead_min": 5,
+    "setup_min": {},
+    "capacity_8h": 704,
+    "line": "MC-A",
+    "unit": "件"
+  },
+  {
+    "id": "OEE-P2",
+    "name": "包装品P2",
+    "speed_per_hour": 120,
+    "overhead_min": 5,
+    "setup_min": {},
+    "capacity_8h": 845,
+    "line": "MC-B",
+    "unit": "件"
+  }
+]

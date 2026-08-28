@@ -1,0 +1,54 @@
+[
+  {
+    "id": "J1",
+    "name": "工件J1",
+    "speed_per_hour": 1000,
+    "overhead_min": 0,
+    "setup_min": {
+      "J2": 0,
+      "J3": 0,
+      "J4": 0
+    },
+    "capacity_8h": 480000,
+    "unit": "件"
+  },
+  {
+    "id": "J2",
+    "name": "工件J2",
+    "speed_per_hour": 1000,
+    "overhead_min": 0,
+    "setup_min": {
+      "J1": 0,
+      "J3": 0,
+      "J4": 0
+    },
+    "capacity_8h": 480000,
+    "unit": "件"
+  },
+  {
+    "id": "J3",
+    "name": "工件J3",
+    "speed_per_hour": 1000,
+    "overhead_min": 0,
+    "setup_min": {
+      "J1": 0,
+      "J2": 0,
+      "J4": 0
+    },
+    "capacity_8h": 480000,
+    "unit": "件"
+  },
+  {
+    "id": "J4",
+    "name": "工件J4",
+    "speed_per_hour": 1000,
+    "overhead_min": 0,
+    "setup_min": {
+      "J1": 0,
+      "J2": 0,
+      "J3": 0
+    },
+    "capacity_8h": 480000,
+    "unit": "件"
+  }
+]

@@ -1,0 +1,1682 @@
+[
+  {
+    "id": "BOT200-20260706",
+    "product": "BOT200",
+    "qty": 48033,
+    "due": "2026-07-06 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 443,
+    "order_time": "2026-07-05 09:00"
+  },
+  {
+    "id": "BOT330-20260706",
+    "product": "BOT330",
+    "qty": 42349,
+    "due": "2026-07-06 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 442,
+    "order_time": "2026-07-05 09:00"
+  },
+  {
+    "id": "BOT500-20260706",
+    "product": "BOT500",
+    "qty": 36071,
+    "due": "2026-07-06 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 422,
+    "order_time": "2026-07-05 09:00"
+  },
+  {
+    "id": "CAN330-20260706",
+    "product": "CAN330",
+    "qty": 37122,
+    "due": "2026-07-06 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 469,
+    "order_time": "2026-07-05 09:00"
+  },
+  {
+    "id": "PET600-20260706",
+    "product": "PET600",
+    "qty": 26568,
+    "due": "2026-07-06 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 425,
+    "order_time": "2026-07-05 09:00"
+  },
+  {
+    "id": "BOT200-20260707",
+    "product": "BOT200",
+    "qty": 43734,
+    "due": "2026-07-07 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 404,
+    "order_time": "2026-07-06 09:00"
+  },
+  {
+    "id": "BOT330-20260707",
+    "product": "BOT330",
+    "qty": 41777,
+    "due": "2026-07-07 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 436,
+    "order_time": "2026-07-06 09:00"
+  },
+  {
+    "id": "BOT500-20260707",
+    "product": "BOT500",
+    "qty": 42947,
+    "due": "2026-07-07 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 503,
+    "order_time": "2026-07-06 09:00"
+  },
+  {
+    "id": "CAN330-20260707",
+    "product": "CAN330",
+    "qty": 32430,
+    "due": "2026-07-07 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 410,
+    "order_time": "2026-07-06 09:00"
+  },
+  {
+    "id": "PET600-20260707",
+    "product": "PET600",
+    "qty": 32799,
+    "due": "2026-07-07 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 525,
+    "order_time": "2026-07-06 09:00"
+  },
+  {
+    "id": "BOT200-20260708",
+    "product": "BOT200",
+    "qty": 50651,
+    "due": "2026-07-08 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 468,
+    "order_time": "2026-07-07 09:00"
+  },
+  {
+    "id": "BOT330-20260708",
+    "product": "BOT330",
+    "qty": 48517,
+    "due": "2026-07-08 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 506,
+    "order_time": "2026-07-07 09:00"
+  },
+  {
+    "id": "BOT500-20260708",
+    "product": "BOT500",
+    "qty": 35547,
+    "due": "2026-07-08 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 416,
+    "order_time": "2026-07-07 09:00"
+  },
+  {
+    "id": "CAN330-20260708",
+    "product": "CAN330",
+    "qty": 40066,
+    "due": "2026-07-08 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 506,
+    "order_time": "2026-07-07 09:00"
+  },
+  {
+    "id": "PET600-20260708",
+    "product": "PET600",
+    "qty": 30358,
+    "due": "2026-07-08 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 486,
+    "order_time": "2026-07-07 09:00"
+  },
+  {
+    "id": "BOT200-20260709",
+    "product": "BOT200",
+    "qty": 52849,
+    "due": "2026-07-09 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 488,
+    "order_time": "2026-07-08 09:00"
+  },
+  {
+    "id": "BOT330-20260709",
+    "product": "BOT330",
+    "qty": 46127,
+    "due": "2026-07-09 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 481,
+    "order_time": "2026-07-08 09:00"
+  },
+  {
+    "id": "BOT500-20260709",
+    "product": "BOT500",
+    "qty": 37457,
+    "due": "2026-07-09 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 439,
+    "order_time": "2026-07-08 09:00"
+  },
+  {
+    "id": "CAN330-20260709",
+    "product": "CAN330",
+    "qty": 34290,
+    "due": "2026-07-09 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 433,
+    "order_time": "2026-07-08 09:00"
+  },
+  {
+    "id": "PET600-20260709",
+    "product": "PET600",
+    "qty": 34761,
+    "due": "2026-07-09 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 556,
+    "order_time": "2026-07-08 09:00"
+  },
+  {
+    "id": "BOT200-20260710",
+    "product": "BOT200",
+    "qty": 67716,
+    "due": "2026-07-10 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 625,
+    "order_time": "2026-07-09 09:00"
+  },
+  {
+    "id": "BOT330-20260710",
+    "product": "BOT330",
+    "qty": 53018,
+    "due": "2026-07-10 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 553,
+    "order_time": "2026-07-09 09:00"
+  },
+  {
+    "id": "BOT500-20260710",
+    "product": "BOT500",
+    "qty": 42627,
+    "due": "2026-07-10 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 499,
+    "order_time": "2026-07-09 09:00"
+  },
+  {
+    "id": "CAN330-20260710",
+    "product": "CAN330",
+    "qty": 44029,
+    "due": "2026-07-10 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 556,
+    "order_time": "2026-07-09 09:00"
+  },
+  {
+    "id": "PET600-20260710",
+    "product": "PET600",
+    "qty": 35401,
+    "due": "2026-07-10 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 566,
+    "order_time": "2026-07-09 09:00"
+  },
+  {
+    "id": "BOT200-20260711",
+    "product": "BOT200",
+    "qty": 48476,
+    "due": "2026-07-11 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 447,
+    "order_time": "2026-07-10 09:00"
+  },
+  {
+    "id": "BOT330-20260711",
+    "product": "BOT330",
+    "qty": 41048,
+    "due": "2026-07-11 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 428,
+    "order_time": "2026-07-10 09:00"
+  },
+  {
+    "id": "BOT500-20260711",
+    "product": "BOT500",
+    "qty": 32117,
+    "due": "2026-07-11 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 376,
+    "order_time": "2026-07-10 09:00"
+  },
+  {
+    "id": "CAN330-20260711",
+    "product": "CAN330",
+    "qty": 34253,
+    "due": "2026-07-11 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 433,
+    "order_time": "2026-07-10 09:00"
+  },
+  {
+    "id": "PET600-20260711",
+    "product": "PET600",
+    "qty": 28199,
+    "due": "2026-07-11 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 451,
+    "order_time": "2026-07-10 09:00"
+  },
+  {
+    "id": "BOT200-20260712",
+    "product": "BOT200",
+    "qty": 43699,
+    "due": "2026-07-12 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 403,
+    "order_time": "2026-07-11 09:00"
+  },
+  {
+    "id": "BOT330-20260712",
+    "product": "BOT330",
+    "qty": 32337,
+    "due": "2026-07-12 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 337,
+    "order_time": "2026-07-11 09:00"
+  },
+  {
+    "id": "BOT500-20260712",
+    "product": "BOT500",
+    "qty": 27888,
+    "due": "2026-07-12 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 326,
+    "order_time": "2026-07-11 09:00"
+  },
+  {
+    "id": "CAN330-20260712",
+    "product": "CAN330",
+    "qty": 29037,
+    "due": "2026-07-12 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 367,
+    "order_time": "2026-07-11 09:00"
+  },
+  {
+    "id": "PET600-20260712",
+    "product": "PET600",
+    "qty": 21287,
+    "due": "2026-07-12 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 341,
+    "order_time": "2026-07-11 09:00"
+  },
+  {
+    "id": "BOT200-20260713",
+    "product": "BOT200",
+    "qty": 55646,
+    "due": "2026-07-13 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 514,
+    "order_time": "2026-07-12 09:00"
+  },
+  {
+    "id": "BOT330-20260713",
+    "product": "BOT330",
+    "qty": 47786,
+    "due": "2026-07-13 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 499,
+    "order_time": "2026-07-12 09:00"
+  },
+  {
+    "id": "BOT500-20260713",
+    "product": "BOT500",
+    "qty": 39245,
+    "due": "2026-07-13 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 459,
+    "order_time": "2026-07-12 09:00"
+  },
+  {
+    "id": "CAN330-20260713",
+    "product": "CAN330",
+    "qty": 41020,
+    "due": "2026-07-13 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 518,
+    "order_time": "2026-07-12 09:00"
+  },
+  {
+    "id": "PET600-20260713",
+    "product": "PET600",
+    "qty": 30983,
+    "due": "2026-07-13 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 496,
+    "order_time": "2026-07-12 09:00"
+  },
+  {
+    "id": "BOT200-20260714",
+    "product": "BOT200",
+    "qty": 45740,
+    "due": "2026-07-14 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 422,
+    "order_time": "2026-07-13 09:00"
+  },
+  {
+    "id": "BOT330-20260714",
+    "product": "BOT330",
+    "qty": 49017,
+    "due": "2026-07-14 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 511,
+    "order_time": "2026-07-13 09:00"
+  },
+  {
+    "id": "BOT500-20260714",
+    "product": "BOT500",
+    "qty": 40759,
+    "due": "2026-07-14 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 477,
+    "order_time": "2026-07-13 09:00"
+  },
+  {
+    "id": "CAN330-20260714",
+    "product": "CAN330",
+    "qty": 33104,
+    "due": "2026-07-14 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 418,
+    "order_time": "2026-07-13 09:00"
+  },
+  {
+    "id": "PET600-20260714",
+    "product": "PET600",
+    "qty": 25745,
+    "due": "2026-07-14 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 412,
+    "order_time": "2026-07-13 09:00"
+  },
+  {
+    "id": "BOT200-20260715",
+    "product": "BOT200",
+    "qty": 50232,
+    "due": "2026-07-15 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 464,
+    "order_time": "2026-07-14 09:00"
+  },
+  {
+    "id": "BOT330-20260715",
+    "product": "BOT330",
+    "qty": 44705,
+    "due": "2026-07-15 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 466,
+    "order_time": "2026-07-14 09:00"
+  },
+  {
+    "id": "BOT500-20260715",
+    "product": "BOT500",
+    "qty": 38337,
+    "due": "2026-07-15 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 449,
+    "order_time": "2026-07-14 09:00"
+  },
+  {
+    "id": "CAN330-20260715",
+    "product": "CAN330",
+    "qty": 43144,
+    "due": "2026-07-15 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 545,
+    "order_time": "2026-07-14 09:00"
+  },
+  {
+    "id": "PET600-20260715",
+    "product": "PET600",
+    "qty": 31800,
+    "due": "2026-07-15 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 509,
+    "order_time": "2026-07-14 09:00"
+  },
+  {
+    "id": "BOT200-20260716",
+    "product": "BOT200",
+    "qty": 49343,
+    "due": "2026-07-16 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 455,
+    "order_time": "2026-07-15 09:00"
+  },
+  {
+    "id": "BOT330-20260716",
+    "product": "BOT330",
+    "qty": 48913,
+    "due": "2026-07-16 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 510,
+    "order_time": "2026-07-15 09:00"
+  },
+  {
+    "id": "BOT500-20260716",
+    "product": "BOT500",
+    "qty": 47577,
+    "due": "2026-07-16 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 557,
+    "order_time": "2026-07-15 09:00"
+  },
+  {
+    "id": "CAN330-20260716",
+    "product": "CAN330",
+    "qty": 37459,
+    "due": "2026-07-16 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 473,
+    "order_time": "2026-07-15 09:00"
+  },
+  {
+    "id": "PET600-20260716",
+    "product": "PET600",
+    "qty": 27987,
+    "due": "2026-07-16 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 448,
+    "order_time": "2026-07-15 09:00"
+  },
+  {
+    "id": "BOT200-20260717",
+    "product": "BOT200",
+    "qty": 56261,
+    "due": "2026-07-17 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 519,
+    "order_time": "2026-07-16 09:00"
+  },
+  {
+    "id": "BOT330-20260717",
+    "product": "BOT330",
+    "qty": 56609,
+    "due": "2026-07-17 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 591,
+    "order_time": "2026-07-16 09:00"
+  },
+  {
+    "id": "BOT500-20260717",
+    "product": "BOT500",
+    "qty": 41537,
+    "due": "2026-07-17 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 486,
+    "order_time": "2026-07-16 09:00"
+  },
+  {
+    "id": "CAN330-20260717",
+    "product": "CAN330",
+    "qty": 44766,
+    "due": "2026-07-17 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 565,
+    "order_time": "2026-07-16 09:00"
+  },
+  {
+    "id": "PET600-20260717",
+    "product": "PET600",
+    "qty": 33633,
+    "due": "2026-07-17 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 538,
+    "order_time": "2026-07-16 09:00"
+  },
+  {
+    "id": "BOT200-20260718",
+    "product": "BOT200",
+    "qty": 43011,
+    "due": "2026-07-18 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 397,
+    "order_time": "2026-07-17 09:00"
+  },
+  {
+    "id": "BOT330-20260718",
+    "product": "BOT330",
+    "qty": 46991,
+    "due": "2026-07-18 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 490,
+    "order_time": "2026-07-17 09:00"
+  },
+  {
+    "id": "BOT500-20260718",
+    "product": "BOT500",
+    "qty": 40778,
+    "due": "2026-07-18 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 477,
+    "order_time": "2026-07-17 09:00"
+  },
+  {
+    "id": "CAN330-20260718",
+    "product": "CAN330",
+    "qty": 39495,
+    "due": "2026-07-18 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 499,
+    "order_time": "2026-07-17 09:00"
+  },
+  {
+    "id": "PET600-20260718",
+    "product": "PET600",
+    "qty": 30355,
+    "due": "2026-07-18 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 486,
+    "order_time": "2026-07-17 09:00"
+  },
+  {
+    "id": "BOT200-20260719",
+    "product": "BOT200",
+    "qty": 40087,
+    "due": "2026-07-19 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 370,
+    "order_time": "2026-07-18 09:00"
+  },
+  {
+    "id": "BOT330-20260719",
+    "product": "BOT330",
+    "qty": 33510,
+    "due": "2026-07-19 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 350,
+    "order_time": "2026-07-18 09:00"
+  },
+  {
+    "id": "BOT500-20260719",
+    "product": "BOT500",
+    "qty": 29241,
+    "due": "2026-07-19 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 342,
+    "order_time": "2026-07-18 09:00"
+  },
+  {
+    "id": "CAN330-20260719",
+    "product": "CAN330",
+    "qty": 32221,
+    "due": "2026-07-19 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 407,
+    "order_time": "2026-07-18 09:00"
+  },
+  {
+    "id": "PET600-20260719",
+    "product": "PET600",
+    "qty": 19138,
+    "due": "2026-07-19 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 306,
+    "order_time": "2026-07-18 09:00"
+  },
+  {
+    "id": "BOT200-20260720",
+    "product": "BOT200",
+    "qty": 56317,
+    "due": "2026-07-20 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 520,
+    "order_time": "2026-07-19 09:00"
+  },
+  {
+    "id": "BOT330-20260720",
+    "product": "BOT330",
+    "qty": 47411,
+    "due": "2026-07-20 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 495,
+    "order_time": "2026-07-19 09:00"
+  },
+  {
+    "id": "BOT500-20260720",
+    "product": "BOT500",
+    "qty": 37040,
+    "due": "2026-07-20 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 434,
+    "order_time": "2026-07-19 09:00"
+  },
+  {
+    "id": "CAN330-20260720",
+    "product": "CAN330",
+    "qty": 34032,
+    "due": "2026-07-20 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 430,
+    "order_time": "2026-07-19 09:00"
+  },
+  {
+    "id": "PET600-20260720",
+    "product": "PET600",
+    "qty": 28258,
+    "due": "2026-07-20 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 452,
+    "order_time": "2026-07-19 09:00"
+  },
+  {
+    "id": "BOT200-20260721",
+    "product": "BOT200",
+    "qty": 43878,
+    "due": "2026-07-21 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 405,
+    "order_time": "2026-07-20 09:00"
+  },
+  {
+    "id": "BOT330-20260721",
+    "product": "BOT330",
+    "qty": 43199,
+    "due": "2026-07-21 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 451,
+    "order_time": "2026-07-20 09:00"
+  },
+  {
+    "id": "BOT500-20260721",
+    "product": "BOT500",
+    "qty": 41127,
+    "due": "2026-07-21 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 481,
+    "order_time": "2026-07-20 09:00"
+  },
+  {
+    "id": "CAN330-20260721",
+    "product": "CAN330",
+    "qty": 33438,
+    "due": "2026-07-21 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 422,
+    "order_time": "2026-07-20 09:00"
+  },
+  {
+    "id": "PET600-20260721",
+    "product": "PET600",
+    "qty": 32039,
+    "due": "2026-07-21 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 513,
+    "order_time": "2026-07-20 09:00"
+  },
+  {
+    "id": "BOT200-20260722",
+    "product": "BOT200",
+    "qty": 53754,
+    "due": "2026-07-22 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 496,
+    "order_time": "2026-07-21 09:00"
+  },
+  {
+    "id": "BOT330-20260722",
+    "product": "BOT330",
+    "qty": 48880,
+    "due": "2026-07-22 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 510,
+    "order_time": "2026-07-21 09:00"
+  },
+  {
+    "id": "BOT500-20260722",
+    "product": "BOT500",
+    "qty": 38982,
+    "due": "2026-07-22 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 456,
+    "order_time": "2026-07-21 09:00"
+  },
+  {
+    "id": "CAN330-20260722",
+    "product": "CAN330",
+    "qty": 34238,
+    "due": "2026-07-22 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 432,
+    "order_time": "2026-07-21 09:00"
+  },
+  {
+    "id": "PET600-20260722",
+    "product": "PET600",
+    "qty": 30184,
+    "due": "2026-07-22 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 483,
+    "order_time": "2026-07-21 09:00"
+  },
+  {
+    "id": "BOT200-20260723",
+    "product": "BOT200",
+    "qty": 57543,
+    "due": "2026-07-23 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 531,
+    "order_time": "2026-07-22 09:00"
+  },
+  {
+    "id": "BOT330-20260723",
+    "product": "BOT330",
+    "qty": 47259,
+    "due": "2026-07-23 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 493,
+    "order_time": "2026-07-22 09:00"
+  },
+  {
+    "id": "BOT500-20260723",
+    "product": "BOT500",
+    "qty": 47151,
+    "due": "2026-07-23 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 552,
+    "order_time": "2026-07-22 09:00"
+  },
+  {
+    "id": "CAN330-20260723",
+    "product": "CAN330",
+    "qty": 39955,
+    "due": "2026-07-23 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 505,
+    "order_time": "2026-07-22 09:00"
+  },
+  {
+    "id": "PET600-20260723",
+    "product": "PET600",
+    "qty": 29791,
+    "due": "2026-07-23 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 477,
+    "order_time": "2026-07-22 09:00"
+  },
+  {
+    "id": "BOT200-20260724",
+    "product": "BOT200",
+    "qty": 57199,
+    "due": "2026-07-24 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 528,
+    "order_time": "2026-07-23 09:00"
+  },
+  {
+    "id": "BOT330-20260724",
+    "product": "BOT330",
+    "qty": 57350,
+    "due": "2026-07-24 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 598,
+    "order_time": "2026-07-23 09:00"
+  },
+  {
+    "id": "BOT500-20260724",
+    "product": "BOT500",
+    "qty": 42564,
+    "due": "2026-07-24 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 498,
+    "order_time": "2026-07-23 09:00"
+  },
+  {
+    "id": "CAN330-20260724",
+    "product": "CAN330",
+    "qty": 44547,
+    "due": "2026-07-24 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 563,
+    "order_time": "2026-07-23 09:00"
+  },
+  {
+    "id": "PET600-20260724",
+    "product": "PET600",
+    "qty": 37062,
+    "due": "2026-07-24 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 593,
+    "order_time": "2026-07-23 09:00"
+  },
+  {
+    "id": "BOT200-20260725",
+    "product": "BOT200",
+    "qty": 53103,
+    "due": "2026-07-25 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 490,
+    "order_time": "2026-07-24 09:00"
+  },
+  {
+    "id": "BOT330-20260725",
+    "product": "BOT330",
+    "qty": 40803,
+    "due": "2026-07-25 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 426,
+    "order_time": "2026-07-24 09:00"
+  },
+  {
+    "id": "BOT500-20260725",
+    "product": "BOT500",
+    "qty": 40044,
+    "due": "2026-07-25 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 469,
+    "order_time": "2026-07-24 09:00"
+  },
+  {
+    "id": "CAN330-20260725",
+    "product": "CAN330",
+    "qty": 31130,
+    "due": "2026-07-25 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 393,
+    "order_time": "2026-07-24 09:00"
+  },
+  {
+    "id": "PET600-20260725",
+    "product": "PET600",
+    "qty": 26480,
+    "due": "2026-07-25 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 424,
+    "order_time": "2026-07-24 09:00"
+  },
+  {
+    "id": "BOT200-20260726",
+    "product": "BOT200",
+    "qty": 38067,
+    "due": "2026-07-26 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 351,
+    "order_time": "2026-07-25 09:00"
+  },
+  {
+    "id": "BOT330-20260726",
+    "product": "BOT330",
+    "qty": 36124,
+    "due": "2026-07-26 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 377,
+    "order_time": "2026-07-25 09:00"
+  },
+  {
+    "id": "BOT500-20260726",
+    "product": "BOT500",
+    "qty": 31856,
+    "due": "2026-07-26 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 373,
+    "order_time": "2026-07-25 09:00"
+  },
+  {
+    "id": "CAN330-20260726",
+    "product": "CAN330",
+    "qty": 31259,
+    "due": "2026-07-26 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 395,
+    "order_time": "2026-07-25 09:00"
+  },
+  {
+    "id": "PET600-20260726",
+    "product": "PET600",
+    "qty": 22537,
+    "due": "2026-07-26 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 361,
+    "order_time": "2026-07-25 09:00"
+  },
+  {
+    "id": "BOT200-20260727",
+    "product": "BOT200",
+    "qty": 50582,
+    "due": "2026-07-27 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 467,
+    "order_time": "2026-07-26 09:00"
+  },
+  {
+    "id": "BOT330-20260727",
+    "product": "BOT330",
+    "qty": 38807,
+    "due": "2026-07-27 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 405,
+    "order_time": "2026-07-26 09:00"
+  },
+  {
+    "id": "BOT500-20260727",
+    "product": "BOT500",
+    "qty": 42466,
+    "due": "2026-07-27 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 497,
+    "order_time": "2026-07-26 09:00"
+  },
+  {
+    "id": "CAN330-20260727",
+    "product": "CAN330",
+    "qty": 36089,
+    "due": "2026-07-27 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 456,
+    "order_time": "2026-07-26 09:00"
+  },
+  {
+    "id": "PET600-20260727",
+    "product": "PET600",
+    "qty": 31810,
+    "due": "2026-07-27 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 509,
+    "order_time": "2026-07-26 09:00"
+  },
+  {
+    "id": "BOT200-20260728",
+    "product": "BOT200",
+    "qty": 55282,
+    "due": "2026-07-28 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 510,
+    "order_time": "2026-07-27 09:00"
+  },
+  {
+    "id": "BOT330-20260728",
+    "product": "BOT330",
+    "qty": 39373,
+    "due": "2026-07-28 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 411,
+    "order_time": "2026-07-27 09:00"
+  },
+  {
+    "id": "BOT500-20260728",
+    "product": "BOT500",
+    "qty": 44292,
+    "due": "2026-07-28 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 519,
+    "order_time": "2026-07-27 09:00"
+  },
+  {
+    "id": "CAN330-20260728",
+    "product": "CAN330",
+    "qty": 33914,
+    "due": "2026-07-28 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 428,
+    "order_time": "2026-07-27 09:00"
+  },
+  {
+    "id": "PET600-20260728",
+    "product": "PET600",
+    "qty": 31024,
+    "due": "2026-07-28 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 496,
+    "order_time": "2026-07-27 09:00"
+  },
+  {
+    "id": "BOT200-20260729",
+    "product": "BOT200",
+    "qty": 50923,
+    "due": "2026-07-29 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 470,
+    "order_time": "2026-07-28 09:00"
+  },
+  {
+    "id": "BOT330-20260729",
+    "product": "BOT330",
+    "qty": 39389,
+    "due": "2026-07-29 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 411,
+    "order_time": "2026-07-28 09:00"
+  },
+  {
+    "id": "BOT500-20260729",
+    "product": "BOT500",
+    "qty": 42036,
+    "due": "2026-07-29 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 492,
+    "order_time": "2026-07-28 09:00"
+  },
+  {
+    "id": "CAN330-20260729",
+    "product": "CAN330",
+    "qty": 43679,
+    "due": "2026-07-29 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 552,
+    "order_time": "2026-07-28 09:00"
+  },
+  {
+    "id": "PET600-20260729",
+    "product": "PET600",
+    "qty": 30703,
+    "due": "2026-07-29 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 491,
+    "order_time": "2026-07-28 09:00"
+  },
+  {
+    "id": "BOT200-20260730",
+    "product": "BOT200",
+    "qty": 54510,
+    "due": "2026-07-30 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 503,
+    "order_time": "2026-07-29 09:00"
+  },
+  {
+    "id": "BOT330-20260730",
+    "product": "BOT330",
+    "qty": 44990,
+    "due": "2026-07-30 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 469,
+    "order_time": "2026-07-29 09:00"
+  },
+  {
+    "id": "BOT500-20260730",
+    "product": "BOT500",
+    "qty": 48958,
+    "due": "2026-07-30 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 573,
+    "order_time": "2026-07-29 09:00"
+  },
+  {
+    "id": "CAN330-20260730",
+    "product": "CAN330",
+    "qty": 40979,
+    "due": "2026-07-30 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 518,
+    "order_time": "2026-07-29 09:00"
+  },
+  {
+    "id": "PET600-20260730",
+    "product": "PET600",
+    "qty": 27811,
+    "due": "2026-07-30 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 445,
+    "order_time": "2026-07-29 09:00"
+  },
+  {
+    "id": "BOT200-20260731",
+    "product": "BOT200",
+    "qty": 61041,
+    "due": "2026-07-31 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 563,
+    "order_time": "2026-07-30 09:00"
+  },
+  {
+    "id": "BOT330-20260731",
+    "product": "BOT330",
+    "qty": 55695,
+    "due": "2026-07-31 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 581,
+    "order_time": "2026-07-30 09:00"
+  },
+  {
+    "id": "BOT500-20260731",
+    "product": "BOT500",
+    "qty": 46305,
+    "due": "2026-07-31 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 542,
+    "order_time": "2026-07-30 09:00"
+  },
+  {
+    "id": "CAN330-20260731",
+    "product": "CAN330",
+    "qty": 38694,
+    "due": "2026-07-31 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 489,
+    "order_time": "2026-07-30 09:00"
+  },
+  {
+    "id": "PET600-20260731",
+    "product": "PET600",
+    "qty": 34341,
+    "due": "2026-07-31 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 549,
+    "order_time": "2026-07-30 09:00"
+  },
+  {
+    "id": "BOT200-20260801",
+    "product": "BOT200",
+    "qty": 52723,
+    "due": "2026-08-01 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 487,
+    "order_time": "2026-07-31 09:00"
+  },
+  {
+    "id": "BOT330-20260801",
+    "product": "BOT330",
+    "qty": 37404,
+    "due": "2026-08-01 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 390,
+    "order_time": "2026-07-31 09:00"
+  },
+  {
+    "id": "BOT500-20260801",
+    "product": "BOT500",
+    "qty": 40869,
+    "due": "2026-08-01 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 478,
+    "order_time": "2026-07-31 09:00"
+  },
+  {
+    "id": "CAN330-20260801",
+    "product": "CAN330",
+    "qty": 37552,
+    "due": "2026-08-01 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 474,
+    "order_time": "2026-07-31 09:00"
+  },
+  {
+    "id": "PET600-20260801",
+    "product": "PET600",
+    "qty": 24843,
+    "due": "2026-08-01 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 397,
+    "order_time": "2026-07-31 09:00"
+  },
+  {
+    "id": "BOT200-20260802",
+    "product": "BOT200",
+    "qty": 44641,
+    "due": "2026-08-02 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 412,
+    "order_time": "2026-08-01 09:00"
+  },
+  {
+    "id": "BOT330-20260802",
+    "product": "BOT330",
+    "qty": 31879,
+    "due": "2026-08-02 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 333,
+    "order_time": "2026-08-01 09:00"
+  },
+  {
+    "id": "BOT500-20260802",
+    "product": "BOT500",
+    "qty": 29173,
+    "due": "2026-08-02 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 342,
+    "order_time": "2026-08-01 09:00"
+  },
+  {
+    "id": "CAN330-20260802",
+    "product": "CAN330",
+    "qty": 30234,
+    "due": "2026-08-02 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 382,
+    "order_time": "2026-08-01 09:00"
+  },
+  {
+    "id": "PET600-20260802",
+    "product": "PET600",
+    "qty": 20968,
+    "due": "2026-08-02 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "FILL1"
+    ],
+    "duration_min": 335,
+    "order_time": "2026-08-01 09:00"
+  }
+]

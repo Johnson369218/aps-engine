@@ -1,0 +1,82 @@
+[
+  {
+    "id": "MFG-01",
+    "name": "产品MFG-01",
+    "speed_per_hour": 150,
+    "overhead_min": 5,
+    "setup_min": {},
+    "capacity_8h": 1056,
+    "line": "LP-1",
+    "unit": "件"
+  },
+  {
+    "id": "MFG-02",
+    "name": "产品MFG-02",
+    "speed_per_hour": 190,
+    "overhead_min": 5,
+    "setup_min": {},
+    "capacity_8h": 1338,
+    "line": "LP-2",
+    "unit": "件"
+  },
+  {
+    "id": "MFG-03",
+    "name": "产品MFG-03",
+    "speed_per_hour": 230,
+    "overhead_min": 5,
+    "setup_min": {},
+    "capacity_8h": 1619,
+    "line": "LP-3",
+    "unit": "件"
+  },
+  {
+    "id": "MFG-04",
+    "name": "产品MFG-04",
+    "speed_per_hour": 150,
+    "overhead_min": 5,
+    "setup_min": {},
+    "capacity_8h": 1056,
+    "line": "LP-4",
+    "unit": "件"
+  },
+  {
+    "id": "MFG-05",
+    "name": "产品MFG-05",
+    "speed_per_hour": 190,
+    "overhead_min": 5,
+    "setup_min": {},
+    "capacity_8h": 1338,
+    "line": "LP-1",
+    "unit": "件"
+  },
+  {
+    "id": "MFG-06",
+    "name": "产品MFG-06",
+    "speed_per_hour": 230,
+    "overhead_min": 5,
+    "setup_min": {},
+    "capacity_8h": 1619,
+    "line": "LP-2",
+    "unit": "件"
+  },
+  {
+    "id": "MFG-07",
+    "name": "产品MFG-07",
+    "speed_per_hour": 150,
+    "overhead_min": 5,
+    "setup_min": {},
+    "capacity_8h": 1056,
+    "line": "LP-3",
+    "unit": "件"
+  },
+  {
+    "id": "MFG-08",
+    "name": "产品MFG-08",
+    "speed_per_hour": 190,
+    "overhead_min": 5,
+    "setup_min": {},
+    "capacity_8h": 1338,
+    "line": "LP-4",
+    "unit": "件"
+  }
+]

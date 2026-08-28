@@ -1,0 +1,26 @@
+[
+  {
+    "id": "K-L1",
+    "name": "量产线K-L1",
+    "work_minutes_per_day": 480,
+    "shift_start": "08:00",
+    "first_date": "2026-01-05",
+    "weekends_off": true
+  },
+  {
+    "id": "K-L2",
+    "name": "量产线K-L2",
+    "work_minutes_per_day": 480,
+    "shift_start": "08:00",
+    "first_date": "2026-01-05",
+    "weekends_off": true
+  },
+  {
+    "id": "K-L3",
+    "name": "量产线K-L3",
+    "work_minutes_per_day": 480,
+    "shift_start": "08:00",
+    "first_date": "2026-01-05",
+    "weekends_off": true
+  }
+]

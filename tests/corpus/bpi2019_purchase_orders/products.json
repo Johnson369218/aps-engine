@@ -1,0 +1,52 @@
+[
+  {
+    "id": "PO-A",
+    "name": "采购件A类",
+    "speed_per_hour": 188,
+    "overhead_min": 5,
+    "setup_min": {},
+    "capacity_8h": 1500,
+    "line": "PA-1",
+    "unit": "件"
+  },
+  {
+    "id": "PO-B",
+    "name": "采购件B类",
+    "speed_per_hour": 175,
+    "overhead_min": 5,
+    "setup_min": {},
+    "capacity_8h": 1400,
+    "line": "PA-2",
+    "unit": "件"
+  },
+  {
+    "id": "PO-C",
+    "name": "采购件C类",
+    "speed_per_hour": 163,
+    "overhead_min": 5,
+    "setup_min": {},
+    "capacity_8h": 1300,
+    "line": "PA-3",
+    "unit": "件"
+  },
+  {
+    "id": "PO-D",
+    "name": "采购件D类",
+    "speed_per_hour": 150,
+    "overhead_min": 5,
+    "setup_min": {},
+    "capacity_8h": 1200,
+    "line": "PA-1",
+    "unit": "件"
+  },
+  {
+    "id": "PO-E",
+    "name": "采购件E类",
+    "speed_per_hour": 138,
+    "overhead_min": 5,
+    "setup_min": {},
+    "capacity_8h": 1100,
+    "line": "PA-2",
+    "unit": "件"
+  }
+]

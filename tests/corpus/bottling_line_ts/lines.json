@@ -1,0 +1,10 @@
+[
+  {
+    "id": "FILL1",
+    "name": "灌装线FILL1",
+    "work_minutes_per_day": 480,
+    "shift_start": "08:00",
+    "first_date": "2026-07-06",
+    "weekends_off": true
+  }
+]

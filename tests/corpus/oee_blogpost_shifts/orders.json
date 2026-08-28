@@ -1,0 +1,98 @@
+[
+  {
+    "id": "OEE-1",
+    "product": "OEE-P1",
+    "qty": 300,
+    "due": "2026-08-24 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "MC-A"
+    ],
+    "duration_min": 60,
+    "order_time": "2026-08-24 08:00"
+  },
+  {
+    "id": "OEE-2",
+    "product": "OEE-P2",
+    "qty": 350,
+    "due": "2026-08-24 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "MC-B"
+    ],
+    "duration_min": 70,
+    "order_time": "2026-08-24 08:00"
+  },
+  {
+    "id": "OEE-3",
+    "product": "OEE-P1",
+    "qty": 400,
+    "due": "2026-08-24 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "MC-A"
+    ],
+    "duration_min": 80,
+    "order_time": "2026-08-24 08:00"
+  },
+  {
+    "id": "OEE-4",
+    "product": "OEE-P2",
+    "qty": 450,
+    "due": "2026-08-24 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "MC-B"
+    ],
+    "duration_min": 90,
+    "order_time": "2026-08-24 08:00"
+  },
+  {
+    "id": "OEE-5",
+    "product": "OEE-P1",
+    "qty": 500,
+    "due": "2026-08-25 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "MC-A"
+    ],
+    "duration_min": 100,
+    "order_time": "2026-08-25 08:00"
+  },
+  {
+    "id": "OEE-6",
+    "product": "OEE-P2",
+    "qty": 550,
+    "due": "2026-08-25 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "MC-B"
+    ],
+    "duration_min": 110,
+    "order_time": "2026-08-25 08:00"
+  },
+  {
+    "id": "OEE-7",
+    "product": "OEE-P1",
+    "qty": 600,
+    "due": "2026-08-25 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "MC-A"
+    ],
+    "duration_min": 120,
+    "order_time": "2026-08-25 08:00"
+  },
+  {
+    "id": "OEE-8",
+    "product": "OEE-P2",
+    "qty": 650,
+    "due": "2026-08-25 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "MC-B"
+    ],
+    "duration_min": 130,
+    "order_time": "2026-08-25 08:00"
+  }
+]

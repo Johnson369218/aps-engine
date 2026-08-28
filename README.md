@@ -1,6 +1,6 @@
 # APS Engine · 通用智能排产引擎
 
-> **定位**：通用 APS（高级计划排产）引擎，不绑定任何企业。岐品福为当前**参考验证场景**，
+> **定位**：通用 APS（高级计划排产）引擎，不绑定任何企业。参考试点为当前**参考验证场景**，
 > 仅用于可靠性检验与参考集成（见 adapters/ 与 aps_training/）。
 
 ## 能力
@@ -26,9 +26,9 @@ aps-engine/
 │   └── server/          # FastAPI
 ├── config/
 │   └── industry_food.json   # 行业适配（食品参考配置；换企业/行业替换此文件）
-├── adapters/            # 集成适配器（erp_in 通用快照；kanban_out 岐品福看板参考）
+├── adapters/            # 集成适配器（erp_in 通用快照；kanban_out 参考试点看板参考）
 ├── tools/               # schedule_cli.py / serve.sh
-├── tests/               # 回归（岐品福参考场景 + APS 标准数据集）
+├── tests/               # 回归（参考试点参考场景 + APS 标准数据集）
 └── docs/                # 设计/方法论文档（见 aps_docs/）
 ```
 
@@ -54,13 +54,17 @@ cd ~/Desktop/生产调度
 | 作者 | Johnson369218（kwoko_china@126.com） | 已定 |
 | 入口 | aps_engine.api.solve | 稳定 API |
 
+## 验证声明（结论可靠性依据）
+
+**本插件未使用、未上传任何客户数据**。验证基于公开数据集与合成语料（BPI2019/JSSP/Kaggle/灌装线等 12 场景全绿 + APS 标准数据集），详见 [docs/validation.md](docs/validation.md)。客户场景仅在本地运行，数据不出厂。
+
 ## 可靠性（三层背书）
 1. APS 标准数据集（data/）：aps_docs/APS数据集可靠性验证报告.md（发现并修复 2 个引擎 bug）
 2. 公开数据集评测（10 数据集）：aps_training/eval_suite.py
-3. 岐品福参考回归：aps-engine/tests/test_solve.py
+3. 参考试点参考回归：aps-engine/tests/test_solve.py
 
 ## 方法论资产（aps_docs/）
-- 排产技巧学习笔记-调研报告消化.md（岐品福参考方法论）
+- 排产技巧学习笔记-调研报告消化.md（参考试点参考方法论）
 - APS插件创新方法设计.md（Pinedo 理论 × 实践，7 个创新点）
 - T+3排产的合理性与科学性说明.md（蒙特卡洛 + 覆盖率回测）
 - 订单预测多模型对比与择优报告.md（TimesFM/GBDT 择优）

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "SM-L1",
+    "name": "智能产线SM-L1",
+    "work_minutes_per_day": 480,
+    "shift_start": "08:00",
+    "first_date": "2026-08-24",
+    "weekends_off": true
+  },
+  {
+    "id": "SM-L2",
+    "name": "智能产线SM-L2",
+    "work_minutes_per_day": 480,
+    "shift_start": "08:00",
+    "first_date": "2026-08-24",
+    "weekends_off": true
+  },
+  {
+    "id": "SM-L3",
+    "name": "智能产线SM-L3",
+    "work_minutes_per_day": 480,
+    "shift_start": "08:00",
+    "first_date": "2026-08-24",
+    "weekends_off": true
+  }
+]

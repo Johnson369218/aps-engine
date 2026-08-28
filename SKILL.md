@@ -12,7 +12,7 @@ read_when:
 ## 定位
 **通用 APS 引擎**：输入为标准 JSON 契约（orders/lines/products），输出排产计划 + 审计 + 指标。
 行业/企业特定规则（单位换算、红线、排除清单、品类敏感度）全部外置到 `config/industry_food.json`，
-引擎核心不绑定任何企业。岐品福为当前参考验证场景（`adapters/` 参考集成、`aps_training/` 公开数据集评测）。
+引擎核心不绑定任何企业。参考试点为当前参考验证场景（`adapters/` 参考集成、`aps_training/` 公开数据集评测）。
 
 ## 输入契约（通用）
 - orders：id/product/qty/due（YYYY-MM-DD [HH:MM]）/priority(1-3)/allowed_lines(可选)/release(可选)
@@ -41,11 +41,11 @@ cd ~/Desktop/生产调度
 单位换算、排除关键词/类别、计划系数、提前天数、食品红线——按行业/企业替换，不改引擎。
 
 ## 可靠性
-- 岐品福参考回归：aps-engine/tests/test_solve.py
+- 参考试点参考回归：aps-engine/tests/test_solve.py
 - 公开数据集评测：aps_training/eval_suite.py（BPI2019/JSSP/OEE/Kaggle 等 10 数据集）
 - APS 标准数据集验证：aps_docs/APS数据集可靠性验证报告.md
 
 ## 研发资产
-- 排产方法论：aps_docs/排产技巧学习笔记-调研报告消化.md（岐品福参考）
+- 排产方法论：aps_docs/排产技巧学习笔记-调研报告消化.md（参考试点参考）
 - 创新方法设计：aps_docs/APS插件创新方法设计.md（Pinedo 理论 × 实践）
 - 可靠性/科学性：aps_docs/APS数据集可靠性验证报告.md、T+3排产的合理性与科学性说明.md

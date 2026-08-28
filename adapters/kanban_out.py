@@ -3,7 +3,7 @@
 
 A 看板（管道/契约）：report_inbox/schedule_daily_<日期>.json
   → 需先在 看板字段口径.json 注册 schedule_daily 模块（本文件 --register-caliber 一次性完成，幂等）
-  → 再由岐品福管理看板 pipeline/merge_reports.py 合并入看板
+  → 再由参考试点管理看板 pipeline/merge_reports.py 合并入看板
 B 看板（快照）：dashboard_data.js 注入 production_schedule 块（与 sync_schedule_to_dashboard.py 同构）
 """
 import argparse

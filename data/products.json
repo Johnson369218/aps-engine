@@ -1,0 +1,79 @@
+[
+  {
+    "id": "toast_plain",
+    "name": "原味吐司",
+    "speed_per_hour": 2000,
+    "overhead_min": 15,
+    "speeds": {"L1": 2200, "L3": 1600},
+    "setup_min": {
+      "toast_wheat": 20, "cake_chiffon": 45, "cake_sponge": 45,
+      "croissant": 30, "baguette": 30, "bun": 30
+    }
+  },
+  {
+    "id": "toast_wheat",
+    "name": "全麦吐司",
+    "speed_per_hour": 1800,
+    "overhead_min": 15,
+    "speeds": {"L1": 2000},
+    "setup_min": {
+      "toast_plain": 20, "cake_chiffon": 45, "cake_sponge": 45,
+      "croissant": 30, "baguette": 30, "bun": 30
+    }
+  },
+  {
+    "id": "cake_chiffon",
+    "name": "戚风蛋糕",
+    "speed_per_hour": 900,
+    "overhead_min": 20,
+    "speeds": {"L2": 950},
+    "setup_min": {
+      "cake_sponge": 35, "toast_plain": 45, "toast_wheat": 45,
+      "croissant": 50, "baguette": 50, "bun": 50
+    }
+  },
+  {
+    "id": "cake_sponge",
+    "name": "海绵蛋糕",
+    "speed_per_hour": 950,
+    "overhead_min": 20,
+    "speeds": {"L2": 1000},
+    "setup_min": {
+      "cake_chiffon": 35, "toast_plain": 45, "toast_wheat": 45,
+      "croissant": 50, "baguette": 50, "bun": 50
+    }
+  },
+  {
+    "id": "croissant",
+    "name": "牛角包",
+    "speed_per_hour": 1400,
+    "overhead_min": 15,
+    "speeds": {"L3": 1500},
+    "setup_min": {
+      "baguette": 25, "bun": 25, "toast_plain": 30, "toast_wheat": 30,
+      "cake_chiffon": 50, "cake_sponge": 50
+    }
+  },
+  {
+    "id": "baguette",
+    "name": "法棍",
+    "speed_per_hour": 1100,
+    "overhead_min": 15,
+    "speeds": {"L3": 1200},
+    "setup_min": {
+      "croissant": 25, "bun": 25, "toast_plain": 30, "toast_wheat": 30,
+      "cake_chiffon": 50, "cake_sponge": 50
+    }
+  },
+  {
+    "id": "bun",
+    "name": "黄油餐包",
+    "speed_per_hour": 1600,
+    "overhead_min": 15,
+    "speeds": {"L3": 1700, "L1": 1500},
+    "setup_min": {
+      "croissant": 25, "baguette": 25, "toast_plain": 30, "toast_wheat": 30,
+      "cake_chiffon": 50, "cake_sponge": 50
+    }
+  }
+]

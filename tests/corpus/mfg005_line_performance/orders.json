@@ -1,0 +1,194 @@
+[
+  {
+    "id": "MFG-D1-1",
+    "product": "MFG-01",
+    "qty": 311,
+    "due": "2026-08-24 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "LP-1"
+    ],
+    "duration_min": 141,
+    "order_time": "2026-08-24 08:00"
+  },
+  {
+    "id": "MFG-D1-2",
+    "product": "MFG-02",
+    "qty": 398,
+    "due": "2026-08-24 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "LP-2"
+    ],
+    "duration_min": 143,
+    "order_time": "2026-08-24 08:00"
+  },
+  {
+    "id": "MFG-D1-3",
+    "product": "MFG-03",
+    "qty": 298,
+    "due": "2026-08-24 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "LP-3"
+    ],
+    "duration_min": 88,
+    "order_time": "2026-08-24 08:00"
+  },
+  {
+    "id": "MFG-D1-4",
+    "product": "MFG-04",
+    "qty": 171,
+    "due": "2026-08-24 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "LP-4"
+    ],
+    "duration_min": 78,
+    "order_time": "2026-08-24 08:00"
+  },
+  {
+    "id": "MFG-D1-5",
+    "product": "MFG-05",
+    "qty": 245,
+    "due": "2026-08-24 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "LP-1"
+    ],
+    "duration_min": 88,
+    "order_time": "2026-08-24 08:00"
+  },
+  {
+    "id": "MFG-D1-6",
+    "product": "MFG-06",
+    "qty": 191,
+    "due": "2026-08-24 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "LP-2"
+    ],
+    "duration_min": 57,
+    "order_time": "2026-08-24 08:00"
+  },
+  {
+    "id": "MFG-D1-7",
+    "product": "MFG-07",
+    "qty": 223,
+    "due": "2026-08-24 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "LP-3"
+    ],
+    "duration_min": 101,
+    "order_time": "2026-08-24 08:00"
+  },
+  {
+    "id": "MFG-D1-8",
+    "product": "MFG-08",
+    "qty": 201,
+    "due": "2026-08-24 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "LP-4"
+    ],
+    "duration_min": 72,
+    "order_time": "2026-08-24 08:00"
+  },
+  {
+    "id": "MFG-D2-1",
+    "product": "MFG-01",
+    "qty": 302,
+    "due": "2026-08-25 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "LP-1"
+    ],
+    "duration_min": 137,
+    "order_time": "2026-08-25 08:00"
+  },
+  {
+    "id": "MFG-D2-2",
+    "product": "MFG-02",
+    "qty": 335,
+    "due": "2026-08-25 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "LP-2"
+    ],
+    "duration_min": 120,
+    "order_time": "2026-08-25 08:00"
+  },
+  {
+    "id": "MFG-D2-3",
+    "product": "MFG-03",
+    "qty": 256,
+    "due": "2026-08-25 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "LP-3"
+    ],
+    "duration_min": 76,
+    "order_time": "2026-08-25 08:00"
+  },
+  {
+    "id": "MFG-D2-4",
+    "product": "MFG-04",
+    "qty": 202,
+    "due": "2026-08-25 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "LP-4"
+    ],
+    "duration_min": 92,
+    "order_time": "2026-08-25 08:00"
+  },
+  {
+    "id": "MFG-D2-5",
+    "product": "MFG-05",
+    "qty": 376,
+    "due": "2026-08-25 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "LP-1"
+    ],
+    "duration_min": 135,
+    "order_time": "2026-08-25 08:00"
+  },
+  {
+    "id": "MFG-D2-6",
+    "product": "MFG-06",
+    "qty": 277,
+    "due": "2026-08-25 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "LP-2"
+    ],
+    "duration_min": 82,
+    "order_time": "2026-08-25 08:00"
+  },
+  {
+    "id": "MFG-D2-7",
+    "product": "MFG-07",
+    "qty": 339,
+    "due": "2026-08-25 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "LP-3"
+    ],
+    "duration_min": 154,
+    "order_time": "2026-08-25 08:00"
+  },
+  {
+    "id": "MFG-D2-8",
+    "product": "MFG-08",
+    "qty": 357,
+    "due": "2026-08-25 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "LP-4"
+    ],
+    "duration_min": 128,
+    "order_time": "2026-08-25 08:00"
+  }
+]

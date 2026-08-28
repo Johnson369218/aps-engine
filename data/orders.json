@@ -1,0 +1,16 @@
+[
+  {"id": "O-001", "product": "toast_plain", "qty": 10000, "due": "2026-08-24 18:00", "priority": 1, "allowed_lines": ["L1", "L3"]},
+  {"id": "O-002", "product": "toast_wheat", "qty": 8000, "due": "2026-08-25 12:00", "priority": 2, "allowed_lines": ["L1"]},
+  {"id": "O-003", "product": "cake_chiffon", "qty": 4000, "due": "2026-08-25 16:00", "priority": 1, "allowed_lines": ["L2"]},
+  {"id": "O-004", "product": "cake_sponge", "qty": 5000, "due": "2026-08-26 12:00", "priority": 2, "allowed_lines": ["L2"]},
+  {"id": "O-005", "product": "croissant", "qty": 9000, "due": "2026-08-26 18:00", "priority": 3, "allowed_lines": ["L3"]},
+  {"id": "O-006", "product": "toast_plain", "qty": 14000, "due": "2026-08-27 12:00", "priority": 2, "allowed_lines": ["L1", "L3"]},
+  {"id": "O-007", "product": "baguette", "qty": 6000, "due": "2026-08-27 18:00", "priority": 2, "allowed_lines": ["L3"]},
+  {"id": "O-008", "product": "cake_chiffon", "qty": 6000, "due": "2026-08-27 16:00", "priority": 1, "allowed_lines": ["L2"]},
+  {"id": "O-009", "product": "bun", "qty": 10000, "due": "2026-08-28 12:00", "priority": 2, "allowed_lines": ["L3", "L1"]},
+  {"id": "O-010", "product": "toast_wheat", "qty": 12000, "due": "2026-08-28 16:00", "priority": 3, "allowed_lines": ["L1"]},
+  {"id": "O-011", "product": "croissant", "qty": 6000, "due": "2026-08-28 12:00", "priority": 2, "allowed_lines": ["L3"]},
+  {"id": "O-012", "product": "cake_sponge", "qty": 4000, "due": "2026-08-28 16:00", "priority": 3, "allowed_lines": ["L2"]},
+  {"id": "O-013", "product": "baguette", "qty": 8000, "due": "2026-08-25 14:00", "priority": 1, "allowed_lines": ["L3"]},
+  {"id": "O-014", "product": "bun", "qty": 5000, "due": "2026-08-26 10:00", "priority": 1, "allowed_lines": ["L3", "L1"]}
+]

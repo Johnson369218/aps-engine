@@ -1,0 +1,434 @@
+[
+  {
+    "id": "baguette-20260824",
+    "product": "baguette",
+    "qty": 282,
+    "due": "2026-08-24 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "L3"
+    ],
+    "duration_min": 15,
+    "order_time": "2026-08-22 14:30"
+  },
+  {
+    "id": "baguette-20260825",
+    "product": "baguette",
+    "qty": 260,
+    "due": "2026-08-25 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "L3"
+    ],
+    "duration_min": 14,
+    "order_time": "2026-08-23 14:30"
+  },
+  {
+    "id": "baguette-20260826",
+    "product": "baguette",
+    "qty": 554,
+    "due": "2026-08-26 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "L3"
+    ],
+    "duration_min": 30,
+    "order_time": "2026-08-24 14:30"
+  },
+  {
+    "id": "baozi_xihulu-20260824",
+    "product": "baozi_xihulu",
+    "qty": 148,
+    "due": "2026-08-24 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "L3"
+    ],
+    "duration_min": 10,
+    "order_time": "2026-08-22 14:30"
+  },
+  {
+    "id": "baozi_xihulu-20260825",
+    "product": "baozi_xihulu",
+    "qty": 104,
+    "due": "2026-08-25 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "L3"
+    ],
+    "duration_min": 10,
+    "order_time": "2026-08-23 14:30"
+  },
+  {
+    "id": "baozi_xihulu-20260826",
+    "product": "baozi_xihulu",
+    "qty": 256,
+    "due": "2026-08-26 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "L3"
+    ],
+    "duration_min": 10,
+    "order_time": "2026-08-24 14:30"
+  },
+  {
+    "id": "baozi_ziniu-20260824",
+    "product": "baozi_ziniu",
+    "qty": 28,
+    "due": "2026-08-24 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "L3"
+    ],
+    "duration_min": 10,
+    "order_time": "2026-08-22 14:30"
+  },
+  {
+    "id": "baozi_ziniu-20260825",
+    "product": "baozi_ziniu",
+    "qty": 90,
+    "due": "2026-08-25 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "L3"
+    ],
+    "duration_min": 10,
+    "order_time": "2026-08-23 14:30"
+  },
+  {
+    "id": "baozi_ziniu-20260826",
+    "product": "baozi_ziniu",
+    "qty": 66,
+    "due": "2026-08-26 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "L3"
+    ],
+    "duration_min": 10,
+    "order_time": "2026-08-24 14:30"
+  },
+  {
+    "id": "bun-20260824",
+    "product": "bun",
+    "qty": 287,
+    "due": "2026-08-24 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "L3"
+    ],
+    "duration_min": 11,
+    "order_time": "2026-08-22 14:30"
+  },
+  {
+    "id": "bun-20260825",
+    "product": "bun",
+    "qty": 182,
+    "due": "2026-08-25 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "L3"
+    ],
+    "duration_min": 10,
+    "order_time": "2026-08-23 14:30"
+  },
+  {
+    "id": "bun-20260826",
+    "product": "bun",
+    "qty": 291,
+    "due": "2026-08-26 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "L3"
+    ],
+    "duration_min": 11,
+    "order_time": "2026-08-24 14:30"
+  },
+  {
+    "id": "cake_chiffon-20260824",
+    "product": "cake_chiffon",
+    "qty": 220,
+    "due": "2026-08-24 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "L2"
+    ],
+    "duration_min": 15,
+    "order_time": "2026-08-22 14:30"
+  },
+  {
+    "id": "cake_chiffon-20260825",
+    "product": "cake_chiffon",
+    "qty": 297,
+    "due": "2026-08-25 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "L2"
+    ],
+    "duration_min": 20,
+    "order_time": "2026-08-23 14:30"
+  },
+  {
+    "id": "cake_chiffon-20260826",
+    "product": "cake_chiffon",
+    "qty": 396,
+    "due": "2026-08-26 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "L2"
+    ],
+    "duration_min": 26,
+    "order_time": "2026-08-24 14:30"
+  },
+  {
+    "id": "cake_sponge-20260824",
+    "product": "cake_sponge",
+    "qty": 144,
+    "due": "2026-08-24 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "L2"
+    ],
+    "duration_min": 10,
+    "order_time": "2026-08-22 14:30"
+  },
+  {
+    "id": "cake_sponge-20260825",
+    "product": "cake_sponge",
+    "qty": 184,
+    "due": "2026-08-25 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "L2"
+    ],
+    "duration_min": 12,
+    "order_time": "2026-08-23 14:30"
+  },
+  {
+    "id": "cake_sponge-20260826",
+    "product": "cake_sponge",
+    "qty": 337,
+    "due": "2026-08-26 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "L2"
+    ],
+    "duration_min": 21,
+    "order_time": "2026-08-24 14:30"
+  },
+  {
+    "id": "croissant-20260824",
+    "product": "croissant",
+    "qty": 213,
+    "due": "2026-08-24 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "L3"
+    ],
+    "duration_min": 10,
+    "order_time": "2026-08-22 14:30"
+  },
+  {
+    "id": "croissant-20260825",
+    "product": "croissant",
+    "qty": 401,
+    "due": "2026-08-25 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "L3"
+    ],
+    "duration_min": 17,
+    "order_time": "2026-08-23 14:30"
+  },
+  {
+    "id": "croissant-20260826",
+    "product": "croissant",
+    "qty": 212,
+    "due": "2026-08-26 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "L3"
+    ],
+    "duration_min": 10,
+    "order_time": "2026-08-24 14:30"
+  },
+  {
+    "id": "mantou_daoqie-20260824",
+    "product": "mantou_daoqie",
+    "qty": 88,
+    "due": "2026-08-24 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "L3"
+    ],
+    "duration_min": 10,
+    "order_time": "2026-08-22 14:30"
+  },
+  {
+    "id": "mantou_daoqie-20260825",
+    "product": "mantou_daoqie",
+    "qty": 192,
+    "due": "2026-08-25 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "L3"
+    ],
+    "duration_min": 10,
+    "order_time": "2026-08-23 14:30"
+  },
+  {
+    "id": "mantou_daoqie-20260826",
+    "product": "mantou_daoqie",
+    "qty": 196,
+    "due": "2026-08-26 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "L3"
+    ],
+    "duration_min": 10,
+    "order_time": "2026-08-24 14:30"
+  },
+  {
+    "id": "mantou_laomian-20260824",
+    "product": "mantou_laomian",
+    "qty": 124,
+    "due": "2026-08-24 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "L3"
+    ],
+    "duration_min": 10,
+    "order_time": "2026-08-22 14:30"
+  },
+  {
+    "id": "mantou_laomian-20260825",
+    "product": "mantou_laomian",
+    "qty": 256,
+    "due": "2026-08-25 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "L3"
+    ],
+    "duration_min": 10,
+    "order_time": "2026-08-23 14:30"
+  },
+  {
+    "id": "mantou_laomian-20260826",
+    "product": "mantou_laomian",
+    "qty": 188,
+    "due": "2026-08-26 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "L3"
+    ],
+    "duration_min": 10,
+    "order_time": "2026-08-24 14:30"
+  },
+  {
+    "id": "toast_plain-20260824",
+    "product": "toast_plain",
+    "qty": 98,
+    "due": "2026-08-24 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "L1"
+    ],
+    "duration_min": 10,
+    "order_time": "2026-08-22 14:30"
+  },
+  {
+    "id": "toast_plain-20260825",
+    "product": "toast_plain",
+    "qty": 276,
+    "due": "2026-08-25 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "L1"
+    ],
+    "duration_min": 10,
+    "order_time": "2026-08-23 14:30"
+  },
+  {
+    "id": "toast_plain-20260826",
+    "product": "toast_plain",
+    "qty": 239,
+    "due": "2026-08-26 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "L1"
+    ],
+    "duration_min": 10,
+    "order_time": "2026-08-24 14:30"
+  },
+  {
+    "id": "toast_wheat-20260824",
+    "product": "toast_wheat",
+    "qty": 181,
+    "due": "2026-08-24 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "L1"
+    ],
+    "duration_min": 10,
+    "order_time": "2026-08-22 14:30"
+  },
+  {
+    "id": "toast_wheat-20260825",
+    "product": "toast_wheat",
+    "qty": 361,
+    "due": "2026-08-25 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "L1"
+    ],
+    "duration_min": 12,
+    "order_time": "2026-08-23 14:30"
+  },
+  {
+    "id": "toast_wheat-20260826",
+    "product": "toast_wheat",
+    "qty": 453,
+    "due": "2026-08-26 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "L1"
+    ],
+    "duration_min": 15,
+    "order_time": "2026-08-24 14:30"
+  },
+  {
+    "id": "yumi_baba-20260824",
+    "product": "yumi_baba",
+    "qty": 96,
+    "due": "2026-08-24 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "L3"
+    ],
+    "duration_min": 10,
+    "order_time": "2026-08-22 14:30"
+  },
+  {
+    "id": "yumi_baba-20260825",
+    "product": "yumi_baba",
+    "qty": 124,
+    "due": "2026-08-25 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "L3"
+    ],
+    "duration_min": 10,
+    "order_time": "2026-08-23 14:30"
+  },
+  {
+    "id": "yumi_baba-20260826",
+    "product": "yumi_baba",
+    "qty": 272,
+    "due": "2026-08-26 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "L3"
+    ],
+    "duration_min": 12,
+    "order_time": "2026-08-24 14:30"
+  }
+]

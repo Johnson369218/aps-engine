@@ -1,0 +1,128 @@
+[
+  {
+    "id": "GEN33_J1_op1",
+    "product": "J1",
+    "qty": 1,
+    "due": "2026-02-02 17:00",
+    "priority": 3,
+    "allowed_lines": [
+      "M1"
+    ],
+    "duration_min": 7,
+    "order_type": "jssp_op",
+    "job": "J1",
+    "seq": 1
+  },
+  {
+    "id": "GEN33_J1_op2",
+    "product": "J1",
+    "qty": 1,
+    "due": "2026-02-02 17:00",
+    "priority": 3,
+    "allowed_lines": [
+      "M2"
+    ],
+    "duration_min": 9,
+    "order_type": "jssp_op",
+    "job": "J1",
+    "seq": 2
+  },
+  {
+    "id": "GEN33_J1_op3",
+    "product": "J1",
+    "qty": 1,
+    "due": "2026-02-02 17:00",
+    "priority": 3,
+    "allowed_lines": [
+      "M3"
+    ],
+    "duration_min": 6,
+    "order_type": "jssp_op",
+    "job": "J1",
+    "seq": 3
+  },
+  {
+    "id": "GEN33_J2_op1",
+    "product": "J2",
+    "qty": 1,
+    "due": "2026-02-02 17:00",
+    "priority": 3,
+    "allowed_lines": [
+      "M2"
+    ],
+    "duration_min": 2,
+    "order_type": "jssp_op",
+    "job": "J2",
+    "seq": 1
+  },
+  {
+    "id": "GEN33_J2_op2",
+    "product": "J2",
+    "qty": 1,
+    "due": "2026-02-02 17:00",
+    "priority": 3,
+    "allowed_lines": [
+      "M3"
+    ],
+    "duration_min": 3,
+    "order_type": "jssp_op",
+    "job": "J2",
+    "seq": 2
+  },
+  {
+    "id": "GEN33_J2_op3",
+    "product": "J2",
+    "qty": 1,
+    "due": "2026-02-02 17:00",
+    "priority": 3,
+    "allowed_lines": [
+      "M1"
+    ],
+    "duration_min": 7,
+    "order_type": "jssp_op",
+    "job": "J2",
+    "seq": 3
+  },
+  {
+    "id": "GEN33_J3_op1",
+    "product": "J3",
+    "qty": 1,
+    "due": "2026-02-02 17:00",
+    "priority": 3,
+    "allowed_lines": [
+      "M3"
+    ],
+    "duration_min": 3,
+    "order_type": "jssp_op",
+    "job": "J3",
+    "seq": 1
+  },
+  {
+    "id": "GEN33_J3_op2",
+    "product": "J3",
+    "qty": 1,
+    "due": "2026-02-02 17:00",
+    "priority": 3,
+    "allowed_lines": [
+      "M1"
+    ],
+    "duration_min": 5,
+    "order_type": "jssp_op",
+    "job": "J3",
+    "seq": 2
+  },
+  {
+    "id": "GEN33_J3_op3",
+    "product": "J3",
+    "qty": 1,
+    "due": "2026-02-02 17:00",
+    "priority": 3,
+    "allowed_lines": [
+      "M2"
+    ],
+    "duration_min": 2,
+    "order_type": "jssp_op",
+    "job": "J3",
+    "seq": 3
+  }
+]

@@ -1,0 +1,522 @@
+[
+  {
+    "id": "BPI-001",
+    "product": "PO-A",
+    "qty": 419,
+    "due": "2026-08-24 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "PA-1"
+    ],
+    "duration_min": 133,
+    "order_time": "2026-08-21 09:00",
+    "approval_lag_h": 45
+  },
+  {
+    "id": "BPI-002",
+    "product": "PO-B",
+    "qty": 409,
+    "due": "2026-08-24 17:00",
+    "priority": 1,
+    "allowed_lines": [
+      "PA-2"
+    ],
+    "duration_min": 129,
+    "order_time": "2026-08-20 09:00",
+    "approval_lag_h": 65
+  },
+  {
+    "id": "BPI-003",
+    "product": "PO-C",
+    "qty": 770,
+    "due": "2026-08-24 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "PA-3"
+    ],
+    "duration_min": 146,
+    "order_time": "2026-08-22 09:00",
+    "approval_lag_h": 29
+  },
+  {
+    "id": "BPI-004",
+    "product": "PO-D",
+    "qty": 208,
+    "due": "2026-08-24 17:00",
+    "priority": 3,
+    "allowed_lines": [
+      "PA-1"
+    ],
+    "duration_min": 42,
+    "order_time": "2026-08-22 09:00",
+    "approval_lag_h": 13
+  },
+  {
+    "id": "BPI-005",
+    "product": "PO-E",
+    "qty": 617,
+    "due": "2026-08-25 17:00",
+    "priority": 3,
+    "allowed_lines": [
+      "PA-2"
+    ],
+    "duration_min": 52,
+    "order_time": "2026-08-24 09:00",
+    "approval_lag_h": 2
+  },
+  {
+    "id": "BPI-006",
+    "product": "PO-A",
+    "qty": 764,
+    "due": "2026-08-25 17:00",
+    "priority": 1,
+    "allowed_lines": [
+      "PA-1"
+    ],
+    "duration_min": 162,
+    "order_time": "2026-08-21 09:00",
+    "approval_lag_h": 69
+  },
+  {
+    "id": "BPI-007",
+    "product": "PO-B",
+    "qty": 650,
+    "due": "2026-08-25 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "PA-2"
+    ],
+    "duration_min": 70,
+    "order_time": "2026-08-22 09:00",
+    "approval_lag_h": 45
+  },
+  {
+    "id": "BPI-008",
+    "product": "PO-C",
+    "qty": 660,
+    "due": "2026-08-25 17:00",
+    "priority": 1,
+    "allowed_lines": [
+      "PA-3"
+    ],
+    "duration_min": 142,
+    "order_time": "2026-08-22 09:00",
+    "approval_lag_h": 55
+  },
+  {
+    "id": "BPI-009",
+    "product": "PO-D",
+    "qty": 327,
+    "due": "2026-08-26 17:00",
+    "priority": 1,
+    "allowed_lines": [
+      "PA-1"
+    ],
+    "duration_min": 126,
+    "order_time": "2026-08-22 09:00",
+    "approval_lag_h": 63
+  },
+  {
+    "id": "BPI-010",
+    "product": "PO-E",
+    "qty": 525,
+    "due": "2026-08-26 17:00",
+    "priority": 1,
+    "allowed_lines": [
+      "PA-2"
+    ],
+    "duration_min": 60,
+    "order_time": "2026-08-23 09:00",
+    "approval_lag_h": 56
+  },
+  {
+    "id": "BPI-011",
+    "product": "PO-A",
+    "qty": 494,
+    "due": "2026-08-26 17:00",
+    "priority": 3,
+    "allowed_lines": [
+      "PA-1"
+    ],
+    "duration_min": 73,
+    "order_time": "2026-08-25 09:00",
+    "approval_lag_h": 10
+  },
+  {
+    "id": "BPI-012",
+    "product": "PO-B",
+    "qty": 311,
+    "due": "2026-08-26 17:00",
+    "priority": 1,
+    "allowed_lines": [
+      "PA-2"
+    ],
+    "duration_min": 140,
+    "order_time": "2026-08-22 09:00",
+    "approval_lag_h": 65
+  },
+  {
+    "id": "BPI-013",
+    "product": "PO-C",
+    "qty": 701,
+    "due": "2026-08-27 17:00",
+    "priority": 3,
+    "allowed_lines": [
+      "PA-3"
+    ],
+    "duration_min": 173,
+    "order_time": "2026-08-26 09:00",
+    "approval_lag_h": 3
+  },
+  {
+    "id": "BPI-014",
+    "product": "PO-D",
+    "qty": 457,
+    "due": "2026-08-27 17:00",
+    "priority": 1,
+    "allowed_lines": [
+      "PA-1"
+    ],
+    "duration_min": 96,
+    "order_time": "2026-08-23 09:00",
+    "approval_lag_h": 69
+  },
+  {
+    "id": "BPI-015",
+    "product": "PO-E",
+    "qty": 244,
+    "due": "2026-08-27 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "PA-2"
+    ],
+    "duration_min": 125,
+    "order_time": "2026-08-24 09:00",
+    "approval_lag_h": 42
+  },
+  {
+    "id": "BPI-016",
+    "product": "PO-A",
+    "qty": 436,
+    "due": "2026-08-27 17:00",
+    "priority": 3,
+    "allowed_lines": [
+      "PA-1"
+    ],
+    "duration_min": 158,
+    "order_time": "2026-08-26 09:00",
+    "approval_lag_h": 11
+  },
+  {
+    "id": "BPI-017",
+    "product": "PO-B",
+    "qty": 376,
+    "due": "2026-08-28 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "PA-2"
+    ],
+    "duration_min": 56,
+    "order_time": "2026-08-25 09:00",
+    "approval_lag_h": 37
+  },
+  {
+    "id": "BPI-018",
+    "product": "PO-C",
+    "qty": 699,
+    "due": "2026-08-28 17:00",
+    "priority": 1,
+    "allowed_lines": [
+      "PA-3"
+    ],
+    "duration_min": 79,
+    "order_time": "2026-08-24 09:00",
+    "approval_lag_h": 61
+  },
+  {
+    "id": "BPI-019",
+    "product": "PO-D",
+    "qty": 550,
+    "due": "2026-08-28 17:00",
+    "priority": 1,
+    "allowed_lines": [
+      "PA-1"
+    ],
+    "duration_min": 138,
+    "order_time": "2026-08-24 09:00",
+    "approval_lag_h": 68
+  },
+  {
+    "id": "BPI-020",
+    "product": "PO-E",
+    "qty": 777,
+    "due": "2026-08-28 17:00",
+    "priority": 1,
+    "allowed_lines": [
+      "PA-2"
+    ],
+    "duration_min": 143,
+    "order_time": "2026-08-24 09:00",
+    "approval_lag_h": 71
+  },
+  {
+    "id": "BPI-021",
+    "product": "PO-A",
+    "qty": 498,
+    "due": "2026-08-29 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "PA-1"
+    ],
+    "duration_min": 145,
+    "order_time": "2026-08-26 09:00",
+    "approval_lag_h": 38
+  },
+  {
+    "id": "BPI-022",
+    "product": "PO-B",
+    "qty": 746,
+    "due": "2026-08-29 17:00",
+    "priority": 3,
+    "allowed_lines": [
+      "PA-2"
+    ],
+    "duration_min": 39,
+    "order_time": "2026-08-28 09:00",
+    "approval_lag_h": 5
+  },
+  {
+    "id": "BPI-023",
+    "product": "PO-C",
+    "qty": 349,
+    "due": "2026-08-29 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "PA-3"
+    ],
+    "duration_min": 135,
+    "order_time": "2026-08-26 09:00",
+    "approval_lag_h": 36
+  },
+  {
+    "id": "BPI-024",
+    "product": "PO-D",
+    "qty": 678,
+    "due": "2026-08-29 17:00",
+    "priority": 3,
+    "allowed_lines": [
+      "PA-1"
+    ],
+    "duration_min": 161,
+    "order_time": "2026-08-27 09:00",
+    "approval_lag_h": 12
+  },
+  {
+    "id": "BPI-025",
+    "product": "PO-E",
+    "qty": 402,
+    "due": "2026-08-30 17:00",
+    "priority": 3,
+    "allowed_lines": [
+      "PA-2"
+    ],
+    "duration_min": 97,
+    "order_time": "2026-08-28 09:00",
+    "approval_lag_h": 23
+  },
+  {
+    "id": "BPI-026",
+    "product": "PO-A",
+    "qty": 511,
+    "due": "2026-08-30 17:00",
+    "priority": 1,
+    "allowed_lines": [
+      "PA-1"
+    ],
+    "duration_min": 48,
+    "order_time": "2026-08-27 09:00",
+    "approval_lag_h": 56
+  },
+  {
+    "id": "BPI-027",
+    "product": "PO-B",
+    "qty": 638,
+    "due": "2026-08-30 17:00",
+    "priority": 3,
+    "allowed_lines": [
+      "PA-2"
+    ],
+    "duration_min": 121,
+    "order_time": "2026-08-29 09:00",
+    "approval_lag_h": 4
+  },
+  {
+    "id": "BPI-028",
+    "product": "PO-C",
+    "qty": 325,
+    "due": "2026-08-30 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "PA-3"
+    ],
+    "duration_min": 170,
+    "order_time": "2026-08-28 09:00",
+    "approval_lag_h": 33
+  },
+  {
+    "id": "BPI-029",
+    "product": "PO-D",
+    "qty": 257,
+    "due": "2026-08-31 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "PA-1"
+    ],
+    "duration_min": 86,
+    "order_time": "2026-08-28 09:00",
+    "approval_lag_h": 44
+  },
+  {
+    "id": "BPI-030",
+    "product": "PO-E",
+    "qty": 479,
+    "due": "2026-08-31 17:00",
+    "priority": 3,
+    "allowed_lines": [
+      "PA-2"
+    ],
+    "duration_min": 172,
+    "order_time": "2026-08-29 09:00",
+    "approval_lag_h": 20
+  },
+  {
+    "id": "BPI-031",
+    "product": "PO-A",
+    "qty": 520,
+    "due": "2026-08-31 17:00",
+    "priority": 3,
+    "allowed_lines": [
+      "PA-1"
+    ],
+    "duration_min": 101,
+    "order_time": "2026-08-30 09:00",
+    "approval_lag_h": 4
+  },
+  {
+    "id": "BPI-032",
+    "product": "PO-B",
+    "qty": 711,
+    "due": "2026-08-31 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "PA-2"
+    ],
+    "duration_min": 66,
+    "order_time": "2026-08-29 09:00",
+    "approval_lag_h": 26
+  },
+  {
+    "id": "BPI-033",
+    "product": "PO-C",
+    "qty": 773,
+    "due": "2026-09-01 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "PA-3"
+    ],
+    "duration_min": 60,
+    "order_time": "2026-08-29 09:00",
+    "approval_lag_h": 43
+  },
+  {
+    "id": "BPI-034",
+    "product": "PO-D",
+    "qty": 645,
+    "due": "2026-09-01 17:00",
+    "priority": 1,
+    "allowed_lines": [
+      "PA-1"
+    ],
+    "duration_min": 171,
+    "order_time": "2026-08-29 09:00",
+    "approval_lag_h": 58
+  },
+  {
+    "id": "BPI-035",
+    "product": "PO-E",
+    "qty": 298,
+    "due": "2026-09-01 17:00",
+    "priority": 3,
+    "allowed_lines": [
+      "PA-2"
+    ],
+    "duration_min": 73,
+    "order_time": "2026-08-30 09:00",
+    "approval_lag_h": 19
+  },
+  {
+    "id": "BPI-036",
+    "product": "PO-A",
+    "qty": 340,
+    "due": "2026-09-01 17:00",
+    "priority": 3,
+    "allowed_lines": [
+      "PA-1"
+    ],
+    "duration_min": 86,
+    "order_time": "2026-08-31 09:00",
+    "approval_lag_h": 8
+  },
+  {
+    "id": "BPI-037",
+    "product": "PO-B",
+    "qty": 476,
+    "due": "2026-09-02 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "PA-2"
+    ],
+    "duration_min": 80,
+    "order_time": "2026-08-31 09:00",
+    "approval_lag_h": 33
+  },
+  {
+    "id": "BPI-038",
+    "product": "PO-C",
+    "qty": 777,
+    "due": "2026-09-02 17:00",
+    "priority": 3,
+    "allowed_lines": [
+      "PA-3"
+    ],
+    "duration_min": 112,
+    "order_time": "2026-09-01 09:00",
+    "approval_lag_h": 4
+  },
+  {
+    "id": "BPI-039",
+    "product": "PO-D",
+    "qty": 467,
+    "due": "2026-09-02 17:00",
+    "priority": 1,
+    "allowed_lines": [
+      "PA-1"
+    ],
+    "duration_min": 75,
+    "order_time": "2026-08-30 09:00",
+    "approval_lag_h": 59
+  },
+  {
+    "id": "BPI-040",
+    "product": "PO-E",
+    "qty": 391,
+    "due": "2026-09-02 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "PA-2"
+    ],
+    "duration_min": 78,
+    "order_time": "2026-08-31 09:00",
+    "approval_lag_h": 33
+  }
+]

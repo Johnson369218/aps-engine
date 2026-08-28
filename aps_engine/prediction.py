@@ -22,7 +22,7 @@ from datetime import datetime, timedelta
 DOW = ["周日", "周一", "周二", "周三", "周四", "周五", "周六"]
 MODELS = ["dow_factor", "wma4_dow", "naive7", "gbdt", "timesfm", "ensemble"]
 
-ML_VENV = "/Users/johnsonbai/Desktop/岐品福/调研报告/终稿/推演资料/_ml_forecast/venv/bin/python"
+ML_VENV = "/Users/johnsonbai/Desktop/参考试点/调研报告/终稿/推演资料/_ml_forecast/venv/bin/python"
 SERVICE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "timesfm_service.py")
 
 

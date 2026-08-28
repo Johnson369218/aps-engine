@@ -1,0 +1,18 @@
+{
+  "scenario": "kaggle_smart_mfg_params",
+  "seed": 20260905,
+  "source_dataset": "kaggle_production_smart",
+  "synthetic": true,
+  "risk_buckets": {
+    "high": 5,
+    "mid": 11,
+    "low": 8
+  },
+  "drift_count": 10,
+  "on_time_rate_expected": 1,
+  "eval_scope": [
+    "schedule",
+    "risk"
+  ],
+  "note": "合成代表语料：过程参数漂移→质量风险→优先级映射"
+}

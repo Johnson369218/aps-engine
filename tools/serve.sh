@@ -1,5 +1,5 @@
 #!/bin/bash
-# 岐品福 APS 引擎服务 启/停/状态（默认 127.0.0.1:8077，仅本机/内网）
+# 参考试点 APS 引擎服务 启/停/状态（默认 127.0.0.1:8077，仅本机/内网）
 # 用法: tools/serve.sh start|stop|status|restart [port]
 cd "$(dirname "$0")/.."        # 到 aps-engine/
 PORT="${2:-8077}"

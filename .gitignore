@@ -2,12 +2,18 @@
 __pycache__/
 *.pyc
 .venv/
-output/
-aps_training/corpus/
-aps_training/output/
 *.log
+.DS_Store
 
-# 敏感/本地
+# 本地/敏感
 credentials*.json
 *.secret
-.DS_Store
+
+# ── 客户数据红线（禁止上传）──
+# 客户商品→SKU 映射（仅本地）
+adapters/sku_map.json
+# 客户行业配置（仅本地）
+config/industry_food.json
+
+# 评测产物（本地生成，不入库）
+tests/output/

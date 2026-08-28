@@ -1,0 +1,26 @@
+[
+  {
+    "id": "KD-1",
+    "name": "设备KD-1",
+    "work_minutes_per_day": 480,
+    "shift_start": "08:00",
+    "first_date": "2026-08-24",
+    "weekends_off": true
+  },
+  {
+    "id": "KD-2",
+    "name": "设备KD-2",
+    "work_minutes_per_day": 480,
+    "shift_start": "08:00",
+    "first_date": "2026-08-24",
+    "weekends_off": true
+  },
+  {
+    "id": "KD-3",
+    "name": "设备KD-3",
+    "work_minutes_per_day": 480,
+    "shift_start": "08:00",
+    "first_date": "2026-08-24",
+    "weekends_off": true
+  }
+]

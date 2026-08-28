@@ -1,0 +1,26 @@
+[
+  {
+    "id": "L1",
+    "name": "L1 吐司线",
+    "work_minutes_per_day": 480,
+    "shift_start": "08:00",
+    "first_date": "2026-08-24",
+    "weekends_off": true
+  },
+  {
+    "id": "L2",
+    "name": "L2 蛋糕线",
+    "work_minutes_per_day": 480,
+    "shift_start": "08:00",
+    "first_date": "2026-08-24",
+    "weekends_off": true
+  },
+  {
+    "id": "L3",
+    "name": "L3 面包线",
+    "work_minutes_per_day": 480,
+    "shift_start": "08:00",
+    "first_date": "2026-08-24",
+    "weekends_off": true
+  }
+]

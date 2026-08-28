@@ -1,0 +1,506 @@
+[
+  {
+    "id": "FT06_J1_op1",
+    "product": "J1",
+    "qty": 1,
+    "due": "2026-02-02 17:00",
+    "priority": 3,
+    "allowed_lines": [
+      "M3"
+    ],
+    "duration_min": 1,
+    "order_type": "jssp_op",
+    "job": "J1",
+    "seq": 1
+  },
+  {
+    "id": "FT06_J1_op2",
+    "product": "J1",
+    "qty": 1,
+    "due": "2026-02-02 17:00",
+    "priority": 3,
+    "allowed_lines": [
+      "M1"
+    ],
+    "duration_min": 3,
+    "order_type": "jssp_op",
+    "job": "J1",
+    "seq": 2
+  },
+  {
+    "id": "FT06_J1_op3",
+    "product": "J1",
+    "qty": 1,
+    "due": "2026-02-02 17:00",
+    "priority": 3,
+    "allowed_lines": [
+      "M2"
+    ],
+    "duration_min": 6,
+    "order_type": "jssp_op",
+    "job": "J1",
+    "seq": 3
+  },
+  {
+    "id": "FT06_J1_op4",
+    "product": "J1",
+    "qty": 1,
+    "due": "2026-02-02 17:00",
+    "priority": 3,
+    "allowed_lines": [
+      "M4"
+    ],
+    "duration_min": 7,
+    "order_type": "jssp_op",
+    "job": "J1",
+    "seq": 4
+  },
+  {
+    "id": "FT06_J1_op5",
+    "product": "J1",
+    "qty": 1,
+    "due": "2026-02-02 17:00",
+    "priority": 3,
+    "allowed_lines": [
+      "M6"
+    ],
+    "duration_min": 3,
+    "order_type": "jssp_op",
+    "job": "J1",
+    "seq": 5
+  },
+  {
+    "id": "FT06_J1_op6",
+    "product": "J1",
+    "qty": 1,
+    "due": "2026-02-02 17:00",
+    "priority": 3,
+    "allowed_lines": [
+      "M5"
+    ],
+    "duration_min": 6,
+    "order_type": "jssp_op",
+    "job": "J1",
+    "seq": 6
+  },
+  {
+    "id": "FT06_J2_op1",
+    "product": "J2",
+    "qty": 1,
+    "due": "2026-02-02 17:00",
+    "priority": 3,
+    "allowed_lines": [
+      "M2"
+    ],
+    "duration_min": 8,
+    "order_type": "jssp_op",
+    "job": "J2",
+    "seq": 1
+  },
+  {
+    "id": "FT06_J2_op2",
+    "product": "J2",
+    "qty": 1,
+    "due": "2026-02-02 17:00",
+    "priority": 3,
+    "allowed_lines": [
+      "M3"
+    ],
+    "duration_min": 5,
+    "order_type": "jssp_op",
+    "job": "J2",
+    "seq": 2
+  },
+  {
+    "id": "FT06_J2_op3",
+    "product": "J2",
+    "qty": 1,
+    "due": "2026-02-02 17:00",
+    "priority": 3,
+    "allowed_lines": [
+      "M5"
+    ],
+    "duration_min": 10,
+    "order_type": "jssp_op",
+    "job": "J2",
+    "seq": 3
+  },
+  {
+    "id": "FT06_J2_op4",
+    "product": "J2",
+    "qty": 1,
+    "due": "2026-02-02 17:00",
+    "priority": 3,
+    "allowed_lines": [
+      "M6"
+    ],
+    "duration_min": 10,
+    "order_type": "jssp_op",
+    "job": "J2",
+    "seq": 4
+  },
+  {
+    "id": "FT06_J2_op5",
+    "product": "J2",
+    "qty": 1,
+    "due": "2026-02-02 17:00",
+    "priority": 3,
+    "allowed_lines": [
+      "M1"
+    ],
+    "duration_min": 10,
+    "order_type": "jssp_op",
+    "job": "J2",
+    "seq": 5
+  },
+  {
+    "id": "FT06_J2_op6",
+    "product": "J2",
+    "qty": 1,
+    "due": "2026-02-02 17:00",
+    "priority": 3,
+    "allowed_lines": [
+      "M4"
+    ],
+    "duration_min": 4,
+    "order_type": "jssp_op",
+    "job": "J2",
+    "seq": 6
+  },
+  {
+    "id": "FT06_J3_op1",
+    "product": "J3",
+    "qty": 1,
+    "due": "2026-02-02 17:00",
+    "priority": 3,
+    "allowed_lines": [
+      "M3"
+    ],
+    "duration_min": 5,
+    "order_type": "jssp_op",
+    "job": "J3",
+    "seq": 1
+  },
+  {
+    "id": "FT06_J3_op2",
+    "product": "J3",
+    "qty": 1,
+    "due": "2026-02-02 17:00",
+    "priority": 3,
+    "allowed_lines": [
+      "M4"
+    ],
+    "duration_min": 4,
+    "order_type": "jssp_op",
+    "job": "J3",
+    "seq": 2
+  },
+  {
+    "id": "FT06_J3_op3",
+    "product": "J3",
+    "qty": 1,
+    "due": "2026-02-02 17:00",
+    "priority": 3,
+    "allowed_lines": [
+      "M6"
+    ],
+    "duration_min": 8,
+    "order_type": "jssp_op",
+    "job": "J3",
+    "seq": 3
+  },
+  {
+    "id": "FT06_J3_op4",
+    "product": "J3",
+    "qty": 1,
+    "due": "2026-02-02 17:00",
+    "priority": 3,
+    "allowed_lines": [
+      "M1"
+    ],
+    "duration_min": 9,
+    "order_type": "jssp_op",
+    "job": "J3",
+    "seq": 4
+  },
+  {
+    "id": "FT06_J3_op5",
+    "product": "J3",
+    "qty": 1,
+    "due": "2026-02-02 17:00",
+    "priority": 3,
+    "allowed_lines": [
+      "M2"
+    ],
+    "duration_min": 1,
+    "order_type": "jssp_op",
+    "job": "J3",
+    "seq": 5
+  },
+  {
+    "id": "FT06_J3_op6",
+    "product": "J3",
+    "qty": 1,
+    "due": "2026-02-02 17:00",
+    "priority": 3,
+    "allowed_lines": [
+      "M5"
+    ],
+    "duration_min": 7,
+    "order_type": "jssp_op",
+    "job": "J3",
+    "seq": 6
+  },
+  {
+    "id": "FT06_J4_op1",
+    "product": "J4",
+    "qty": 1,
+    "due": "2026-02-02 17:00",
+    "priority": 3,
+    "allowed_lines": [
+      "M2"
+    ],
+    "duration_min": 5,
+    "order_type": "jssp_op",
+    "job": "J4",
+    "seq": 1
+  },
+  {
+    "id": "FT06_J4_op2",
+    "product": "J4",
+    "qty": 1,
+    "due": "2026-02-02 17:00",
+    "priority": 3,
+    "allowed_lines": [
+      "M1"
+    ],
+    "duration_min": 5,
+    "order_type": "jssp_op",
+    "job": "J4",
+    "seq": 2
+  },
+  {
+    "id": "FT06_J4_op3",
+    "product": "J4",
+    "qty": 1,
+    "due": "2026-02-02 17:00",
+    "priority": 3,
+    "allowed_lines": [
+      "M3"
+    ],
+    "duration_min": 5,
+    "order_type": "jssp_op",
+    "job": "J4",
+    "seq": 3
+  },
+  {
+    "id": "FT06_J4_op4",
+    "product": "J4",
+    "qty": 1,
+    "due": "2026-02-02 17:00",
+    "priority": 3,
+    "allowed_lines": [
+      "M4"
+    ],
+    "duration_min": 3,
+    "order_type": "jssp_op",
+    "job": "J4",
+    "seq": 4
+  },
+  {
+    "id": "FT06_J4_op5",
+    "product": "J4",
+    "qty": 1,
+    "due": "2026-02-02 17:00",
+    "priority": 3,
+    "allowed_lines": [
+      "M5"
+    ],
+    "duration_min": 8,
+    "order_type": "jssp_op",
+    "job": "J4",
+    "seq": 5
+  },
+  {
+    "id": "FT06_J4_op6",
+    "product": "J4",
+    "qty": 1,
+    "due": "2026-02-02 17:00",
+    "priority": 3,
+    "allowed_lines": [
+      "M6"
+    ],
+    "duration_min": 9,
+    "order_type": "jssp_op",
+    "job": "J4",
+    "seq": 6
+  },
+  {
+    "id": "FT06_J5_op1",
+    "product": "J5",
+    "qty": 1,
+    "due": "2026-02-02 17:00",
+    "priority": 3,
+    "allowed_lines": [
+      "M3"
+    ],
+    "duration_min": 9,
+    "order_type": "jssp_op",
+    "job": "J5",
+    "seq": 1
+  },
+  {
+    "id": "FT06_J5_op2",
+    "product": "J5",
+    "qty": 1,
+    "due": "2026-02-02 17:00",
+    "priority": 3,
+    "allowed_lines": [
+      "M2"
+    ],
+    "duration_min": 3,
+    "order_type": "jssp_op",
+    "job": "J5",
+    "seq": 2
+  },
+  {
+    "id": "FT06_J5_op3",
+    "product": "J5",
+    "qty": 1,
+    "due": "2026-02-02 17:00",
+    "priority": 3,
+    "allowed_lines": [
+      "M6"
+    ],
+    "duration_min": 5,
+    "order_type": "jssp_op",
+    "job": "J5",
+    "seq": 3
+  },
+  {
+    "id": "FT06_J5_op4",
+    "product": "J5",
+    "qty": 1,
+    "due": "2026-02-02 17:00",
+    "priority": 3,
+    "allowed_lines": [
+      "M5"
+    ],
+    "duration_min": 4,
+    "order_type": "jssp_op",
+    "job": "J5",
+    "seq": 4
+  },
+  {
+    "id": "FT06_J5_op5",
+    "product": "J5",
+    "qty": 1,
+    "due": "2026-02-02 17:00",
+    "priority": 3,
+    "allowed_lines": [
+      "M1"
+    ],
+    "duration_min": 3,
+    "order_type": "jssp_op",
+    "job": "J5",
+    "seq": 5
+  },
+  {
+    "id": "FT06_J5_op6",
+    "product": "J5",
+    "qty": 1,
+    "due": "2026-02-02 17:00",
+    "priority": 3,
+    "allowed_lines": [
+      "M4"
+    ],
+    "duration_min": 1,
+    "order_type": "jssp_op",
+    "job": "J5",
+    "seq": 6
+  },
+  {
+    "id": "FT06_J6_op1",
+    "product": "J6",
+    "qty": 1,
+    "due": "2026-02-02 17:00",
+    "priority": 3,
+    "allowed_lines": [
+      "M2"
+    ],
+    "duration_min": 3,
+    "order_type": "jssp_op",
+    "job": "J6",
+    "seq": 1
+  },
+  {
+    "id": "FT06_J6_op2",
+    "product": "J6",
+    "qty": 1,
+    "due": "2026-02-02 17:00",
+    "priority": 3,
+    "allowed_lines": [
+      "M4"
+    ],
+    "duration_min": 3,
+    "order_type": "jssp_op",
+    "job": "J6",
+    "seq": 2
+  },
+  {
+    "id": "FT06_J6_op3",
+    "product": "J6",
+    "qty": 1,
+    "due": "2026-02-02 17:00",
+    "priority": 3,
+    "allowed_lines": [
+      "M6"
+    ],
+    "duration_min": 9,
+    "order_type": "jssp_op",
+    "job": "J6",
+    "seq": 3
+  },
+  {
+    "id": "FT06_J6_op4",
+    "product": "J6",
+    "qty": 1,
+    "due": "2026-02-02 17:00",
+    "priority": 3,
+    "allowed_lines": [
+      "M1"
+    ],
+    "duration_min": 10,
+    "order_type": "jssp_op",
+    "job": "J6",
+    "seq": 4
+  },
+  {
+    "id": "FT06_J6_op5",
+    "product": "J6",
+    "qty": 1,
+    "due": "2026-02-02 17:00",
+    "priority": 3,
+    "allowed_lines": [
+      "M5"
+    ],
+    "duration_min": 4,
+    "order_type": "jssp_op",
+    "job": "J6",
+    "seq": 5
+  },
+  {
+    "id": "FT06_J6_op6",
+    "product": "J6",
+    "qty": 1,
+    "due": "2026-02-02 17:00",
+    "priority": 3,
+    "allowed_lines": [
+      "M3"
+    ],
+    "duration_min": 1,
+    "order_type": "jssp_op",
+    "job": "J6",
+    "seq": 6
+  }
+]

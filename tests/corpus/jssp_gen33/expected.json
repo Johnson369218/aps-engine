@@ -1,0 +1,72 @@
+{
+  "scenario": "jssp_gen33",
+  "seed": 20260901,
+  "source_dataset": [
+    "jssp_scheduleopt",
+    "jssp_zenodo"
+  ],
+  "synthetic": true,
+  "instance": {
+    "name": "gen33",
+    "seed": 20260901,
+    "n_jobs": 3,
+    "n_machines": 3,
+    "jobs": [
+      {
+        "ops": [
+          {
+            "m": 0,
+            "t": 7
+          },
+          {
+            "m": 1,
+            "t": 9
+          },
+          {
+            "m": 2,
+            "t": 6
+          }
+        ]
+      },
+      {
+        "ops": [
+          {
+            "m": 1,
+            "t": 2
+          },
+          {
+            "m": 2,
+            "t": 3
+          },
+          {
+            "m": 0,
+            "t": 7
+          }
+        ]
+      },
+      {
+        "ops": [
+          {
+            "m": 2,
+            "t": 3
+          },
+          {
+            "m": 0,
+            "t": 5
+          },
+          {
+            "m": 1,
+            "t": 2
+          }
+        ]
+      }
+    ]
+  },
+  "optimum": 22,
+  "optimum_source": "生成实例暴力枚举最优=22（216 组合）",
+  "lower_bound": 19,
+  "eval_scope": [
+    "jssp"
+  ],
+  "note": "3×3 生成实例，最优由暴力枚举验证"
+}

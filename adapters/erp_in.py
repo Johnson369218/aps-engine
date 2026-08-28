@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""蔬东坡 ERP 销售明细快照 → 标准订单（aps_engine 输入契约）。
+"""示例ERP ERP 销售明细快照 → 标准订单（aps_engine 输入契约）。
 
 管道（口径来自 aps_docs/2026年8月订单复盘与排产报告.md，已用 aug_orders_raw.json 全量复现验证）：
   1. 合并去重（billNo+goodsName+executionDate+qty）
@@ -8,7 +8,7 @@
   4. 单位换算（袋→个，复盘实证：老面馒头400g/刀切馒头400g/西葫芦粉条包400g ×4，孜然牛肉包200g ×2，玉米粑粑240g ×4）
   5. 按 (SKU × 执行日) 聚合 → 订单
   6. duration_min = max(10, round(qty / capacity_8h * 480))（293/293 验证命中）
-     due = 蔬东坡 executionDate 当天 17:00；order_time = 最早 createdTime
+     due = 示例ERP executionDate 当天 17:00；order_time = 最早 createdTime
 
 用法：
   .venv/bin/python aps-engine/adapters/erp_in.py \
@@ -137,7 +137,7 @@ def erp_to_orders(raw, products, lines, sku_map, engine_meta=None):
 
 
 def main(argv=None):
-    ap = argparse.ArgumentParser(description='蔬东坡快照 → 标准订单')
+    ap = argparse.ArgumentParser(description='示例ERP快照 → 标准订单')
     ap.add_argument('--raw', required=True)
     ap.add_argument('--products', required=True)
     ap.add_argument('--lines', required=True)

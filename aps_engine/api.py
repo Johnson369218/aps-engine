@@ -18,7 +18,7 @@ for _p in (_PLUGIN_DIR, _WORKSPACE):
     if _p not in sys.path:
         sys.path.insert(0, _p)
 
-import scheduler  # noqa: E402
+import aps_engine.scheduler as scheduler  # noqa: E402
 from aps_engine.audit import audit_result  # noqa: E402
 from aps_engine.export import export_schedule_xlsx  # noqa: E402
 from aps_engine.schema import validate_inputs, ValidationError  # noqa: E402
@@ -30,10 +30,7 @@ _cfg_path = os.path.join(_PLUGIN_DIR, "config", "industry_food.json")
 if os.path.exists(_cfg_path):
     with open(_cfg_path, encoding="utf-8") as _f:
         CONFIG = json.load(_f)
-UNIT_CONVERSIONS = CONFIG.get("unit_conversions") or {
-    "老面馒头400g": 4, "刀切馒头400g": 4, "西葫芦粉条包400g": 4,
-    "孜然牛肉包200g": 2, "玉米粑粑240g": 4,
-}
+UNIT_CONVERSIONS = CONFIG.get("unit_conversions") or {}   # 行业配置驱动，不内嵌客户品名
 PLAN_COEFFICIENT = CONFIG.get("plan_coefficient", 0.88)
 LEAD_DAYS = CONFIG.get("lead_days", 1)
 

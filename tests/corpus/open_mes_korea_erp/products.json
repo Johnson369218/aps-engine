@@ -1,0 +1,122 @@
+[
+  {
+    "id": "toast_plain",
+    "name": "吐司A",
+    "speed_per_hour": 2000,
+    "overhead_min": 10,
+    "setup_min": {},
+    "capacity_8h": 16000,
+    "line": "L1",
+    "unit": "袋"
+  },
+  {
+    "id": "toast_wheat",
+    "name": "吐司B",
+    "speed_per_hour": 1800,
+    "overhead_min": 10,
+    "setup_min": {},
+    "capacity_8h": 14400,
+    "line": "L1",
+    "unit": "袋"
+  },
+  {
+    "id": "cake_chiffon",
+    "name": "蛋糕A",
+    "speed_per_hour": 900,
+    "overhead_min": 10,
+    "setup_min": {},
+    "capacity_8h": 7200,
+    "line": "L2",
+    "unit": "袋"
+  },
+  {
+    "id": "cake_sponge",
+    "name": "蛋糕B",
+    "speed_per_hour": 950,
+    "overhead_min": 10,
+    "setup_min": {},
+    "capacity_8h": 7600,
+    "line": "L2",
+    "unit": "袋"
+  },
+  {
+    "id": "croissant",
+    "name": "牛角A",
+    "speed_per_hour": 1400,
+    "overhead_min": 10,
+    "setup_min": {},
+    "capacity_8h": 11200,
+    "line": "L3",
+    "unit": "袋"
+  },
+  {
+    "id": "baguette",
+    "name": "法棍A",
+    "speed_per_hour": 1100,
+    "overhead_min": 10,
+    "setup_min": {},
+    "capacity_8h": 8800,
+    "line": "L3",
+    "unit": "袋"
+  },
+  {
+    "id": "bun",
+    "name": "餐包A",
+    "speed_per_hour": 1600,
+    "overhead_min": 10,
+    "setup_min": {},
+    "capacity_8h": 12800,
+    "line": "L3",
+    "unit": "袋"
+  },
+  {
+    "id": "mantou_laomian",
+    "name": "主食400g",
+    "speed_per_hour": 2000,
+    "overhead_min": 10,
+    "setup_min": {},
+    "capacity_8h": 16000,
+    "line": "L3",
+    "unit": "个"
+  },
+  {
+    "id": "mantou_daoqie",
+    "name": "主食刀切400g",
+    "speed_per_hour": 2000,
+    "overhead_min": 10,
+    "setup_min": {},
+    "capacity_8h": 16000,
+    "line": "L3",
+    "unit": "个"
+  },
+  {
+    "id": "baozi_xihulu",
+    "name": "菜包400g",
+    "speed_per_hour": 1500,
+    "overhead_min": 10,
+    "setup_min": {},
+    "capacity_8h": 12000,
+    "line": "L3",
+    "unit": "个"
+  },
+  {
+    "id": "baozi_ziniu",
+    "name": "肉包200g",
+    "speed_per_hour": 1750,
+    "overhead_min": 10,
+    "setup_min": {},
+    "capacity_8h": 14000,
+    "line": "L3",
+    "unit": "个"
+  },
+  {
+    "id": "yumi_baba",
+    "name": "粗粮240g",
+    "speed_per_hour": 1375,
+    "overhead_min": 10,
+    "setup_min": {},
+    "capacity_8h": 11000,
+    "line": "L3",
+    "unit": "个"
+  }
+]

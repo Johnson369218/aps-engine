@@ -1,0 +1,30 @@
+{
+  "scenario": "open_mes_korea_erp",
+  "seed": 20260827,
+  "source_dataset": "open_mes_korea",
+  "synthetic": true,
+  "funnel_stats": {
+    "raw_rows": 101,
+    "dedup_rows": 95,
+    "return_rows": 12,
+    "sales_rows": 83,
+    "excluded_non_product": 18,
+    "unmapped": 5,
+    "orders": 36,
+    "mapped_names": 12,
+    "involved_skus": 12
+  },
+  "unmapped_names": [
+    "手工点心礼盒",
+    "酥皮月饼",
+    "黑米糕",
+    "杂粮馒头",
+    "卤蛋"
+  ],
+  "on_time_rate_expected": 1,
+  "eval_scope": [
+    "mapping",
+    "schedule"
+  ],
+  "note": "合成代表语料：MES/ERP 原始行(101) → 去重/退货/样品/包装排除/SKU 映射/单位换算 → 36 订单"
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "K-P1",
+    "name": "产品K-1",
+    "speed_per_hour": 85,
+    "overhead_min": 10,
+    "setup_min": {},
+    "capacity_8h": 600,
+    "line": "K-L1",
+    "unit": "件"
+  },
+  {
+    "id": "K-P2",
+    "name": "产品K-2",
+    "speed_per_hour": 128,
+    "overhead_min": 10,
+    "setup_min": {},
+    "capacity_8h": 900,
+    "line": "K-L1",
+    "unit": "件"
+  },
+  {
+    "id": "K-P3",
+    "name": "产品K-3",
+    "speed_per_hour": 170,
+    "overhead_min": 10,
+    "setup_min": {},
+    "capacity_8h": 1200,
+    "line": "K-L2",
+    "unit": "件"
+  },
+  {
+    "id": "K-P4",
+    "name": "产品K-4",
+    "speed_per_hour": 213,
+    "overhead_min": 10,
+    "setup_min": {},
+    "capacity_8h": 1500,
+    "line": "K-L2",
+    "unit": "件"
+  },
+  {
+    "id": "K-P5",
+    "name": "产品K-5",
+    "speed_per_hour": 142,
+    "overhead_min": 10,
+    "setup_min": {},
+    "capacity_8h": 1000,
+    "line": "K-L3",
+    "unit": "件"
+  },
+  {
+    "id": "K-P6",
+    "name": "产品K-6",
+    "speed_per_hour": 256,
+    "overhead_min": 10,
+    "setup_min": {},
+    "capacity_8h": 1800,
+    "line": "K-L3",
+    "unit": "件"
+  }
+]

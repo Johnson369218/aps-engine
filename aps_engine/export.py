@@ -42,7 +42,7 @@ def export_schedule_xlsx(result, path, products=None):
     ws.title = "排产计划"
     s = result["summary"]
     ws.merge_cells(start_row=1, start_column=1, end_row=1, end_column=len(COLUMNS))
-    ws.cell(row=1, column=1, value="岐品福 车间排产计划（对齐 07_日计划/班前执行单 口径）").font = title_font
+    ws.cell(row=1, column=1, value="参考试点 车间排产计划（对齐 07_日计划/班前执行单 口径）").font = title_font
     ws.merge_cells(start_row=2, start_column=1, end_row=2, end_column=len(COLUMNS))
     ws.cell(row=2, column=1, value=(
         f"引擎: {result['engine'].upper()} | {result['generated_at']} | "

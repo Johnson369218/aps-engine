@@ -1,0 +1,52 @@
+[
+  {
+    "id": "BOT200",
+    "name": "PET瓶装水200ml",
+    "speed_per_hour": 5900,
+    "overhead_min": 10,
+    "setup_min": {},
+    "capacity_8h": 41536,
+    "line": "FILL1",
+    "unit": "瓶"
+  },
+  {
+    "id": "BOT330",
+    "name": "PET瓶装水330ml",
+    "speed_per_hour": 5227,
+    "overhead_min": 10,
+    "setup_min": {},
+    "capacity_8h": 36798,
+    "line": "FILL1",
+    "unit": "瓶"
+  },
+  {
+    "id": "BOT500",
+    "name": "PET瓶装水500ml",
+    "speed_per_hour": 4659,
+    "overhead_min": 10,
+    "setup_min": {},
+    "capacity_8h": 32799,
+    "line": "FILL1",
+    "unit": "瓶"
+  },
+  {
+    "id": "CAN330",
+    "name": "易拉罐330ml",
+    "speed_per_hour": 4318,
+    "overhead_min": 10,
+    "setup_min": {},
+    "capacity_8h": 30399,
+    "line": "FILL1",
+    "unit": "罐"
+  },
+  {
+    "id": "PET600",
+    "name": "PET瓶装水600ml",
+    "speed_per_hour": 3409,
+    "overhead_min": 10,
+    "setup_min": {},
+    "capacity_8h": 23999,
+    "line": "FILL1",
+    "unit": "瓶"
+  }
+]

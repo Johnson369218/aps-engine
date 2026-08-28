@@ -1,0 +1,15 @@
+{
+  "scenario": "bpi2019_purchase_orders",
+  "seed": 20190901,
+  "source_dataset": "bpi2019",
+  "synthetic": true,
+  "n_orders": 40,
+  "risk_orders": 13,
+  "lead_h_min": 24,
+  "lead_h_max": 96,
+  "on_time_rate_expected": 1,
+  "eval_scope": [
+    "schedule"
+  ],
+  "note": "合成代表语料：BPI2019 采购流程时长模式（审批滞后→优先级）→ 排产可行性/准时率/审计"
+}

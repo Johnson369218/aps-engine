@@ -1,0 +1,1012 @@
+[
+  {
+    "billNo": "SO-1000",
+    "goodsName": "吐司A",
+    "executionDate": "2026-08-24",
+    "qty": 279,
+    "numberType": 2,
+    "categoryName": "成品",
+    "salesUnitName": "件",
+    "createdTime": "2026-08-22 14:30"
+  },
+  {
+    "billNo": "SO-1001",
+    "goodsName": "吐司A",
+    "executionDate": "2026-08-24",
+    "qty": 98,
+    "numberType": 1,
+    "categoryName": "成品",
+    "salesUnitName": "件",
+    "createdTime": "2026-08-22 14:30"
+  },
+  {
+    "billNo": "SO-1002",
+    "goodsName": "吐司A",
+    "executionDate": "2026-08-25",
+    "qty": 78,
+    "numberType": 1,
+    "categoryName": "成品",
+    "salesUnitName": "件",
+    "createdTime": "2026-08-23 14:30"
+  },
+  {
+    "billNo": "SO-1003",
+    "goodsName": "吐司A",
+    "executionDate": "2026-08-25",
+    "qty": 198,
+    "numberType": 1,
+    "categoryName": "成品",
+    "salesUnitName": "件",
+    "createdTime": "2026-08-23 14:30"
+  },
+  {
+    "billNo": "SO-1004",
+    "goodsName": "吐司A",
+    "executionDate": "2026-08-26",
+    "qty": 127,
+    "numberType": 1,
+    "categoryName": "成品",
+    "salesUnitName": "件",
+    "createdTime": "2026-08-24 14:30"
+  },
+  {
+    "billNo": "SO-1005",
+    "goodsName": "吐司A",
+    "executionDate": "2026-08-26",
+    "qty": 112,
+    "numberType": 1,
+    "categoryName": "成品",
+    "salesUnitName": "件",
+    "createdTime": "2026-08-24 14:30"
+  },
+  {
+    "billNo": "SO-1006",
+    "goodsName": "吐司B",
+    "executionDate": "2026-08-24",
+    "qty": 271,
+    "numberType": 2,
+    "categoryName": "成品",
+    "salesUnitName": "件",
+    "createdTime": "2026-08-22 14:30"
+  },
+  {
+    "billNo": "SO-1007",
+    "goodsName": "吐司B",
+    "executionDate": "2026-08-24",
+    "qty": 181,
+    "numberType": 1,
+    "categoryName": "成品",
+    "salesUnitName": "件",
+    "createdTime": "2026-08-22 14:30"
+  },
+  {
+    "billNo": "SO-1008",
+    "goodsName": "吐司B",
+    "executionDate": "2026-08-25",
+    "qty": 287,
+    "numberType": 1,
+    "categoryName": "成品",
+    "salesUnitName": "件",
+    "createdTime": "2026-08-23 14:30"
+  },
+  {
+    "billNo": "SO-1009",
+    "goodsName": "吐司B",
+    "executionDate": "2026-08-25",
+    "qty": 74,
+    "numberType": 1,
+    "categoryName": "成品",
+    "salesUnitName": "件",
+    "createdTime": "2026-08-23 14:30"
+  },
+  {
+    "billNo": "SO-1010",
+    "goodsName": "吐司B",
+    "executionDate": "2026-08-26",
+    "qty": 193,
+    "numberType": 1,
+    "categoryName": "成品",
+    "salesUnitName": "件",
+    "createdTime": "2026-08-24 14:30"
+  },
+  {
+    "billNo": "SO-1011",
+    "goodsName": "吐司B",
+    "executionDate": "2026-08-26",
+    "qty": 260,
+    "numberType": 1,
+    "categoryName": "成品",
+    "salesUnitName": "件",
+    "createdTime": "2026-08-24 14:30"
+  },
+  {
+    "billNo": "SO-1012",
+    "goodsName": "蛋糕A",
+    "executionDate": "2026-08-24",
+    "qty": 162,
+    "numberType": 2,
+    "categoryName": "成品",
+    "salesUnitName": "件",
+    "createdTime": "2026-08-22 14:30"
+  },
+  {
+    "billNo": "SO-1013",
+    "goodsName": "蛋糕A",
+    "executionDate": "2026-08-24",
+    "qty": 220,
+    "numberType": 1,
+    "categoryName": "成品",
+    "salesUnitName": "件",
+    "createdTime": "2026-08-22 14:30"
+  },
+  {
+    "billNo": "SO-1014",
+    "goodsName": "蛋糕A",
+    "executionDate": "2026-08-25",
+    "qty": 110,
+    "numberType": 1,
+    "categoryName": "成品",
+    "salesUnitName": "件",
+    "createdTime": "2026-08-23 14:30"
+  },
+  {
+    "billNo": "SO-1015",
+    "goodsName": "蛋糕A",
+    "executionDate": "2026-08-25",
+    "qty": 187,
+    "numberType": 1,
+    "categoryName": "成品",
+    "salesUnitName": "件",
+    "createdTime": "2026-08-23 14:30"
+  },
+  {
+    "billNo": "SO-1016",
+    "goodsName": "蛋糕A",
+    "executionDate": "2026-08-26",
+    "qty": 178,
+    "numberType": 1,
+    "categoryName": "成品",
+    "salesUnitName": "件",
+    "createdTime": "2026-08-24 14:30"
+  },
+  {
+    "billNo": "SO-1017",
+    "goodsName": "蛋糕A",
+    "executionDate": "2026-08-26",
+    "qty": 218,
+    "numberType": 1,
+    "categoryName": "成品",
+    "salesUnitName": "件",
+    "createdTime": "2026-08-24 14:30"
+  },
+  {
+    "billNo": "SO-1018",
+    "goodsName": "蛋糕B",
+    "executionDate": "2026-08-24",
+    "qty": 65,
+    "numberType": 2,
+    "categoryName": "成品",
+    "salesUnitName": "件",
+    "createdTime": "2026-08-22 14:30"
+  },
+  {
+    "billNo": "SO-1019",
+    "goodsName": "蛋糕B",
+    "executionDate": "2026-08-24",
+    "qty": 144,
+    "numberType": 1,
+    "categoryName": "成品",
+    "salesUnitName": "件",
+    "createdTime": "2026-08-22 14:30"
+  },
+  {
+    "billNo": "SO-1020",
+    "goodsName": "蛋糕B",
+    "executionDate": "2026-08-25",
+    "qty": 70,
+    "numberType": 1,
+    "categoryName": "成品",
+    "salesUnitName": "件",
+    "createdTime": "2026-08-23 14:30"
+  },
+  {
+    "billNo": "SO-1021",
+    "goodsName": "蛋糕B",
+    "executionDate": "2026-08-25",
+    "qty": 114,
+    "numberType": 1,
+    "categoryName": "成品",
+    "salesUnitName": "件",
+    "createdTime": "2026-08-23 14:30"
+  },
+  {
+    "billNo": "SO-1022",
+    "goodsName": "蛋糕B",
+    "executionDate": "2026-08-26",
+    "qty": 111,
+    "numberType": 1,
+    "categoryName": "成品",
+    "salesUnitName": "件",
+    "createdTime": "2026-08-24 14:30"
+  },
+  {
+    "billNo": "SO-1023",
+    "goodsName": "蛋糕B",
+    "executionDate": "2026-08-26",
+    "qty": 226,
+    "numberType": 1,
+    "categoryName": "成品",
+    "salesUnitName": "件",
+    "createdTime": "2026-08-24 14:30"
+  },
+  {
+    "billNo": "SO-1024",
+    "goodsName": "牛角A",
+    "executionDate": "2026-08-24",
+    "qty": 124,
+    "numberType": 2,
+    "categoryName": "成品",
+    "salesUnitName": "件",
+    "createdTime": "2026-08-22 14:30"
+  },
+  {
+    "billNo": "SO-1025",
+    "goodsName": "牛角A",
+    "executionDate": "2026-08-24",
+    "qty": 213,
+    "numberType": 1,
+    "categoryName": "成品",
+    "salesUnitName": "件",
+    "createdTime": "2026-08-22 14:30"
+  },
+  {
+    "billNo": "SO-1026",
+    "goodsName": "牛角A",
+    "executionDate": "2026-08-25",
+    "qty": 230,
+    "numberType": 1,
+    "categoryName": "成品",
+    "salesUnitName": "件",
+    "createdTime": "2026-08-23 14:30"
+  },
+  {
+    "billNo": "SO-1027",
+    "goodsName": "牛角A",
+    "executionDate": "2026-08-25",
+    "qty": 171,
+    "numberType": 1,
+    "categoryName": "成品",
+    "salesUnitName": "件",
+    "createdTime": "2026-08-23 14:30"
+  },
+  {
+    "billNo": "SO-1028",
+    "goodsName": "牛角A",
+    "executionDate": "2026-08-26",
+    "qty": 54,
+    "numberType": 1,
+    "categoryName": "成品",
+    "salesUnitName": "件",
+    "createdTime": "2026-08-24 14:30"
+  },
+  {
+    "billNo": "SO-1029",
+    "goodsName": "牛角A",
+    "executionDate": "2026-08-26",
+    "qty": 158,
+    "numberType": 1,
+    "categoryName": "成品",
+    "salesUnitName": "件",
+    "createdTime": "2026-08-24 14:30"
+  },
+  {
+    "billNo": "SO-1030",
+    "goodsName": "法棍A",
+    "executionDate": "2026-08-24",
+    "qty": 70,
+    "numberType": 2,
+    "categoryName": "成品",
+    "salesUnitName": "件",
+    "createdTime": "2026-08-22 14:30"
+  },
+  {
+    "billNo": "SO-1031",
+    "goodsName": "法棍A",
+    "executionDate": "2026-08-24",
+    "qty": 282,
+    "numberType": 1,
+    "categoryName": "成品",
+    "salesUnitName": "件",
+    "createdTime": "2026-08-22 14:30"
+  },
+  {
+    "billNo": "SO-1032",
+    "goodsName": "法棍A",
+    "executionDate": "2026-08-25",
+    "qty": 187,
+    "numberType": 1,
+    "categoryName": "成品",
+    "salesUnitName": "件",
+    "createdTime": "2026-08-23 14:30"
+  },
+  {
+    "billNo": "SO-1033",
+    "goodsName": "法棍A",
+    "executionDate": "2026-08-25",
+    "qty": 73,
+    "numberType": 1,
+    "categoryName": "成品",
+    "salesUnitName": "件",
+    "createdTime": "2026-08-23 14:30"
+  },
+  {
+    "billNo": "SO-1034",
+    "goodsName": "法棍A",
+    "executionDate": "2026-08-26",
+    "qty": 272,
+    "numberType": 1,
+    "categoryName": "成品",
+    "salesUnitName": "件",
+    "createdTime": "2026-08-24 14:30"
+  },
+  {
+    "billNo": "SO-1035",
+    "goodsName": "法棍A",
+    "executionDate": "2026-08-26",
+    "qty": 282,
+    "numberType": 1,
+    "categoryName": "成品",
+    "salesUnitName": "件",
+    "createdTime": "2026-08-24 14:30"
+  },
+  {
+    "billNo": "SO-1036",
+    "goodsName": "餐包A",
+    "executionDate": "2026-08-24",
+    "qty": 202,
+    "numberType": 2,
+    "categoryName": "成品",
+    "salesUnitName": "件",
+    "createdTime": "2026-08-22 14:30"
+  },
+  {
+    "billNo": "SO-1037",
+    "goodsName": "餐包A",
+    "executionDate": "2026-08-24",
+    "qty": 287,
+    "numberType": 1,
+    "categoryName": "成品",
+    "salesUnitName": "件",
+    "createdTime": "2026-08-22 14:30"
+  },
+  {
+    "billNo": "SO-1038",
+    "goodsName": "餐包A",
+    "executionDate": "2026-08-25",
+    "qty": 85,
+    "numberType": 1,
+    "categoryName": "成品",
+    "salesUnitName": "件",
+    "createdTime": "2026-08-23 14:30"
+  },
+  {
+    "billNo": "SO-1039",
+    "goodsName": "餐包A",
+    "executionDate": "2026-08-25",
+    "qty": 97,
+    "numberType": 1,
+    "categoryName": "成品",
+    "salesUnitName": "件",
+    "createdTime": "2026-08-23 14:30"
+  },
+  {
+    "billNo": "SO-1040",
+    "goodsName": "餐包A",
+    "executionDate": "2026-08-26",
+    "qty": 82,
+    "numberType": 1,
+    "categoryName": "成品",
+    "salesUnitName": "件",
+    "createdTime": "2026-08-24 14:30"
+  },
+  {
+    "billNo": "SO-1041",
+    "goodsName": "餐包A",
+    "executionDate": "2026-08-26",
+    "qty": 209,
+    "numberType": 1,
+    "categoryName": "成品",
+    "salesUnitName": "件",
+    "createdTime": "2026-08-24 14:30"
+  },
+  {
+    "billNo": "SO-1042",
+    "goodsName": "主食400g",
+    "executionDate": "2026-08-24",
+    "qty": 15,
+    "numberType": 2,
+    "categoryName": "成品",
+    "salesUnitName": "袋",
+    "createdTime": "2026-08-22 14:30"
+  },
+  {
+    "billNo": "SO-1043",
+    "goodsName": "主食400g",
+    "executionDate": "2026-08-24",
+    "qty": 31,
+    "numberType": 1,
+    "categoryName": "成品",
+    "salesUnitName": "袋",
+    "createdTime": "2026-08-22 14:30"
+  },
+  {
+    "billNo": "SO-1044",
+    "goodsName": "主食400g",
+    "executionDate": "2026-08-25",
+    "qty": 33,
+    "numberType": 1,
+    "categoryName": "成品",
+    "salesUnitName": "袋",
+    "createdTime": "2026-08-23 14:30"
+  },
+  {
+    "billNo": "SO-1045",
+    "goodsName": "主食400g",
+    "executionDate": "2026-08-25",
+    "qty": 31,
+    "numberType": 1,
+    "categoryName": "成品",
+    "salesUnitName": "袋",
+    "createdTime": "2026-08-23 14:30"
+  },
+  {
+    "billNo": "SO-1046",
+    "goodsName": "主食400g",
+    "executionDate": "2026-08-26",
+    "qty": 35,
+    "numberType": 1,
+    "categoryName": "成品",
+    "salesUnitName": "袋",
+    "createdTime": "2026-08-24 14:30"
+  },
+  {
+    "billNo": "SO-1047",
+    "goodsName": "主食400g",
+    "executionDate": "2026-08-26",
+    "qty": 12,
+    "numberType": 1,
+    "categoryName": "成品",
+    "salesUnitName": "袋",
+    "createdTime": "2026-08-24 14:30"
+  },
+  {
+    "billNo": "SO-1048",
+    "goodsName": "主食刀切400g",
+    "executionDate": "2026-08-24",
+    "qty": 18,
+    "numberType": 2,
+    "categoryName": "成品",
+    "salesUnitName": "袋",
+    "createdTime": "2026-08-22 14:30"
+  },
+  {
+    "billNo": "SO-1049",
+    "goodsName": "主食刀切400g",
+    "executionDate": "2026-08-24",
+    "qty": 22,
+    "numberType": 1,
+    "categoryName": "成品",
+    "salesUnitName": "袋",
+    "createdTime": "2026-08-22 14:30"
+  },
+  {
+    "billNo": "SO-1050",
+    "goodsName": "主食刀切400g",
+    "executionDate": "2026-08-25",
+    "qty": 27,
+    "numberType": 1,
+    "categoryName": "成品",
+    "salesUnitName": "袋",
+    "createdTime": "2026-08-23 14:30"
+  },
+  {
+    "billNo": "SO-1051",
+    "goodsName": "主食刀切400g",
+    "executionDate": "2026-08-25",
+    "qty": 21,
+    "numberType": 1,
+    "categoryName": "成品",
+    "salesUnitName": "袋",
+    "createdTime": "2026-08-23 14:30"
+  },
+  {
+    "billNo": "SO-1052",
+    "goodsName": "主食刀切400g",
+    "executionDate": "2026-08-26",
+    "qty": 32,
+    "numberType": 1,
+    "categoryName": "成品",
+    "salesUnitName": "袋",
+    "createdTime": "2026-08-24 14:30"
+  },
+  {
+    "billNo": "SO-1053",
+    "goodsName": "主食刀切400g",
+    "executionDate": "2026-08-26",
+    "qty": 17,
+    "numberType": 1,
+    "categoryName": "成品",
+    "salesUnitName": "袋",
+    "createdTime": "2026-08-24 14:30"
+  },
+  {
+    "billNo": "SO-1054",
+    "goodsName": "菜包400g",
+    "executionDate": "2026-08-24",
+    "qty": 23,
+    "numberType": 2,
+    "categoryName": "成品",
+    "salesUnitName": "袋",
+    "createdTime": "2026-08-22 14:30"
+  },
+  {
+    "billNo": "SO-1055",
+    "goodsName": "菜包400g",
+    "executionDate": "2026-08-24",
+    "qty": 37,
+    "numberType": 1,
+    "categoryName": "成品",
+    "salesUnitName": "袋",
+    "createdTime": "2026-08-22 14:30"
+  },
+  {
+    "billNo": "SO-1056",
+    "goodsName": "菜包400g",
+    "executionDate": "2026-08-25",
+    "qty": 12,
+    "numberType": 1,
+    "categoryName": "成品",
+    "salesUnitName": "袋",
+    "createdTime": "2026-08-23 14:30"
+  },
+  {
+    "billNo": "SO-1057",
+    "goodsName": "菜包400g",
+    "executionDate": "2026-08-25",
+    "qty": 14,
+    "numberType": 1,
+    "categoryName": "成品",
+    "salesUnitName": "袋",
+    "createdTime": "2026-08-23 14:30"
+  },
+  {
+    "billNo": "SO-1058",
+    "goodsName": "菜包400g",
+    "executionDate": "2026-08-26",
+    "qty": 28,
+    "numberType": 1,
+    "categoryName": "成品",
+    "salesUnitName": "袋",
+    "createdTime": "2026-08-24 14:30"
+  },
+  {
+    "billNo": "SO-1059",
+    "goodsName": "菜包400g",
+    "executionDate": "2026-08-26",
+    "qty": 36,
+    "numberType": 1,
+    "categoryName": "成品",
+    "salesUnitName": "袋",
+    "createdTime": "2026-08-24 14:30"
+  },
+  {
+    "billNo": "SO-1060",
+    "goodsName": "肉包200g",
+    "executionDate": "2026-08-24",
+    "qty": 23,
+    "numberType": 2,
+    "categoryName": "成品",
+    "salesUnitName": "袋",
+    "createdTime": "2026-08-22 14:30"
+  },
+  {
+    "billNo": "SO-1061",
+    "goodsName": "肉包200g",
+    "executionDate": "2026-08-24",
+    "qty": 14,
+    "numberType": 1,
+    "categoryName": "成品",
+    "salesUnitName": "袋",
+    "createdTime": "2026-08-22 14:30"
+  },
+  {
+    "billNo": "SO-1062",
+    "goodsName": "肉包200g",
+    "executionDate": "2026-08-25",
+    "qty": 32,
+    "numberType": 1,
+    "categoryName": "成品",
+    "salesUnitName": "袋",
+    "createdTime": "2026-08-23 14:30"
+  },
+  {
+    "billNo": "SO-1063",
+    "goodsName": "肉包200g",
+    "executionDate": "2026-08-25",
+    "qty": 13,
+    "numberType": 1,
+    "categoryName": "成品",
+    "salesUnitName": "袋",
+    "createdTime": "2026-08-23 14:30"
+  },
+  {
+    "billNo": "SO-1064",
+    "goodsName": "肉包200g",
+    "executionDate": "2026-08-26",
+    "qty": 20,
+    "numberType": 1,
+    "categoryName": "成品",
+    "salesUnitName": "袋",
+    "createdTime": "2026-08-24 14:30"
+  },
+  {
+    "billNo": "SO-1065",
+    "goodsName": "肉包200g",
+    "executionDate": "2026-08-26",
+    "qty": 13,
+    "numberType": 1,
+    "categoryName": "成品",
+    "salesUnitName": "袋",
+    "createdTime": "2026-08-24 14:30"
+  },
+  {
+    "billNo": "SO-1066",
+    "goodsName": "粗粮240g",
+    "executionDate": "2026-08-24",
+    "qty": 22,
+    "numberType": 2,
+    "categoryName": "成品",
+    "salesUnitName": "袋",
+    "createdTime": "2026-08-22 14:30"
+  },
+  {
+    "billNo": "SO-1067",
+    "goodsName": "粗粮240g",
+    "executionDate": "2026-08-24",
+    "qty": 24,
+    "numberType": 1,
+    "categoryName": "成品",
+    "salesUnitName": "袋",
+    "createdTime": "2026-08-22 14:30"
+  },
+  {
+    "billNo": "SO-1068",
+    "goodsName": "粗粮240g",
+    "executionDate": "2026-08-25",
+    "qty": 19,
+    "numberType": 1,
+    "categoryName": "成品",
+    "salesUnitName": "袋",
+    "createdTime": "2026-08-23 14:30"
+  },
+  {
+    "billNo": "SO-1069",
+    "goodsName": "粗粮240g",
+    "executionDate": "2026-08-25",
+    "qty": 12,
+    "numberType": 1,
+    "categoryName": "成品",
+    "salesUnitName": "袋",
+    "createdTime": "2026-08-23 14:30"
+  },
+  {
+    "billNo": "SO-1070",
+    "goodsName": "粗粮240g",
+    "executionDate": "2026-08-26",
+    "qty": 37,
+    "numberType": 1,
+    "categoryName": "成品",
+    "salesUnitName": "袋",
+    "createdTime": "2026-08-24 14:30"
+  },
+  {
+    "billNo": "SO-1071",
+    "goodsName": "粗粮240g",
+    "executionDate": "2026-08-26",
+    "qty": 31,
+    "numberType": 1,
+    "categoryName": "成品",
+    "salesUnitName": "袋",
+    "createdTime": "2026-08-24 14:30"
+  },
+  {
+    "billNo": "SO-1001",
+    "goodsName": "吐司A",
+    "executionDate": "2026-08-24",
+    "qty": 98,
+    "numberType": 1,
+    "categoryName": "成品",
+    "salesUnitName": "件",
+    "createdTime": "2026-08-22 14:30"
+  },
+  {
+    "billNo": "SO-1002",
+    "goodsName": "吐司A",
+    "executionDate": "2026-08-25",
+    "qty": 78,
+    "numberType": 1,
+    "categoryName": "成品",
+    "salesUnitName": "件",
+    "createdTime": "2026-08-23 14:30"
+  },
+  {
+    "billNo": "SO-1003",
+    "goodsName": "吐司A",
+    "executionDate": "2026-08-25",
+    "qty": 198,
+    "numberType": 1,
+    "categoryName": "成品",
+    "salesUnitName": "件",
+    "createdTime": "2026-08-23 14:30"
+  },
+  {
+    "billNo": "SO-1004",
+    "goodsName": "吐司A",
+    "executionDate": "2026-08-26",
+    "qty": 127,
+    "numberType": 1,
+    "categoryName": "成品",
+    "salesUnitName": "件",
+    "createdTime": "2026-08-24 14:30"
+  },
+  {
+    "billNo": "SO-1005",
+    "goodsName": "吐司A",
+    "executionDate": "2026-08-26",
+    "qty": 112,
+    "numberType": 1,
+    "categoryName": "成品",
+    "salesUnitName": "件",
+    "createdTime": "2026-08-24 14:30"
+  },
+  {
+    "billNo": "SO-1007",
+    "goodsName": "吐司B",
+    "executionDate": "2026-08-24",
+    "qty": 181,
+    "numberType": 1,
+    "categoryName": "成品",
+    "salesUnitName": "件",
+    "createdTime": "2026-08-22 14:30"
+  },
+  {
+    "billNo": "SO-1072",
+    "goodsName": "样品-吐司A",
+    "executionDate": "2026-08-24",
+    "qty": 4,
+    "numberType": 1,
+    "categoryName": "其他",
+    "salesUnitName": "份",
+    "createdTime": "2026-08-23 10:00"
+  },
+  {
+    "billNo": "SO-1073",
+    "goodsName": "样品-馒头A",
+    "executionDate": "2026-08-25",
+    "qty": 2,
+    "numberType": 1,
+    "categoryName": "其他",
+    "salesUnitName": "份",
+    "createdTime": "2026-08-24 10:00"
+  },
+  {
+    "billNo": "SO-1074",
+    "goodsName": "样品-蛋糕A",
+    "executionDate": "2026-08-26",
+    "qty": 4,
+    "numberType": 1,
+    "categoryName": "其他",
+    "salesUnitName": "份",
+    "createdTime": "2026-08-25 10:00"
+  },
+  {
+    "billNo": "SO-1075",
+    "goodsName": "样品-面包A",
+    "executionDate": "2026-08-24",
+    "qty": 3,
+    "numberType": 1,
+    "categoryName": "其他",
+    "salesUnitName": "份",
+    "createdTime": "2026-08-23 10:00"
+  },
+  {
+    "billNo": "SO-1076",
+    "goodsName": "样品-花卷A",
+    "executionDate": "2026-08-25",
+    "qty": 5,
+    "numberType": 1,
+    "categoryName": "其他",
+    "salesUnitName": "份",
+    "createdTime": "2026-08-24 10:00"
+  },
+  {
+    "billNo": "SO-1077",
+    "goodsName": "样品-吐司B",
+    "executionDate": "2026-08-26",
+    "qty": 5,
+    "numberType": 1,
+    "categoryName": "其他",
+    "salesUnitName": "份",
+    "createdTime": "2026-08-25 10:00"
+  },
+  {
+    "billNo": "SO-1078",
+    "goodsName": "样品-馒头B",
+    "executionDate": "2026-08-24",
+    "qty": 3,
+    "numberType": 1,
+    "categoryName": "其他",
+    "salesUnitName": "份",
+    "createdTime": "2026-08-23 10:00"
+  },
+  {
+    "billNo": "SO-1079",
+    "goodsName": "样品-蛋糕B",
+    "executionDate": "2026-08-25",
+    "qty": 4,
+    "numberType": 1,
+    "categoryName": "其他",
+    "salesUnitName": "份",
+    "createdTime": "2026-08-24 10:00"
+  },
+  {
+    "billNo": "SO-1080",
+    "goodsName": "样品-面包B",
+    "executionDate": "2026-08-26",
+    "qty": 4,
+    "numberType": 1,
+    "categoryName": "其他",
+    "salesUnitName": "份",
+    "createdTime": "2026-08-25 10:00"
+  },
+  {
+    "billNo": "SO-1081",
+    "goodsName": "样品-花卷B",
+    "executionDate": "2026-08-24",
+    "qty": 3,
+    "numberType": 1,
+    "categoryName": "其他",
+    "salesUnitName": "份",
+    "createdTime": "2026-08-23 10:00"
+  },
+  {
+    "billNo": "SO-1082",
+    "goodsName": "纸箱-大",
+    "executionDate": "2026-08-24",
+    "qty": 16,
+    "numberType": 1,
+    "categoryName": "外包材",
+    "salesUnitName": "个",
+    "createdTime": "2026-08-23 11:00"
+  },
+  {
+    "billNo": "SO-1083",
+    "goodsName": "纸箱-大",
+    "executionDate": "2026-08-25",
+    "qty": 18,
+    "numberType": 1,
+    "categoryName": "外包材",
+    "salesUnitName": "个",
+    "createdTime": "2026-08-24 11:00"
+  },
+  {
+    "billNo": "SO-1084",
+    "goodsName": "纸箱-中",
+    "executionDate": "2026-08-26",
+    "qty": 9,
+    "numberType": 1,
+    "categoryName": "外包材",
+    "salesUnitName": "个",
+    "createdTime": "2026-08-25 11:00"
+  },
+  {
+    "billNo": "SO-1085",
+    "goodsName": "纸箱-中",
+    "executionDate": "2026-08-24",
+    "qty": 11,
+    "numberType": 1,
+    "categoryName": "外包材",
+    "salesUnitName": "个",
+    "createdTime": "2026-08-23 11:00"
+  },
+  {
+    "billNo": "SO-1086",
+    "goodsName": "周转筐",
+    "executionDate": "2026-08-25",
+    "qty": 24,
+    "numberType": 1,
+    "categoryName": "外包材",
+    "salesUnitName": "个",
+    "createdTime": "2026-08-24 11:00"
+  },
+  {
+    "billNo": "SO-1087",
+    "goodsName": "周转筐",
+    "executionDate": "2026-08-26",
+    "qty": 22,
+    "numberType": 1,
+    "categoryName": "外包材",
+    "salesUnitName": "个",
+    "createdTime": "2026-08-25 11:00"
+  },
+  {
+    "billNo": "SO-1088",
+    "goodsName": "缠绕膜",
+    "executionDate": "2026-08-24",
+    "qty": 7,
+    "numberType": 1,
+    "categoryName": "外包材",
+    "salesUnitName": "个",
+    "createdTime": "2026-08-23 11:00"
+  },
+  {
+    "billNo": "SO-1089",
+    "goodsName": "缠绕膜",
+    "executionDate": "2026-08-25",
+    "qty": 15,
+    "numberType": 1,
+    "categoryName": "外包材",
+    "salesUnitName": "个",
+    "createdTime": "2026-08-24 11:00"
+  },
+  {
+    "billNo": "SO-1090",
+    "goodsName": "手工点心礼盒",
+    "executionDate": "2026-08-24",
+    "qty": 70,
+    "numberType": 1,
+    "categoryName": "其他",
+    "salesUnitName": "盒",
+    "createdTime": "2026-08-23 12:00"
+  },
+  {
+    "billNo": "SO-1091",
+    "goodsName": "酥皮月饼",
+    "executionDate": "2026-08-25",
+    "qty": 34,
+    "numberType": 1,
+    "categoryName": "其他",
+    "salesUnitName": "盒",
+    "createdTime": "2026-08-24 12:00"
+  },
+  {
+    "billNo": "SO-1092",
+    "goodsName": "黑米糕",
+    "executionDate": "2026-08-26",
+    "qty": 94,
+    "numberType": 1,
+    "categoryName": "其他",
+    "salesUnitName": "盒",
+    "createdTime": "2026-08-25 12:00"
+  },
+  {
+    "billNo": "SO-1093",
+    "goodsName": "杂粮馒头",
+    "executionDate": "2026-08-24",
+    "qty": 44,
+    "numberType": 1,
+    "categoryName": "其他",
+    "salesUnitName": "盒",
+    "createdTime": "2026-08-23 12:00"
+  },
+  {
+    "billNo": "SO-1094",
+    "goodsName": "卤蛋",
+    "executionDate": "2026-08-25",
+    "qty": 41,
+    "numberType": 1,
+    "categoryName": "其他",
+    "salesUnitName": "盒",
+    "createdTime": "2026-08-24 12:00"
+  }
+]

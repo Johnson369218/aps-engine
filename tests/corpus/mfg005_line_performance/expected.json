@@ -1,0 +1,43 @@
+{
+  "scenario": "mfg005_line_performance",
+  "seed": 20260826,
+  "source_dataset": "mfg005",
+  "synthetic": true,
+  "oee_table": [
+    {
+      "line": "LP-1",
+      "oee": 0.87,
+      "A": 0.92,
+      "P": 0.95,
+      "Q": 0.99
+    },
+    {
+      "line": "LP-2",
+      "oee": 0.8,
+      "A": 0.88,
+      "P": 0.93,
+      "Q": 0.98
+    },
+    {
+      "line": "LP-3",
+      "oee": 0.8,
+      "A": 0.9,
+      "P": 0.9,
+      "Q": 0.99
+    },
+    {
+      "line": "LP-4",
+      "oee": 0.75,
+      "A": 0.85,
+      "P": 0.91,
+      "Q": 0.97
+    }
+  ],
+  "on_time_rate_expected": 1,
+  "capacity_factor_expected": 0.88,
+  "eval_scope": [
+    "schedule",
+    "oee"
+  ],
+  "note": "合成代表语料：产线绩效 OEE 分解 → 计划系数一致性（0.88 vs OEE 0.75-0.87）"
+}

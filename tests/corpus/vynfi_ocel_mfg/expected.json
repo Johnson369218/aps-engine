@@ -1,0 +1,22 @@
+{
+  "scenario": "vynfi_ocel_mfg",
+  "seed": 20260825,
+  "source_dataset": "vynfi_ocel",
+  "synthetic": true,
+  "n_orders": 30,
+  "on_time_rate_expected": 1,
+  "bottleneck_expected": "M03",
+  "line_load_min": {
+    "M01": 620,
+    "M02": 617,
+    "M03": 1789,
+    "M04": 820,
+    "M05": 738,
+    "M06": 801
+  },
+  "front_ok_expected": 30,
+  "eval_scope": [
+    "schedule"
+  ],
+  "note": "合成代表语料：对象中心事件日志 → 6 工站/前后工序/瓶颈 M03 定位"
+}

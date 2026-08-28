@@ -1,0 +1,18 @@
+[
+  {
+    "id": "MC-A",
+    "name": "设备MC-A",
+    "work_minutes_per_day": 480,
+    "shift_start": "08:00",
+    "first_date": "2026-08-24",
+    "weekends_off": true
+  },
+  {
+    "id": "MC-B",
+    "name": "设备MC-B",
+    "work_minutes_per_day": 480,
+    "shift_start": "08:00",
+    "first_date": "2026-08-24",
+    "weekends_off": true
+  }
+]

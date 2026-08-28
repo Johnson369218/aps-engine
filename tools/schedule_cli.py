@@ -6,7 +6,7 @@
       --orders real_aug_sep/orders_aug_strict.json --lines real_aug_sep/lines.json \
       --products real/products.json --out output/schedule.json \
       --xlsx "output/排产表.xlsx" [--engine auto|cp|heuristic] [--convert-units] \
-      [--kanban-a report_inbox/] [--kanban-b /path/dashboard_data.js] [--by 王青]
+      [--kanban-a report_inbox/] [--kanban-b /path/dashboard_data.js] [--by 计划员]
 """
 import argparse
 import json
@@ -23,7 +23,7 @@ from aps_engine.audit import audit_result  # noqa: E402
 
 
 def main(argv=None):
-    ap = argparse.ArgumentParser(description="岐品福 APS 一键排产（DSH 本机）")
+    ap = argparse.ArgumentParser(description="参考试点 APS 一键排产（DSH 本机）")
     ap.add_argument("--orders", required=True)
     ap.add_argument("--lines", required=True)
     ap.add_argument("--products", required=True)

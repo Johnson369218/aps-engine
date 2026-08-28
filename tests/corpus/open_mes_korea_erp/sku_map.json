@@ -1,0 +1,16 @@
+{
+  "map": {
+    "吐司A": "toast_plain",
+    "吐司B": "toast_wheat",
+    "蛋糕A": "cake_chiffon",
+    "蛋糕B": "cake_sponge",
+    "牛角A": "croissant",
+    "法棍A": "baguette",
+    "餐包A": "bun",
+    "主食400g": "mantou_laomian",
+    "主食刀切400g": "mantou_daoqie",
+    "菜包400g": "baozi_xihulu",
+    "肉包200g": "baozi_ziniu",
+    "粗粮240g": "yumi_baba"
+  }
+}

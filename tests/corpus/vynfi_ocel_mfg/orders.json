@@ -1,0 +1,362 @@
+[
+  {
+    "id": "OCEL-001",
+    "product": "ASM-01",
+    "qty": 545,
+    "due": "2026-08-24 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "M01"
+    ],
+    "duration_min": 218,
+    "order_time": "2026-08-22 09:00"
+  },
+  {
+    "id": "OCEL-002",
+    "product": "ASM-02",
+    "qty": 289,
+    "due": "2026-08-24 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "M02"
+    ],
+    "duration_min": 126,
+    "order_time": "2026-08-22 09:00"
+  },
+  {
+    "id": "OCEL-003",
+    "product": "ASM-03",
+    "qty": 760,
+    "due": "2026-08-24 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "M03"
+    ],
+    "duration_min": 365,
+    "order_time": "2026-08-22 09:00"
+  },
+  {
+    "id": "OCEL-004",
+    "product": "ASM-04",
+    "qty": 216,
+    "due": "2026-08-24 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "M04"
+    ],
+    "duration_min": 69,
+    "order_time": "2026-08-22 09:00"
+  },
+  {
+    "id": "OCEL-005",
+    "product": "ASM-05",
+    "qty": 510,
+    "due": "2026-08-24 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "M05"
+    ],
+    "duration_min": 175,
+    "order_time": "2026-08-22 09:00"
+  },
+  {
+    "id": "OCEL-006",
+    "product": "ASM-06",
+    "qty": 444,
+    "due": "2026-08-24 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "M06"
+    ],
+    "duration_min": 164,
+    "order_time": "2026-08-22 09:00"
+  },
+  {
+    "id": "OCEL-007",
+    "product": "ASM-07",
+    "qty": 220,
+    "due": "2026-08-25 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "M01"
+    ],
+    "duration_min": 66,
+    "order_time": "2026-08-23 09:00"
+  },
+  {
+    "id": "OCEL-008",
+    "product": "ASM-08",
+    "qty": 489,
+    "due": "2026-08-25 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "M02"
+    ],
+    "duration_min": 138,
+    "order_time": "2026-08-23 09:00"
+  },
+  {
+    "id": "OCEL-009",
+    "product": "ASM-01",
+    "qty": 878,
+    "due": "2026-08-25 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "M03"
+    ],
+    "duration_min": 351,
+    "order_time": "2026-08-23 09:00"
+  },
+  {
+    "id": "OCEL-010",
+    "product": "ASM-02",
+    "qty": 248,
+    "due": "2026-08-25 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "M04"
+    ],
+    "duration_min": 108,
+    "order_time": "2026-08-23 09:00"
+  },
+  {
+    "id": "OCEL-011",
+    "product": "ASM-03",
+    "qty": 283,
+    "due": "2026-08-25 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "M05"
+    ],
+    "duration_min": 136,
+    "order_time": "2026-08-23 09:00"
+  },
+  {
+    "id": "OCEL-012",
+    "product": "ASM-04",
+    "qty": 641,
+    "due": "2026-08-25 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "M06"
+    ],
+    "duration_min": 205,
+    "order_time": "2026-08-23 09:00"
+  },
+  {
+    "id": "OCEL-013",
+    "product": "ASM-05",
+    "qty": 309,
+    "due": "2026-08-26 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "M01"
+    ],
+    "duration_min": 106,
+    "order_time": "2026-08-24 09:00"
+  },
+  {
+    "id": "OCEL-014",
+    "product": "ASM-06",
+    "qty": 209,
+    "due": "2026-08-26 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "M02"
+    ],
+    "duration_min": 77,
+    "order_time": "2026-08-24 09:00"
+  },
+  {
+    "id": "OCEL-015",
+    "product": "ASM-07",
+    "qty": 1030,
+    "due": "2026-08-26 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "M03"
+    ],
+    "duration_min": 309,
+    "order_time": "2026-08-24 09:00"
+  },
+  {
+    "id": "OCEL-016",
+    "product": "ASM-08",
+    "qty": 616,
+    "due": "2026-08-26 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "M04"
+    ],
+    "duration_min": 174,
+    "order_time": "2026-08-24 09:00"
+  },
+  {
+    "id": "OCEL-017",
+    "product": "ASM-01",
+    "qty": 200,
+    "due": "2026-08-26 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "M05"
+    ],
+    "duration_min": 77,
+    "order_time": "2026-08-24 09:00"
+  },
+  {
+    "id": "OCEL-018",
+    "product": "ASM-02",
+    "qty": 200,
+    "due": "2026-08-26 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "M06"
+    ],
+    "duration_min": 73,
+    "order_time": "2026-08-24 09:00"
+  },
+  {
+    "id": "OCEL-019",
+    "product": "ASM-03",
+    "qty": 227,
+    "due": "2026-08-27 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "M01"
+    ],
+    "duration_min": 109,
+    "order_time": "2026-08-25 09:00"
+  },
+  {
+    "id": "OCEL-020",
+    "product": "ASM-04",
+    "qty": 431,
+    "due": "2026-08-27 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "M02"
+    ],
+    "duration_min": 138,
+    "order_time": "2026-08-25 09:00"
+  },
+  {
+    "id": "OCEL-021",
+    "product": "ASM-05",
+    "qty": 1155,
+    "due": "2026-08-27 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "M03"
+    ],
+    "duration_min": 396,
+    "order_time": "2026-08-25 09:00"
+  },
+  {
+    "id": "OCEL-022",
+    "product": "ASM-06",
+    "qty": 623,
+    "due": "2026-08-27 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "M04"
+    ],
+    "duration_min": 230,
+    "order_time": "2026-08-25 09:00"
+  },
+  {
+    "id": "OCEL-023",
+    "product": "ASM-07",
+    "qty": 623,
+    "due": "2026-08-27 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "M05"
+    ],
+    "duration_min": 187,
+    "order_time": "2026-08-25 09:00"
+  },
+  {
+    "id": "OCEL-024",
+    "product": "ASM-08",
+    "qty": 503,
+    "due": "2026-08-27 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "M06"
+    ],
+    "duration_min": 142,
+    "order_time": "2026-08-25 09:00"
+  },
+  {
+    "id": "OCEL-025",
+    "product": "ASM-01",
+    "qty": 303,
+    "due": "2026-08-28 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "M01"
+    ],
+    "duration_min": 121,
+    "order_time": "2026-08-26 09:00"
+  },
+  {
+    "id": "OCEL-026",
+    "product": "ASM-02",
+    "qty": 316,
+    "due": "2026-08-28 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "M02"
+    ],
+    "duration_min": 138,
+    "order_time": "2026-08-26 09:00"
+  },
+  {
+    "id": "OCEL-027",
+    "product": "ASM-03",
+    "qty": 767,
+    "due": "2026-08-28 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "M03"
+    ],
+    "duration_min": 368,
+    "order_time": "2026-08-26 09:00"
+  },
+  {
+    "id": "OCEL-028",
+    "product": "ASM-04",
+    "qty": 747,
+    "due": "2026-08-28 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "M04"
+    ],
+    "duration_min": 239,
+    "order_time": "2026-08-26 09:00"
+  },
+  {
+    "id": "OCEL-029",
+    "product": "ASM-05",
+    "qty": 475,
+    "due": "2026-08-28 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "M05"
+    ],
+    "duration_min": 163,
+    "order_time": "2026-08-26 09:00"
+  },
+  {
+    "id": "OCEL-030",
+    "product": "ASM-06",
+    "qty": 588,
+    "due": "2026-08-28 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "M06"
+    ],
+    "duration_min": 217,
+    "order_time": "2026-08-26 09:00"
+  }
+]

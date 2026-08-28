@@ -1,0 +1,74 @@
+[
+  {
+    "id": "KD-1",
+    "product": "KD-P1",
+    "qty": 200,
+    "due": "2026-08-24 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "KD-1"
+    ],
+    "duration_min": 50,
+    "order_time": "2026-08-24 08:00"
+  },
+  {
+    "id": "KD-2",
+    "product": "KD-P2",
+    "qty": 260,
+    "due": "2026-08-24 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "KD-2"
+    ],
+    "duration_min": 65,
+    "order_time": "2026-08-24 08:00"
+  },
+  {
+    "id": "KD-3",
+    "product": "KD-P3",
+    "qty": 320,
+    "due": "2026-08-24 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "KD-3"
+    ],
+    "duration_min": 80,
+    "order_time": "2026-08-24 08:00"
+  },
+  {
+    "id": "KD-4",
+    "product": "KD-P1",
+    "qty": 380,
+    "due": "2026-08-25 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "KD-1"
+    ],
+    "duration_min": 95,
+    "order_time": "2026-08-25 08:00"
+  },
+  {
+    "id": "KD-5",
+    "product": "KD-P2",
+    "qty": 440,
+    "due": "2026-08-25 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "KD-2"
+    ],
+    "duration_min": 110,
+    "order_time": "2026-08-25 08:00"
+  },
+  {
+    "id": "KD-6",
+    "product": "KD-P3",
+    "qty": 500,
+    "due": "2026-08-25 17:00",
+    "priority": 2,
+    "allowed_lines": [
+      "KD-3"
+    ],
+    "duration_min": 125,
+    "order_time": "2026-08-25 08:00"
+  }
+]

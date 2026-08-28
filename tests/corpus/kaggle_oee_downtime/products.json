@@ -1,0 +1,32 @@
+[
+  {
+    "id": "KD-P1",
+    "name": "OEE产品1",
+    "speed_per_hour": 120,
+    "overhead_min": 5,
+    "setup_min": {},
+    "capacity_8h": 845,
+    "line": "KD-1",
+    "unit": "件"
+  },
+  {
+    "id": "KD-P2",
+    "name": "OEE产品2",
+    "speed_per_hour": 120,
+    "overhead_min": 5,
+    "setup_min": {},
+    "capacity_8h": 845,
+    "line": "KD-2",
+    "unit": "件"
+  },
+  {
+    "id": "KD-P3",
+    "name": "OEE产品3",
+    "speed_per_hour": 120,
+    "overhead_min": 5,
+    "setup_min": {},
+    "capacity_8h": 845,
+    "line": "KD-3",
+    "unit": "件"
+  }
+]
