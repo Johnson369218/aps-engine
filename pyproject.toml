@@ -6,7 +6,6 @@ build-backend = "setuptools.build_meta"
 name = "aps-engine"
 version = "0.2.1"
 description = "通用 APS 智能排产引擎：CP-SAT 两阶段排产 + 审计 + AHP 优先级 + 多模型预测 + 蒙特卡洛概率 + 公式联动 Excel"
-readme = "README.md"
 requires-python = ">=3.10"
 license = { text = "MIT" }
 authors = [{ name = "Johnson369218", email = "kwoko_china@126.com" }]
