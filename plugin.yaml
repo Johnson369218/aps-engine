@@ -7,8 +7,8 @@ description: >-
   （排序指派 + 换型精确化，无 ortools 自动回退启发式）→ 6 项一致性审计 →
   21 列排产表（Excel 公式联动）+ 甘特图 + 汇总；可选 AHP 多因素优先级、
   多模型预测（TimesFM/GBDT）与蒙特卡洛概率层。行业规则（单位换算/红线/
-  排除清单）经 config/industry_food.json 适配，引擎核心不绑定任何企业。
-  参考试点为当前参考验证场景（见 adapters/ 参考集成与 aps_training/ 公开数据集评测）。
+  排除清单）经 config/industry_example.json 适配，引擎核心不绑定任何企业。
+  参考试点为当前参考验证场景（见 adapters/ 参考集成与 tests/ 公开数据集评测）。
 author: Johnson369218
 email: kwoko_china@126.com
 license: MIT
@@ -29,11 +29,11 @@ capabilities:
   - probability: bootstrap 蒙特卡洛（P10/P50/P90 + 超载概率）
   - export: 21 列 Excel（公式联动）+ 甘特图 + 汇总
   - server: FastAPI（/api/health /api/schedule）
-industry_config: config/industry_food.json
+industry_config: config/industry_example.json
 outputs:
   - output/schedule.json          # 引擎结果
   - output/排产表-<日期>.xlsx     # 公式联动版（VLOOKUP/SUMIFS/COUNTIFS 勾稽 + fullCalcOnLoad，可核查）
   - output/monte_carlo_*.json     # 概率层结果
 validation:
-  - tests/test_solve.py           # 参考试点回归（参考场景）
-  - aps_training/eval_suite.py    # 公开数据集评测（通用可靠性）
+  - tests/test_solve.py           # 参考试点回归（仅本地，需客户数据）
+  - tests/eval_suite.py --quick   # 公开数据集评测（12 场景，通用可靠性）

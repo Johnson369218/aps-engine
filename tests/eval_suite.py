@@ -2,13 +2,13 @@
 # -*- coding: utf-8 -*-
 """APS 插件应用能力训练 · 评测套件。
 
-对 aps_training/corpus/<场景>/ 逐一：
+对 tests/corpus/<场景>/ 逐一：
   schema 校验 →（按 eval_scope）排产/审计/准时率/瓶颈/前后工序、JSSP 最优性、
   预测 MAE、ERP 映射漏斗、OEE/计划系数、质量风险分桶 → 输出
-  aps_training/output/eval_report.json + aps_training/output/评测报告.md
+  tests/output/eval_report.json + aps_training/output/评测报告.md
 
 用法:
-  .venv/bin/python aps_training/eval_suite.py [--only dir1,dir2] [--engine auto]
+  python tests/eval_suite.py [--only dir1,dir2] [--engine auto]
   .venv/bin/python aps_training/eval_suite.py --quick   # 只跑 schedule+audit+jssp
 """
 import argparse

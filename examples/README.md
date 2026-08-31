@@ -8,7 +8,7 @@
 
 ## 复现
 ```bash
-.venv/bin/python aps-engine/tools/schedule_cli.py \
+python tools/schedule_cli.py \
     --orders data/orders.json --lines data/lines.json --products data/products.json \
     --out output/schedule.json --xlsx output/排产表.xlsx
 ```

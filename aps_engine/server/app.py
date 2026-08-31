@@ -30,8 +30,8 @@ MAX_ORDERS = 2000
 
 app = FastAPI(
     title="APS Engine · 智能排产引擎服务",
-    version="0.2.0",
-    description="通用 APS 排产引擎服务：POST /api/schedule 排产，GET /api/health 探活。行业规则经 config/industry_food.json 适配。"
+    version="0.2.1",
+    description="通用 APS 排产引擎服务：POST /api/schedule 排产，GET /api/health 探活。行业规则经 config/industry_example.json 适配。"
 )
 
 
@@ -59,7 +59,7 @@ def health():
     return {
         "status": "ok" if engine_ok else "degraded",
         "service": "aps-engine",
-        "version": "0.2.0",
+        "version": "0.2.1",
         "engine": "cp+heuristic" if engine_ok else "unavailable",
         "industry": "food(config)",
         "time": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),

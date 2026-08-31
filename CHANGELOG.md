@@ -1,6 +1,12 @@
 # Changelog
 
 ## [0.2.1] - 2026-08-28（架构 V2 修复）
+### 上架准备（发布前）
+- 零客户数据红线：客户文件 gitignore 修复（行尾注释曾致忽略失效）、全仓库客户名匿名化、docs/validation.md 验证声明
+- 兼容性修复：8 处 Python 3.12 PEP701 f-string 改 3.11 兼容（CI 双版本可跑）
+- 配置兜底：industry_food.json（客户本地）缺失时自动回退 config/industry_example.json（仓库示例）
+- 失效引用修正：aps_training/ → tests/、本机绝对路径 → 仓库相对、版本号统一 0.2.1（plugin.yaml/pyproject/__init__/server）
+- CI：tests/test_public_data.py 冒烟 + eval_suite 12 场景 + tag v* 自动 GitHub Release
 ### 修复（复盘缺陷）
 - 输出契约升级为 5-Sheet 公式联动（排产明细/主数据/汇总/甘特图/假设与口径），缺任一 Sheet 不算交付
 - 新增假设管理：assumptions.json + 敏感度 + "假设与口径"Sheet（结论绑定假设）

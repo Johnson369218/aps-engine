@@ -24,12 +24,15 @@ from aps_engine.export import export_schedule_xlsx  # noqa: E402
 from aps_engine.schema import validate_inputs, ValidationError  # noqa: E402
 from aps_engine.summarize import a_report_inbox, b_kanban_block  # noqa: E402
 
-# ── 行业适配配置（config/industry_food.json，引擎核心不内置行业假设）──
+# ── 行业适配配置（引擎核心不内置行业假设）──
+# 优先级：本地客户配置 industry_food.json > 仓库示例 industry_example.json > 内置默认
 CONFIG = {}
-_cfg_path = os.path.join(_PLUGIN_DIR, "config", "industry_food.json")
-if os.path.exists(_cfg_path):
-    with open(_cfg_path, encoding="utf-8") as _f:
-        CONFIG = json.load(_f)
+for _cfg_name in ("industry_food.json", "industry_example.json"):
+    _cfg_path = os.path.join(_PLUGIN_DIR, "config", _cfg_name)
+    if os.path.exists(_cfg_path):
+        with open(_cfg_path, encoding="utf-8") as _f:
+            CONFIG = json.load(_f)
+        break
 UNIT_CONVERSIONS = CONFIG.get("unit_conversions") or {}   # 行业配置驱动，不内嵌客户品名
 PLAN_COEFFICIENT = CONFIG.get("plan_coefficient", 0.88)
 LEAD_DAYS = CONFIG.get("lead_days", 1)

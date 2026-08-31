@@ -121,7 +121,7 @@ def erp_to_orders(raw, products, lines, sku_map, engine_meta=None):
         qty = round(v['qty'], 2)
         dur = max(10, round(qty / cap8 * 480)) if cap8 else 10
         orders.append({
-            'id': f'{sku}-{date.replace('-', '')}',
+            'id': f"{sku}-{date.replace('-', '')}",
             'product': sku,
             'qty': qty,
             'due': f'{date} 17:00',
@@ -156,10 +156,10 @@ def main(argv=None):
 
     print('管道漏斗: ' + ' → '.join([
         str(stats['raw_rows']),
-        f'去重{stats.get('dedup_rows', stats['raw_rows'])}',
-        f'销售{stats['sales_rows']}',
-        f'排除非产成品{stats['excluded_non_product']}',
-        f'订单{stats['orders']}',
+        f"去重{stats.get('dedup_rows', stats['raw_rows'])}",
+        f"销售{stats['sales_rows']}",
+        f"排除非产成品{stats['excluded_non_product']}",
+        f"订单{stats['orders']}",
     ]))
     if stats['unmapped']:
         print('⚠ 未映射商品（已排除，请确认是否新增 SKU）:')

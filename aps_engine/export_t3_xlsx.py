@@ -36,7 +36,7 @@ def _detail_formulas(r):
         "N": f"=ROUND(J{r}/M{r}*8,2)",
         "O": f"=MAX(1,ROUNDUP(N{r}/8,0))",
         "P": f"=VLOOKUP(F{r},主数据!$A:$F,6,0)",
-        "Q": f"=IF(P{r}=\"\",\"\",P{r}*O{r})",
+        "Q": f"=IF(P" + str(r) + "=\"\",\"\",P" + str(r) + "*O" + str(r) + ")",
         "R": f"=IF(N{r}>8,\"⚠产能冲突\",\"\")",
     }
 
@@ -173,7 +173,7 @@ def export_t3_xlsx(result, products, lines, dates, freeze_map, path):
         ws_s.cell(row=i, column=2, value=f"=COUNTIFS(T+3排产计划!$H:$H,$A{i})")
         ws_s.cell(row=i, column=3, value=f"=SUMIFS(T+3排产计划!$N:$N,T+3排产计划!$H:$H,$A{i})")
         ws_s.cell(row=i, column=4, value=f"=IFERROR(ROUND(C{i}/(8*{len(dates)}),3),0)")
-        ws_s.cell(row=i, column=5, value=f"=IF(D{i}>0.8,\"⚠ 高负荷\",IF(D{i}>0.5,\"◐ 中负荷\",\"○ 低负荷\"))")
+        ws_s.cell(row=i, column=5, value=f"=IF(D" + str(i) + ">0.8,\"⚠ 高负荷\",IF(D" + str(i) + ">0.5,\"◐ 中负荷\",\"○ 低负荷\"))")
     for col in "ABCDEF":
         ws_s.column_dimensions[col].width = 18
 
@@ -204,7 +204,7 @@ def export_t3_xlsx(result, products, lines, dates, freeze_map, path):
         ws_g.cell(row=r, column=1, value=f"{ln} 需并行班组").font = Font(size=10, color="666666")
         for i, d in enumerate(dates_all, start=2):
             cell = ws_g.cell(row=r, column=i,
-                value=f"=IF(B{r-1}=\"\",\"\",MAX(1,ROUNDUP(B{r-1}/8,0)))")
+                value=f"=IF(B" + str(r - 1) + "=\"\",\"\",MAX(1,ROUNDUP(B" + str(r - 1) + "/8,0)))")
             cell.alignment = Alignment(horizontal="center")
             cell.font = Font(size=10, color="666666")
         r += 1
