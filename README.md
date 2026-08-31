@@ -35,6 +35,9 @@ aps-engine/
 ## 仓库
 GitHub: https://github.com/Johnson369218/aps-engine
 
+## 增强路线图
+v0.3.0 可靠性闭环（回填校准 + 触发矩阵）→ v0.4.0 降本增强（批次合并 + LST）→ v0.5.0 规模化，详见 [docs/ROADMAP.md](docs/ROADMAP.md) 与 [docs/design-phase4-calibration.md](docs/design-phase4-calibration.md)。
+
 ## 快速使用
 ```bash
 # 方式 A：克隆后直接跑（仓库根目录）
