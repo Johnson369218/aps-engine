@@ -14,6 +14,8 @@ credentials*.json
 adapters/sku_map.json
 # 客户行业配置（仅本地）
 config/industry_food.json
+# 通道 webhook 密钥（仅本地，不入库）
+data/channels.json
 
 # 评测产物（本地生成，不入库）
 tests/output/

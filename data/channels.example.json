@@ -1,0 +1,26 @@
+{
+  "$schema_note": "通道 webhook 模板（无真实密钥）。复制为 data/channels.json 并填入真实 webhook 后使用（channels.json 已 gitignore，含密钥不入库）。",
+  "channels": {
+    "dingtalk": {
+      "type": "dingtalk",
+      "webhook": "https://oapi.dingtalk.com/robot/send?access_token=REPLACE_ME",
+      "secret": "SEC 加签密钥（可选，无则留空字符串）",
+      "note": "钉钉自定义机器人（老板群）"
+    },
+    "wecom": {
+      "type": "wecom",
+      "webhook": "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=REPLACE_ME",
+      "note": "企业微信群机器人（车间群）"
+    },
+    "feishu": {
+      "type": "feishu",
+      "webhook": "https://open.feishu.cn/open-apis/bot/v2/hook/REPLACE_ME",
+      "note": "飞书自定义机器人（可选）"
+    },
+    "wechat": {
+      "type": "wechat",
+      "webhook": "http://127.0.0.1:REPLACE_PORT/dsh-im/send",
+      "note": "个人微信（经 dsh-im 桥，DSH 技能层转发，客户端契约位）"
+    }
+  }
+}
