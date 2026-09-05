@@ -58,6 +58,16 @@ def test_photo_description():
     print("PASS test_photo_description")
 
 
+def test_full_keyword_coverage():
+    # 覆盖全门类（一般制造业）：high/mid 大类至少 3 个关键词；重工业(low)仅限 5 个、不必丰富
+    for ind in INDUSTRIES:
+        if ind["fit"] != "low":
+            assert len(ind["keywords"]) >= 3, f"{ind['code']} 关键词不足"
+    low_codes = {i["code"] for i in INDUSTRIES if i["fit"] == "low"}
+    assert low_codes == {"C16", "C25", "C26", "C31", "C32"}, low_codes  # 重工业/流程
+    print(f"PASS test_full_keyword_coverage ({len(INDUSTRIES)} 大类全覆盖，重工业 {sorted(low_codes)} 除外)")
+
+
 if __name__ == "__main__":
     test_match_plastic()
     test_match_furniture()
@@ -66,4 +76,5 @@ if __name__ == "__main__":
     test_fit_summary_covers_31()
     test_natural_language_no_jargon()
     test_photo_description()
+    test_full_keyword_coverage()
     print("ALL PASS")
