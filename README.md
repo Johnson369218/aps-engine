@@ -112,7 +112,7 @@ v0.3.0 信任+闭环+入口 ✅（本版）→ v0.4.0 降本增强（批次合�
 |---|---|
 | skill/插件名 | `aps-engine` |
 | Python 包 | `aps_engine` |
-| 版本 | 0.3.0 |
+| 版本 | 0.4.0 |
 | 许可证 | MIT |
 | 入口 | `aps_engine.api.solve`（稳定 API） |
 

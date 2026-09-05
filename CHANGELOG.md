@@ -1,5 +1,31 @@
 # Changelog
 
+## [0.4.0] - 2026-09-06（设备直连 + 多工序 + 行业适配矩阵）
+
+### 设备直连（排产结果直发设备，先确认再下发）
+- 新增 `aps_engine/machine.py`：Modbus TCP（信捷/汇川/台达/西门子 PLC，纯 stdlib）/ REST（IoT 网关）/ DNC（CNC 推 G 码）/ 作业单（无网口老设备）
+- `tools/machine_push.py`（dry-run 默认，--confirm 才真写）+ `data/machines.example.json`（温州/佛山柔印/凹印/分切/制袋、注塑、CNC 示例）
+
+### 多工序 Job-Shop（机械加工）
+- 新增 `aps_engine/jssp.py`：工序路由 + 前序约束 + 机器无重叠，ft06/gen33/gen44 达公开最优（前序违规 0）
+- `eval_suite` JSSP 场景接入多工序求解器，评测从「能力缺口」翻转为「viol=0 达最优」
+
+### 行业适配矩阵（31 大类，重工业/矿业除外）
+- 新增 `aps_engine/industry.py`：制造业 31 大类 → 标准功能（引擎/设备通道/换型重点/工艺参数/模板）
+- 细分工艺匹配：同一大类内分产品工艺模板（药包材药瓶 vs 普通注塑件，GMP/洁净/批号/溶出物约束分开）
+- 客户提示词 `GUIDE_PROMPT`：五要素（产品/设备/工艺/材料/特殊要求）引导准确描述，笼统不瞎猜
+- `tools/industry_wizard.py`：一句话/照片/语音识别 + 标准功能推荐
+- 即插即用模板：`examples/printing_sme`（印刷）、`examples/plastic_injection`（注塑/塑料）
+
+### 文档
+- `docs/solution-printing-sme.md`（中小印刷企业 5 阶段落地手册）
+- `docs/industry-fit-matrix.md`（31 大类矩阵 + 细分工艺 + 识别原则）
+
+### 红线守约
+- `solve()` 默认语义、5-Sheet 契约、audit 6 项不变；新功能均新模块/新参数、默认关闭
+- 设备指令/通道密钥（machines.json/channels.json）已 gitignore，不入库
+- 验证只用公开语料与合成语料（12 场景全绿 + 全量测试 ALL PASS）
+
 ## [0.3.0] - 2026-09-06（信任协同 + 闭环数据 + 入口规模化）
 
 ### 阶段 2 · 信任与协同（人敢拍板）
