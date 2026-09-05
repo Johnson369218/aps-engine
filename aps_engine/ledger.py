@@ -105,3 +105,10 @@ def recent_events(path, limit=50):
     rows = con.execute("SELECT * FROM events ORDER BY id DESC LIMIT ?", (limit,)).fetchall()
     con.close()
     return [dict(r) for r in rows]
+
+
+def recent_executions(path, limit=200):
+    con = _conn(path)
+    rows = con.execute("SELECT * FROM execution ORDER BY id DESC LIMIT ?", (limit,)).fetchall()
+    con.close()
+    return [dict(r) for r in rows]
