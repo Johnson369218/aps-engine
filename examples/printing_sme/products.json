@@ -1,0 +1,14 @@
+[
+  {"id": "P_BAG", "name": "无纺布袋(米)", "unit": "米", "capacity_8h": 48000,
+   "setup_min": {"P_FILM": 45, "P_PE": 30, "P_PAPER": 40},
+   "process_params": {"speed": 120, "temperature": 80, "tension": 300}},
+  {"id": "P_FILM", "name": "BOPP卷膜(米)", "unit": "米", "capacity_8h": 60000,
+   "setup_min": {"P_BAG": 45, "P_PE": 35, "P_PAPER": 40},
+   "process_params": {"speed": 150, "temperature": 60, "tension": 250}},
+  {"id": "P_PE", "name": "PE塑料袋(个)", "unit": "个", "capacity_8h": 120000,
+   "setup_min": {"P_BAG": 30, "P_FILM": 35, "P_PAPER": 35},
+   "process_params": {"speed": 180, "temperature": 70, "tension": 200}},
+  {"id": "P_PAPER", "name": "牛皮纸袋(个)", "unit": "个", "capacity_8h": 90000,
+   "setup_min": {"P_BAG": 40, "P_FILM": 40, "P_PE": 35},
+   "process_params": {"speed": 140, "temperature": 75, "tension": 280}}
+]

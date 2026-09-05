@@ -1,0 +1,12 @@
+[
+  {"id": "L1", "name": "柔印机1#（无纺布·温州）", "capacity": 1, "work_minutes_per_day": 480,
+   "shift_start": "08:00", "first_date": "2026-09-01", "weekends_off": false},
+  {"id": "L2", "name": "柔印机2#（塑料软包装·温州）", "capacity": 1, "work_minutes_per_day": 480,
+   "shift_start": "08:00", "first_date": "2026-09-01", "weekends_off": false},
+  {"id": "L3", "name": "凹印机1#（卷膜·佛山）", "capacity": 1, "work_minutes_per_day": 480,
+   "shift_start": "08:00", "first_date": "2026-09-01", "weekends_off": false},
+  {"id": "L4", "name": "分切机1#", "capacity": 1, "work_minutes_per_day": 480,
+   "shift_start": "08:00", "first_date": "2026-09-01", "weekends_off": false},
+  {"id": "L5", "name": "制袋机1#", "capacity": 1, "work_minutes_per_day": 480,
+   "shift_start": "08:00", "first_date": "2026-09-01", "weekends_off": false}
+]
