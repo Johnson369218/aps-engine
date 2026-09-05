@@ -78,7 +78,18 @@ INDUSTRIES = [
     {"code": "C27", "name": "医药制造", "type": "mixed", "fit": "high",
      "engine": "solve", "channel": "modbus", "setup": "批号/清洗/换规格",
      "params": ["qty", "temperature"],
-     "keywords": ["医药", "制药", "制剂", "药瓶", "胶囊", "片剂", "原料药", "中药", "保健", "敷料", "试剂", "疫苗", "口服液", "注射剂", "药盒"]},
+     "keywords": ["医药", "制药", "制剂", "胶囊", "片剂", "原料药", "中药", "保健", "疫苗", "注射剂", "药盒", "药品"],
+     "segments": [
+        {"name": "制剂（片剂/胶囊/口服液）", "keywords": ["片剂", "胶囊", "口服液", "颗粒剂", "制剂", "丸剂", "糖浆"],
+         "process": "制剂工艺(混合/压片/包衣/灌装)", "params": ["qty", "temperature"],
+         "constraints": ["GMP", "批号/留样", "含量/溶出/无菌"]},
+        {"name": "原料药(API)", "keywords": ["原料药", "API", "中间体"],
+         "process": "化学/生物合成 + 精制", "params": [],
+         "constraints": ["GMP 批记录", "纯度/杂质"]},
+        {"name": "药包材（药瓶/铝箔/说明书）", "keywords": ["药瓶", "药包材", "药用铝箔", "说明书", "药用瓶", "泡罩"],
+         "process": "包材生产(洁净)", "params": [],
+         "constraints": ["药包材注册", "洁净车间", "溶出物/迁移"]},
+     ]},
     {"code": "C28", "name": "化学纤维", "type": "process", "fit": "mid",
      "engine": "solve", "channel": "modbus", "setup": "换品种/换规格",
      "params": ["qty", "speed"],
@@ -86,13 +97,36 @@ INDUSTRIES = [
     {"code": "C29", "name": "橡胶和塑料制品", "type": "discrete", "fit": "high",
      "engine": "solve", "channel": "modbus", "setup": "换模具/换色",
      "params": ["qty", "pressure", "temperature", "cycle"], "example": "examples/plastic_injection",
-     "keywords": ["塑料", "注塑", "橡胶", "手机壳", "药瓶", "吹瓶", "瓶盖", "挤出", "模具",
-                  "塑料瓶", "水桶", "脸盆", "衣架", "饭盒", "垃圾桶", "塑料杯", "管材", "片材", "保鲜膜", "胶带"]},
+     "keywords": ["塑料", "注塑", "橡胶", "吹瓶", "挤出", "模具", "塑料件", "橡塑", "注塑件"],
+     "segments": [
+        {"name": "普通注塑件（消费电子/日用）", "keywords": ["手机壳", "手机保护壳", "电子外壳", "充电器壳", "日用塑料件", "外壳件", "按键", "注塑壳"],
+         "process": "注塑成型 + 表面处理(喷涂/UV)", "params": ["pressure", "temperature", "cycle"],
+         "constraints": ["外观/尺寸/装配", "普通消费品标准(GB/T)"]},
+        {"name": "药包材·药瓶（直接接触药品）", "keywords": ["药剂瓶", "药瓶", "药用瓶", "药包材", "口服液瓶", "输液瓶", "滴眼剂瓶", "药用瓶盖", "药用铝箔"],
+         "process": "注吹/吹塑（洁净车间）", "params": ["pressure", "temperature", "cycle"],
+         "constraints": ["药包材注册证/关联审评", "GMP 洁净车间", "批号/留样/稳定性", "溶出物/迁移试验", "微生物限度", "清洗验证", "YBB 药包材标准"]},
+        {"name": "中空吹塑容器（饮料/日化瓶）", "keywords": ["饮料瓶", "矿泉水瓶", "日化瓶", "中空容器", "吹塑瓶", "桶"],
+         "process": "挤吹/注吹", "params": ["pressure", "temperature"],
+         "constraints": ["容量/密封/跌落"]},
+        {"name": "管材/型材挤出", "keywords": ["管材", "型材", "PVC管", "PPR管", "线槽", "挤出件"],
+         "process": "挤出成型", "params": ["temperature", "speed"],
+         "constraints": ["尺寸/壁厚/压力等级"]},
+     ]},
     {"code": "C30", "name": "非金属矿物制品", "type": "mixed", "fit": "mid",
      "engine": "solve", "channel": "modbus", "setup": "换规格/花色/窑炉",
      "params": ["qty", "temperature", "pressure"],
-     "keywords": ["瓷砖", "玻璃", "水泥", "陶瓷", "耐火", "石材",
-                  "马桶", "卫浴", "洁具", "琉璃", "玻化砖", "釉面砖", "地砖", "墙砖", "玻璃瓶", "陶瓷杯", "瓷碗", "大理石", "人造石"]},
+     "keywords": ["瓷砖", "玻璃", "水泥", "陶瓷", "耐火", "石材", "琉璃", "玻化砖", "釉面砖", "大理石", "人造石"],
+     "segments": [
+        {"name": "建筑陶瓷（瓷砖）", "keywords": ["瓷砖", "地砖", "墙砖", "抛光砖", "通体砖", "内墙砖"],
+         "process": "压机成型+烧成+抛光", "params": ["temperature", "pressure"],
+         "constraints": ["规格/花色/吸水率"]},
+        {"name": "卫浴陶瓷（马桶/洁具）", "keywords": ["马桶", "卫浴", "洁具", "洗手盆", "坐便器", "浴缸"],
+         "process": "注浆/高压成型+烧成+施釉", "params": ["temperature"],
+         "constraints": ["尺寸/釉面/水效"]},
+        {"name": "日用玻璃（瓶/杯/器皿）", "keywords": ["玻璃瓶", "玻璃杯", "日用玻璃", "器皿", "酒杯"],
+         "process": "熔制+成型+退火", "params": ["temperature"],
+         "constraints": ["材质/耐温/外观"]},
+     ]},
     {"code": "C31", "name": "黑色金属冶炼压延", "type": "process", "fit": "low",
      "engine": "custom", "channel": "-", "setup": "长流程/炉次",
      "params": [], "keywords": ["炼钢", "钢铁", "轧钢", "铸造生铁"]},
@@ -176,6 +210,46 @@ def recommend(ind):
         "模板": ind.get("example") or "按三张表模板自建（lines/products/orders + data/machines.example.json）",
         "落地": "复制模板填数据 → schedule_cli 排产 → machines.json 填寄存器地址表 → machine_push(dry-run→confirm)",
     }
+
+
+def match_segments(text, top=3):
+    """细分工艺层识别（产品 + 国标工艺，比大类更细）。
+
+    同一大类内不同产品工艺（如 C29 塑料里的「普通注塑件」vs「药包材药瓶」）有不同约束，
+    必须按产品词命中细分模板，否则会把药瓶当普通注塑件、漏掉 GMP/药包材合规。
+    返回 [(命中数, 大类条目, 细分条目)]。
+    """
+    results = []
+    for ind in INDUSTRIES:
+        for seg in ind.get("segments", []):
+            hits = sum(1 for kw in seg["keywords"] if kw in text)
+            if hits:
+                results.append((hits, ind, seg))
+    results.sort(key=lambda x: -x[0])
+    return results[:top]
+
+
+def recognize(text, top=3):
+    """统一识别：优先「细分工艺」，其次「大类」。返回用户可读的推荐列表。
+
+    用户只说大白话（产品名），命中细分模板时给出该工艺的【约束/合规】，
+    避免把药包材/药瓶与普通注塑件混为一谈。
+    """
+    out = []
+    for hits, ind, seg in match_segments(text, top):
+        out.append({
+            "大类": f"{ind['code']} {ind['name']}",
+            "细分工艺": seg["name"],
+            "工艺": seg["process"],
+            "适配度": _FIT_LABEL[ind["fit"]],
+            "引擎": _ENGINE_LABEL[ind["engine"]],
+            "设备通道": ind["channel"],
+            "标准工艺参数": seg["params"],
+            "约束/合规": seg["constraints"],
+        })
+    if not out:  # 无细分命中 → 退回大类推荐
+        out = [recommend(ind) for ind in match_industry(text, top)]
+    return out
 
 
 def fit_summary():

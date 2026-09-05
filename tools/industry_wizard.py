@@ -9,7 +9,7 @@ import argparse, os, sys
 _PLUGIN_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 for _p in (_PLUGIN_DIR, os.path.dirname(_PLUGIN_DIR)):
     if _p not in sys.path: sys.path.insert(0, _p)
-from aps_engine.industry import INDUSTRIES, match_industry, recommend, fit_summary  # noqa: E402
+from aps_engine.industry import INDUSTRIES, recognize, fit_summary  # noqa: E402
 
 
 def main(argv=None):
@@ -29,16 +29,18 @@ def main(argv=None):
         ap.print_help()
         return 1
 
-    matches = match_industry(args.text)
+    matches = recognize(args.text)
     if not matches:
-        print("未识别到匹配大类。请描述得更具体（设备/产品/工艺关键词），如『注塑 手机壳』『印刷 柔印 无纺布』『家具 开料 封边』")
+        print("未识别到匹配。请描述得更具体（产品/设备/工艺关键词），如『手机壳』『药剂瓶』『印刷 柔印 无纺布』『家具 开料 封边』")
         return 1
     print(f"你的描述：{args.text}\n")
-    for i, ind in enumerate(matches, 1):
-        r = recommend(ind)
+    for i, r in enumerate(matches, 1):
         print(f"── 匹配 {i} ──")
         for k, v in r.items():
-            print(f"  {k}: {v}")
+            if isinstance(v, list):
+                print(f"  {k}: {', '.join(v)}")
+            else:
+                print(f"  {k}: {v}")
         print()
     return 0
 

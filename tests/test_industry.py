@@ -2,7 +2,7 @@
 """行业适配矩阵：关键词识别 + 标准功能推荐 + 31 大类汇总。"""
 import os, sys
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from aps_engine.industry import match_industry, recommend, fit_summary, INDUSTRIES  # noqa: E402
+from aps_engine.industry import match_industry, recommend, recognize, fit_summary, INDUSTRIES  # noqa: E402
 
 
 def test_match_plastic():
@@ -58,6 +58,17 @@ def test_photo_description():
     print("PASS test_photo_description")
 
 
+def test_segment_distinguishes_pharma_vs_consumer():
+    # 致命点：药瓶(药包材) vs 手机壳(普通注塑)，设备同但工艺/合规完全不同，必须分开
+    m1 = recognize("生产药剂瓶")
+    assert m1 and m1[0]["细分工艺"] == "药包材·药瓶（直接接触药品）", m1
+    assert any("GMP" in c for c in m1[0]["约束/合规"]), "药瓶应有 GMP 约束"
+    m2 = recognize("生产手机保护壳")
+    assert m2 and m2[0]["细分工艺"] == "普通注塑件（消费电子/日用）", m2
+    assert not any("GMP" in c for c in m2[0]["约束/合规"]), "手机壳不应有 GMP 约束"
+    print("PASS test_segment_distinguishes_pharma_vs_consumer")
+
+
 def test_full_keyword_coverage():
     # 覆盖全门类（一般制造业）：high/mid 大类至少 3 个关键词；重工业(low)仅限 5 个、不必丰富
     for ind in INDUSTRIES:
@@ -76,5 +87,6 @@ if __name__ == "__main__":
     test_fit_summary_covers_31()
     test_natural_language_no_jargon()
     test_photo_description()
+    test_segment_distinguishes_pharma_vs_consumer()
     test_full_keyword_coverage()
     print("ALL PASS")
