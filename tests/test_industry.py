@@ -40,10 +40,30 @@ def test_fit_summary_covers_31():
     print(f"PASS test_fit_summary_covers_31 (强{s['high']}/中{s['mid']}/弱{s['low']})")
 
 
+def test_natural_language_no_jargon():
+    # 用户只说一句大白话，不出现"离散/连续"等术语
+    m = match_industry("我公司生产不锈钢烧水壶")
+    assert m and m[0]["code"] in ("C33", "C38"), m  # 金属制品(日用金属) 或 电气(电水壶)
+    m2 = match_industry("生产塑料瓶和塑料水桶")
+    assert m2 and m2[0]["code"] == "C29", m2
+    m3 = match_industry("做陶瓷马桶和卫浴")
+    assert m3 and m3[0]["code"] == "C30", m3
+    print("PASS test_natural_language_no_jargon")
+
+
+def test_photo_description():
+    # 照片经视觉转成的描述文本 → 识别（照片识别在 DSH 层经 describe_image 转文本后走同一函数）
+    m = match_industry("照片：车间里一排注塑机，产品是手机壳")
+    assert m and m[0]["code"] == "C29", m
+    print("PASS test_photo_description")
+
+
 if __name__ == "__main__":
     test_match_plastic()
     test_match_furniture()
     test_match_printing()
     test_recommend_has_standard()
     test_fit_summary_covers_31()
+    test_natural_language_no_jargon()
+    test_photo_description()
     print("ALL PASS")
