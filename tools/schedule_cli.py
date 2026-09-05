@@ -31,6 +31,7 @@ def main(argv=None):
     ap.add_argument("--xlsx", default=None)
     ap.add_argument("--engine", default="auto", choices=["auto", "cp", "heuristic"])
     ap.add_argument("--time-limit", type=int, default=20)
+    ap.add_argument("--seed", type=int, default=42, help="求解随机种子（默认 42，保证可复现）")
     ap.add_argument("--convert-units", action="store_true",
                     help="对原始订单做袋→个单位换算（老面馒头400g×4 等）")
     ap.add_argument("--kanban-a", metavar="DIR", default=None,
@@ -46,7 +47,7 @@ def main(argv=None):
 
     result = solve(orders, lines, products, engine=args.engine,
                    time_limit=args.time_limit, convert_units=args.convert_units,
-                   out_path=args.out, products_raw=products)
+                   out_path=args.out, products_raw=products, seed=args.seed)
     if args.xlsx:
         # 标准输出：公式联动排产表（可核查：改数联动/汇总勾稽/fullCalcOnLoad）
         from aps_engine.export_formula import export_formula_xlsx
