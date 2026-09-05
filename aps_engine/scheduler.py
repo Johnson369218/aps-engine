@@ -27,6 +27,7 @@
 import argparse
 import json
 import math
+import random
 import sys
 from collections import defaultdict
 from datetime import date, datetime, time, timedelta
@@ -182,7 +183,7 @@ def compute_horizon(orders, durations, due_min, cal):
 # ------------------------------------------------------------ 阶段一 ----
 
 def solve_cp(orders, lines, allowed, durations, due_min, weights, cal,
-             time_limit=20, cap_of=None, initial=None):
+             time_limit=20, cap_of=None, initial=None, seed=42):
     """CP-SAT：指派 + 排序，目标 = 最小化加权拖期。
     cap_of: 产线并行工位数（>1 用 cumulative 多工位并行，=1 用 NoOverlap 单机）。"""
     cap_of = cap_of or {}
@@ -256,7 +257,9 @@ def solve_cp(orders, lines, allowed, durations, due_min, weights, cal,
 
     solver = cp_model.CpSolver()
     solver.parameters.max_time_in_seconds = time_limit
-    solver.parameters.num_search_workers = 8
+    solver.parameters.random_seed = seed
+    # B1 可复现：多 worker 并行即使固定 seed 也不确定；单 worker + 固定 seed 逐字节一致
+    solver.parameters.num_search_workers = 1
     status = solver.Solve(model)
     if status not in (cp_model.OPTIMAL, cp_model.FEASIBLE):
         return None, f"CP-SAT 无可行解 (status={solver.StatusName(status)})"
@@ -281,9 +284,11 @@ def solve_cp(orders, lines, allowed, durations, due_min, weights, cal,
 
 
 def solve_heuristic(orders, lines, allowed, durations, due_min, weights, cal,
-                    cap_of=None):
+                    cap_of=None, seed=42):
     """启发式：优先级+EDD 排序 → 负载均衡指派 → 线内按换型最优插入。
-    cap_of>1 时按多工位派发（任务放到最早空闲工位）。"""
+    cap_of>1 时按多工位派发（任务放到最早空闲工位）。
+    seed：排序/并列打破用 random.Random(seed)（当前确定性排序，seed 为兼容占位）。"""
+    rng = random.Random(seed)  # noqa: F841  — 保留确定性随机源，供并列打破逻辑使用
     cap_of = cap_of or {}
     seq = {l: [] for l in lines}
     load = {l: 0 for l in lines}
@@ -663,7 +668,7 @@ def summarize(orders, schedule, tardy, total_setup, util):
 
 # ---------------------------------------------------------------- 主流程 ----
 
-def run(orders, lines, products, engine="auto", time_limit=20, warm_start=True):
+def run(orders, lines, products, engine="auto", time_limit=20, warm_start=True, seed=42):
     # 归一化：products 允许为列表（按 id 转字典），lines 保持列表
     if isinstance(products, list):
         products = {p["id"]: p for p in products}
@@ -702,19 +707,19 @@ def run(orders, lines, products, engine="auto", time_limit=20, warm_start=True):
         if warm_start:
             # 启发式初始解作为 CP-SAT 热启动（创新点1：Johnson/启发式 warm start）
             heu_seq, _ = solve_heuristic(orders, line_ids, allowed, durations,
-                                         due_min, weights, first_cal, cap_of)
+                                         due_min, weights, first_cal, cap_of, seed)
             initial = {t["order"]: (l, t["start_min"], t["end_min"])
                        for l, ts in heu_seq.items() for t in ts}
         seq, err = solve_cp(orders, line_ids, allowed, durations, due_min,
-                            weights, first_cal, time_limit, cap_of, initial)
+                            weights, first_cal, time_limit, cap_of, initial, seed)
         if seq is None:
             sys.stderr.write(f"警告: CP-SAT 失败（{err}），回退启发式。\n")
             seq, _ = solve_heuristic(orders, line_ids, allowed, durations,
-                                     due_min, weights, first_cal, cap_of)
+                                     due_min, weights, first_cal, cap_of, seed)
             engine = "heuristic"
     else:
         seq, _ = solve_heuristic(orders, line_ids, allowed, durations, due_min,
-                                 weights, first_cal, cap_of)
+                                 weights, first_cal, cap_of, seed)
 
     line_names = {l["id"]: l["name"] for l in lines}
     if not multi:
