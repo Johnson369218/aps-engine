@@ -16,6 +16,8 @@ adapters/sku_map.json
 config/industry_food.json
 # 通道 webhook 密钥（仅本地，不入库）
 data/channels.json
+# 设备直连配置（IP/寄存器地址，仅本地，不入库）
+data/machines.json
 
 # 评测产物（本地生成，不入库）
 tests/output/

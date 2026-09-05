@@ -12,6 +12,7 @@
 - **闭环**：SQLite 台账 → 事件流 → 报工 → 执行校准 → 触发矩阵 → 真实重排（变更清单 + 冻结区 0 变动）
 - **多通道网关**：Message 协议 + 角色权限（`owner/planner/operator/…`），入口通道无关
 - **真实推送**：钉钉（加签）/ 企业微信 / 飞书 / 微信（dsh-im 桥）机器人 webhook
+- **设备直连**：Modbus TCP（信捷/汇川/台达 PLC）/ REST / 作业单，排产结果直发设备（先确认再下发）
 - **输出三件套**：员工一句话 / 车间班前单摘要 / 老板日报（≤N 行人话）
 - **审计**：6 项一致性（入库=后工序完成日、提前天数、延期、前后工序衔接）
 - **优先级**：AHP 六因素；**预测**：多模型择优；**概率**：蒙特卡洛 P10/P50/P90
@@ -56,6 +57,18 @@ python tools/push_cli.py --channels data/channels.json --text "排产简报：29
 bash scripts/backup_ledger.sh     # data/ledger/*.db → data/backup/（滚动保留 7 份）
 ```
 
+### 5) 设备直连（印刷/卷材等自动化设备）
+```bash
+# ① 复制模板填设备 IP/寄存器（machines.json 已 gitignore）
+cp data/machines.example.json data/machines.json
+# ② 默认 dry-run 只预览指令（红线：先人工确认）
+python tools/machine_push.py --schedule output/schedule.json \
+    --machines data/machines.json --machine flexo1 --products data/products.json
+# ③ 确认无误后再真写（--confirm）
+python tools/machine_push.py ... --confirm
+```
+支持 Modbus TCP（信捷/汇川/台达/西门子 PLC）、REST（IoT 网关）、作业单（无网口老设备→机台终端/大屏）。
+
 ## 目录
 ```
 aps-engine/
@@ -68,6 +81,7 @@ aps-engine/
 │   ├── replan.py         # 真实重排（冻结锁定 + 最小扰动 + 变更清单）
 │   ├── channels.py       # 多通道消息网关 + 角色权限
 │   ├── webhooks.py       # 真实推送（钉钉加签/企微/飞书/微信 dsh-im）
+│   ├── machine.py        # 设备直连（Modbus TCP/REST/作业单，先确认再下发）
 │   ├── briefing.py       # 输出三件套（员工/车间/老板）
 │   ├── audit.py schema.py summarize.py export.py export_t3_xlsx.py
 │   ├── ahp.py forecast.py prediction.py monte_carlo.py timesfm_service.py

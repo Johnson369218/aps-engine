@@ -1,0 +1,42 @@
+{
+  "$schema_note": "设备直连配置模板（无真实地址）。复制为 data/machines.json 填入真实 IP/寄存器（machines.json 已 gitignore）。寄存器地址表以各机台 PLC 程序/说明书为准。",
+  "machines": {
+    "flexo1": {
+      "name": "柔印机1#（无纺布印刷·温州）",
+      "type": "modbus_tcp",
+      "host": "192.168.1.10",
+      "port": 502,
+      "unit": 1,
+      "line": "L1",
+      "registers": {
+        "qty": {"addr": 0, "count": 2, "note": "本卷数量(米)，32位占2寄存器"},
+        "speed": {"addr": 10, "count": 1, "note": "走卷速度(米/分)"},
+        "temperature": {"addr": 20, "count": 1, "note": "干燥温度(℃)"}
+      }
+    },
+    "gravure1": {
+      "name": "凹印机1#（卷膜印刷·佛山）",
+      "type": "modbus_tcp",
+      "host": "192.168.1.11",
+      "port": 502,
+      "unit": 1,
+      "line": "L2",
+      "registers": {
+        "qty": {"addr": 100, "count": 2, "note": "本卷数量(米)"},
+        "tension": {"addr": 110, "count": 1, "note": "放卷张力(N)"}
+      }
+    },
+    "slitter1": {
+      "name": "分切机1#（无网口老设备）",
+      "type": "job_ticket",
+      "line": "L3",
+      "path": "output/machine_tickets/slitter1.txt"
+    },
+    "edge_gateway": {
+      "name": "IoT 网关（下一代设备 JSON 接口）",
+      "type": "rest",
+      "line": "L4",
+      "url": "http://127.0.0.1:9000/machine/jobs"
+    }
+  }
+}
