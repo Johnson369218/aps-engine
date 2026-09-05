@@ -1,0 +1,5 @@
+{
+  "zhang": {"actor_id": "a_zhang", "role": "planner", "display_name": "张三（计划员）"},
+  "wang": {"actor_id": "a_wang", "role": "owner", "display_name": "王老板"},
+  "li": {"actor_id": "a_li", "role": "operator", "display_name": "李师傅（班组长）"}
+}
