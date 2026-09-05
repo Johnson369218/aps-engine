@@ -185,6 +185,25 @@ INDUSTRIES = [
 _FIT_LABEL = {"high": "强适配（直接可用）", "mid": "中适配（需扩展约束）", "low": "弱适配（重工业，另建模型）"}
 _ENGINE_LABEL = {"solve": "solve() 单工序+换型", "solve_jssp": "solve_jssp() 多工序+前序", "custom": "另建流程模型"}
 
+# 客户提示词：市场商品繁多、称谓习惯不同，客户说不准会导致 AI 分不清——
+# 用这个引导客户把「产品/设备/工艺/材料/特殊要求」五要素说全，AI 才能准确归类。
+GUIDE_PROMPT = """📝 照着这样描述一句，我就能准确认出你的厂（不用填表、不用懂术语）：
+
+  「我们做【产品】＋【用什么设备】＋【怎么做的】＋【什么材料】＋【有没有特殊要求】」
+
+✅ 这样说最准：
+  「生产药用 PET 药剂瓶，用吹瓶机，要药包材注册证、在洁净车间做」
+    → 认出是【药包材·药瓶】，会带上 GMP/批号/溶出物这些合规约束
+  「做不锈钢烧水壶，冲压加焊接，要食品级」
+    → 认出是【金属制品·日用金属】
+
+❌ 这样说会分不清（不是你的错，是描述太笼统）：
+  「做瓶子」→ 分不清药瓶 / 饮料瓶 / 日化瓶，工艺和合规完全不同
+  「做塑料件」→ 分不清注塑 / 吹塑 / 挤出，也分不清要不要药包材合规
+
+  五个要素里，「产品」和「特殊要求」最关键——药瓶还是饮料瓶、要不要食品级/药包材，
+  就差这两个词。"""
+
 
 def match_industry(text, top=3):
     """按关键词识别行业大类。text 为用户对工厂的描述。返回匹配（按命中数排序）。"""
@@ -234,6 +253,7 @@ def recognize(text, top=3):
 
     用户只说大白话（产品名），命中细分模板时给出该工艺的【约束/合规】，
     避免把药包材/药瓶与普通注塑件混为一谈。
+    若命中的大类【有细分却没命中具体产品】→ 视为描述太笼统，返回空（触发客户提示词引导），不瞎猜。
     """
     out = []
     for hits, ind, seg in match_segments(text, top):
@@ -247,9 +267,15 @@ def recognize(text, top=3):
             "标准工艺参数": seg["params"],
             "约束/合规": seg["constraints"],
         })
-    if not out:  # 无细分命中 → 退回大类推荐
-        out = [recommend(ind) for ind in match_industry(text, top)]
-    return out
+    if out:
+        return out
+    # 无细分命中 → 仅当大类本身【无细分】时退回大类；有细分但没说清 → 返回空（引导）
+    fallback = []
+    for ind in match_industry(text, top):
+        if ind.get("segments"):
+            continue  # 有细分却没说具体产品，太笼统，不猜
+        fallback.append(recommend(ind))
+    return fallback
 
 
 def fit_summary():

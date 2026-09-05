@@ -9,14 +9,19 @@ import argparse, os, sys
 _PLUGIN_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 for _p in (_PLUGIN_DIR, os.path.dirname(_PLUGIN_DIR)):
     if _p not in sys.path: sys.path.insert(0, _p)
-from aps_engine.industry import INDUSTRIES, recognize, fit_summary  # noqa: E402
+from aps_engine.industry import INDUSTRIES, GUIDE_PROMPT, recognize, fit_summary  # noqa: E402
 
 
 def main(argv=None):
     ap = argparse.ArgumentParser(description="行业适配向导（APS 适合我的需求吗？）")
     ap.add_argument("--text", default=None, help="用一段话描述你的工厂")
     ap.add_argument("--list", action="store_true", help="列出 31 大类适配度汇总")
+    ap.add_argument("--guide", action="store_true", help="显示客户提示词（怎么描述才准确）")
     args = ap.parse_args(argv)
+
+    if args.guide:
+        print(GUIDE_PROMPT)
+        return 0
 
     if args.list:
         s = fit_summary()
@@ -31,7 +36,8 @@ def main(argv=None):
 
     matches = recognize(args.text)
     if not matches:
-        print("未识别到匹配。请描述得更具体（产品/设备/工艺关键词），如『手机壳』『药剂瓶』『印刷 柔印 无纺布』『家具 开料 封边』")
+        print("描述太笼统，没对上号。照着下面这样说，我就能准确归类：\n")
+        print(GUIDE_PROMPT)
         return 1
     print(f"你的描述：{args.text}\n")
     for i, r in enumerate(matches, 1):

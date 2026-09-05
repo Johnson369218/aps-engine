@@ -69,6 +69,17 @@ def test_segment_distinguishes_pharma_vs_consumer():
     print("PASS test_segment_distinguishes_pharma_vs_consumer")
 
 
+def test_guide_prompt_and_vague_trigger():
+    from aps_engine.industry import GUIDE_PROMPT
+    assert "产品" in GUIDE_PROMPT and "特殊要求" in GUIDE_PROMPT and "药包材" in GUIDE_PROMPT
+    # 笼统描述 → 无匹配或触发引导（不瞎猜）
+    assert recognize("做瓶子") == [], "「做瓶子」太笼统应引导，不瞎猜"
+    assert recognize("做塑料件") == [], "「做塑料件」太笼统应引导（C29有细分）"
+    # 无细分的大类仍可大类级返回
+    assert recognize("做玩具"), "「做玩具」应返回 C24 大类（无细分）"
+    print("PASS test_guide_prompt_and_vague_trigger")
+
+
 def test_full_keyword_coverage():
     # 覆盖全门类（一般制造业）：high/mid 大类至少 3 个关键词；重工业(low)仅限 5 个、不必丰富
     for ind in INDUSTRIES:
@@ -88,5 +99,6 @@ if __name__ == "__main__":
     test_natural_language_no_jargon()
     test_photo_description()
     test_segment_distinguishes_pharma_vs_consumer()
+    test_guide_prompt_and_vague_trigger()
     test_full_keyword_coverage()
     print("ALL PASS")
