@@ -11,6 +11,7 @@
 红线：设备指令【先人工确认再下发】——dispatch(confirm=False) 只返回 dry-run 草稿，真写必须 confirm=True。
 """
 import json
+import os
 import socket
 import struct
 
@@ -99,6 +100,33 @@ def build_commands(machine_cfg, jobs):
     return commands
 
 
+def build_jobs_from_jssp(result, machine_id):
+    """jssp 多工序结果 → 某机床的作业列表（每道工序一条）。"""
+    jobs = []
+    for blk in result.get("schedule", []):
+        if blk.get("machine") != machine_id:
+            continue
+        for t in blk.get("tasks", []):
+            jobs.append({"order": t["order"], "op_id": t.get("op_id", ""),
+                         "op_index": t.get("op_index", 0),
+                         "start": t.get("start"), "end": t.get("end"),
+                         "duration_min": t.get("duration_min")})
+    return jobs
+
+
+def build_dnc_commands(jobs, nc_dir, program_map):
+    """作业 → NC 程序拷贝指令。program_map: {order 或 product → 程序号(O1001)}；源文件 nc_dir/O1001.nc。"""
+    commands = []
+    for j in jobs:
+        prog = program_map.get(j["order"]) or program_map.get(j.get("product"))
+        if not prog:
+            continue
+        commands.append({"order": j["order"], "op_id": j.get("op_id", ""),
+                         "program": prog,
+                         "source_file": os.path.join(nc_dir, f"{prog}.nc")})
+    return commands
+
+
 # ─────────────────────────────────────────── 通道（传输）──
 
 class RestChannel:
@@ -129,13 +157,39 @@ class JobTicketChannel:
         return len(lines)
 
 
+class DncChannel:
+    """网络 DNC：把 NC 程序（G 码）文件拷到机床挂载的程序目录（网络共享/FTP）。
+
+    多数 CNC（发那科/西门子/华中/广数）可从网络目录取程序；本通道只做「程序文件下发」，
+    不触发启动（启动由操作工在机台确认，红线：推程序 ≠ 自动开车）。
+    """
+
+    def __init__(self, program_dir):
+        self.program_dir = program_dir
+
+    def write(self, commands):
+        import shutil
+        os.makedirs(self.program_dir, exist_ok=True)
+        n = 0
+        for c in commands:
+            src = c.get("source_file")
+            if src and os.path.exists(src):
+                shutil.copy(src, os.path.join(self.program_dir, f"{c['program']}.nc"))
+                n += 1
+        return n
+
+
 # ─────────────────────────────────────────── 下发（红线：先确认）──
 
 def dispatch(machine_cfg, jobs, confirm=False):
     """把作业列表下发到设备。confirm=False → dry-run（只返回指令草稿，不真写）。"""
-    commands = build_commands(machine_cfg, jobs)
     name = machine_cfg.get("name", machine_cfg.get("id", "?"))
     typ = machine_cfg.get("type", "job_ticket")
+    if typ == "dnc":
+        commands = build_dnc_commands(jobs, machine_cfg.get("nc_dir", "nc_programs"),
+                                      machine_cfg.get("program_map", {}))
+    else:
+        commands = build_commands(machine_cfg, jobs)
     if not confirm:
         return {"dry_run": True, "machine": name, "type": typ, "commands": commands}
 
@@ -158,6 +212,10 @@ def dispatch(machine_cfg, jobs, confirm=False):
                 "commands": commands, "sent": len(commands)}
     if typ == "job_ticket":
         n = JobTicketChannel(machine_cfg["path"]).write(commands)
+        return {"dry_run": False, "machine": name, "type": typ,
+                "commands": commands, "sent": n}
+    if typ == "dnc":
+        n = DncChannel(machine_cfg["program_dir"]).write(commands)
         return {"dry_run": False, "machine": name, "type": typ,
                 "commands": commands, "sent": n}
     return {"dry_run": False, "machine": name, "type": typ,

@@ -119,54 +119,26 @@ def eval_schedule(sc, orders, lines, products, engine, time_limit, exp):
 
 
 def eval_jssp(sc, orders, lines, products, engine, time_limit, exp):
-    from aps_engine.api import solve
+    from aps_engine.jssp import group_corpus_orders, solve_jssp
     res = {"capability": "jssp", "checks": {}}
     try:
-        result = solve(orders, lines, products, engine=engine,
-                       time_limit=time_limit, run_audit=True)
-        # 全部 op 是否都排上
+        jobs = group_corpus_orders(orders)
+        result = solve_jssp(jobs, lines, time_limit=time_limit)
+        n_ops = sum(len(j["operations"]) for j in jobs)
         tasks = [t for blk in result["schedule"] for t in blk["tasks"]]
-        res["scheduled_ops"] = len(tasks)
-        res["expected_ops"] = len(orders)
         checks = res["checks"]
-        checks["all_ops_scheduled"] = len(tasks) == len(orders)
-        # 前序约束检查：同 job 工序必须按 seq 升序且 start>=前序 end
-        cal = scheduler.Calendar(lines[0]["first_date"], lines[0]["shift_start"],
-                                 lines[0]["work_minutes_per_day"],
-                                 lines[0].get("weekends_off", True))
-        import re
-        by_job = {}
-        for t in tasks:
-            m = re.search(r"_op(\d+)$", t["order"])
-            seq = int(m.group(1)) if m else 0
-            by_job.setdefault(t["product"], []).append(
-                (seq, cal.dt_to_min(scheduler.parse_dt(t["start"])),
-                 cal.dt_to_min(scheduler.parse_dt(t["end"]))))
-        violations = 0
-        for j, ops in by_job.items():
-            ops.sort()
-            for i in range(1, len(ops)):
-                if ops[i][1] < ops[i - 1][2]:
-                    violations += 1
-        res["precedence_violations"] = violations
-        # makespan（工作分钟）
-        starts = [cal.dt_to_min(scheduler.parse_dt(t["start"])) for t in tasks]
-        ends = [cal.dt_to_min(scheduler.parse_dt(t["end"])) for t in tasks]
-        makespan = max(ends) - min(starts) if tasks else 0
-        res["makespan_min"] = makespan
+        res["scheduled_ops"] = len(tasks)
+        res["expected_ops"] = n_ops
+        checks["all_ops_scheduled"] = len(tasks) == n_ops
+        checks["feasible"] = len(tasks) == n_ops
+        res["precedence_violations"] = result["precedence_violations"]
+        res["makespan_min"] = result["makespan"]
         res["optimum_min"] = exp["optimum"]
         res["lower_bound_min"] = exp["lower_bound"]
-        res["gap_vs_opt"] = round(makespan / exp["optimum"] - 1, 3) if exp["optimum"] else None
-        checks["feasible"] = len(tasks) == len(orders)
-        # 能力缺口：无前序约束 → 违反数>0 属于预期（路线图项），不算场景失败
-        # 但 makespan 因缺约束而不可比：仅在 violations==0 时评判最优性
-        if violations == 0:
-            checks["optimality"] = makespan <= exp["optimum"]
-        else:
-            res["known_gap"] = ("引擎无工序前序约束：violations=%d，makespan(=%d) 不参与"
-                                "最优性判定；路线图：增加 precedence 约束后再评" %
-                                (violations, makespan))
-            checks["optimality"] = None
+        res["gap_vs_opt"] = round(result["makespan"] / exp["optimum"] - 1, 3) if exp["optimum"] else None
+        # 前序约束已建模：违序=0 且 makespan ≤ 公开最优 才判最优性
+        checks["optimality"] = (result["precedence_violations"] == 0
+                                and result["makespan"] <= exp["optimum"])
     except Exception as e:
         res["error"] = str(e)[:300]
         res["checks"]["solve"] = False

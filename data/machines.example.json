@@ -37,6 +37,16 @@
       "type": "rest",
       "line": "L4",
       "url": "http://127.0.0.1:9000/machine/jobs"
+    },
+    "cnc_lathe1": {
+      "name": "数控立车1#（CNC·网络 DNC 推 G 码）",
+      "type": "dnc",
+      "nc_dir": "nc_programs",
+      "program_dir": "/mnt/cnc_lathe1/prog",
+      "program_map": {
+        "O-001": "O1001",
+        "O-002": "O1002"
+      }
     }
   }
 }

@@ -66,9 +66,36 @@ def test_job_ticket_fallback():
     print("PASS test_job_ticket_fallback")
 
 
+def test_build_jobs_from_jssp():
+    jssp = {"schedule": [{"machine": "M1", "tasks": [
+        {"order": "J1", "op_id": "J1_op1", "op_index": 1, "start": 0, "end": 10, "duration_min": 10},
+        {"order": "J2", "op_id": "J2_op1", "op_index": 1, "start": 10, "end": 20, "duration_min": 10},
+    ]}]}
+    jobs = machine.build_jobs_from_jssp(jssp, "M1")
+    assert len(jobs) == 2 and jobs[0]["op_id"] == "J1_op1"
+    print("PASS test_build_jobs_from_jssp")
+
+
+def test_dnc_channel():
+    with tempfile.TemporaryDirectory() as td:
+        nc_dir = os.path.join(td, "nc"); os.makedirs(nc_dir)
+        open(os.path.join(nc_dir, "O1001.nc"), "w").write("G00 X0 Y0\nM30")
+        prog_dir = os.path.join(td, "machine_prog")
+        cfg = {"name": "立车CNC", "type": "dnc", "nc_dir": nc_dir,
+               "program_dir": prog_dir, "program_map": {"O-001": "O1001"}}
+        jobs = [{"order": "O-001", "op_id": "O-001_op1", "product": "P1"}]
+        r = machine.dispatch(cfg, jobs, confirm=False)  # dry-run
+        assert r["dry_run"] is True and r["commands"][0]["program"] == "O1001"
+        r2 = machine.dispatch(cfg, jobs, confirm=True)  # 真拷贝
+        assert r2["sent"] == 1 and os.path.exists(os.path.join(prog_dir, "O1001.nc"))
+    print("PASS test_dnc_channel")
+
+
 if __name__ == "__main__":
     test_modbus_frame()
     test_build_jobs_and_commands()
     test_dispatch_dry_run_gate()
     test_job_ticket_fallback()
+    test_build_jobs_from_jssp()
+    test_dnc_channel()
     print("ALL PASS")

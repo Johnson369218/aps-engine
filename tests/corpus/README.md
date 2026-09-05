@@ -20,5 +20,5 @@ normalize.py 覆盖）。
 | kaggle_oee_downtime | Kaggle Factory OEE & Downtime | oee, schedule | 可用率/停机归因复算 |
 
 > 注：ft06 实例与最优值 55 来自公开基准（SchedulingLab jsp-instances）；gen33/gen44
-> 的最优值由暴力枚举独立验证。JSSP 场景评估会暴露引擎"无工序前序约束"的能力缺口（预期
-> precedence_violations>0），这是训练结论的一部分，而非语料错误。
+> 的最优值由暴力枚举独立验证。JSSP 场景经多工序求解器 `aps_engine.jssp.solve_jssp`
+> 校验：前序违规 0、makespan 达公开最优（ft06=55 / gen33=22 / gen44=23）。
