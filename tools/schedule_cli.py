@@ -32,6 +32,8 @@ def main(argv=None):
     ap.add_argument("--engine", default="auto", choices=["auto", "cp", "heuristic"])
     ap.add_argument("--time-limit", type=int, default=20)
     ap.add_argument("--seed", type=int, default=42, help="求解随机种子（默认 42，保证可复现）")
+    ap.add_argument("--compare", action="store_true",
+                    help="副驾 v1：heuristic 快排 vs CP 精排对比并给出推荐（默认关）")
     ap.add_argument("--convert-units", action="store_true",
                     help="对原始订单做袋→个单位换算（老面馒头400g×4 等）")
     ap.add_argument("--kanban-a", metavar="DIR", default=None,
@@ -55,6 +57,21 @@ def main(argv=None):
         print(f"排产表(公式联动): {args.xlsx}")
 
     s = result["summary"]
+
+    if args.compare:
+        fast = solve(orders, lines, products, engine="heuristic", time_limit=3,
+                     convert_units=args.convert_units, seed=args.seed)
+        fs, cs = fast["summary"], s
+        print("=== 副驾对比 ===")
+        print(f"  CP 精排   : 准时率 {cs['on_time_rate']:.1%} 延期 {cs['total_tardiness_min']} 换型 {cs['total_setup_min']}")
+        print(f"  快排(基线): 准时率 {fs['on_time_rate']:.1%} 延期 {fs['total_tardiness_min']} 换型 {fs['total_setup_min']}")
+        if cs["on_time_rate"] >= fs["on_time_rate"] and cs["total_setup_min"] <= fs["total_setup_min"]:
+            print("  推荐: CP 精排（准时率不低且换型不增）")
+        elif cs["on_time_rate"] > fs["on_time_rate"]:
+            print("  推荐: CP 精排（准时率更高），换型代价 " + str(cs["total_setup_min"] - fs["total_setup_min"]) + " 分")
+        else:
+            print("  推荐: 快排基线（换型/负荷更优），建议人工确认瓶颈线")
+
     print(f"引擎: {result['engine']} | 订单 {s['orders']} | 准时 {s['on_time']} | "
           f"延期 {s['tardy']}（准时率 {s['on_time_rate']:.1%}）")
     print(f"总延期 {s['total_tardiness_min']} 分 | 换型 {s['total_setup_min']} 分 | "
