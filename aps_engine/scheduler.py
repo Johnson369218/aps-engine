@@ -740,6 +740,40 @@ def run(orders, lines, products, engine="auto", time_limit=20, warm_start=True, 
     return result
 
 
+def solve_decomposed(orders, lines, products, time_limit=30, warm_start=True, seed=42):
+    """B6 瓶颈分解模式（默认关闭，经 solve(mode="decompose") 调用）：
+    heuristic 快解得各线负荷 → 负荷 >85% 的瓶颈线用 CP 精排，其余保持 heuristic → 合并 → 重算汇总。
+
+    默认 mode="cp" 路径不受影响；分解仅在存在瓶颈线时才对瓶颈线启用 CP，无瓶颈线即等价于
+    heuristic（快解）。返回 result 结构与 run() 一致（engine="decompose"）。
+    """
+    heu = run(orders, lines, products, engine="heuristic",
+              time_limit=min(time_limit, 5), warm_start=warm_start, seed=seed)
+    bottleneck = {l for l, u in heu["summary"]["utilization"].items() if u > 0.85}
+    if not bottleneck:
+        heu["engine"] = "decompose"
+        return heu
+    cp = run(orders, lines, products, engine="cp",
+             time_limit=time_limit, warm_start=warm_start, seed=seed)
+    cp_blocks = {b["line"]: b for b in cp["schedule"]}
+    merged = [cp_blocks[b["line"]] if b["line"] in bottleneck else b
+              for b in heu["schedule"]]
+    tardy = [t for blk in merged for t in blk["tasks"] if t["tardy_min"] > 0]
+    total_setup = sum(int(t.get("setup_min", 0)) for blk in merged for t in blk["tasks"])
+    util = {blk["line"]: (cp["summary"]["utilization"].get(blk["line"])
+                          if blk["line"] in bottleneck
+                          else heu["summary"]["utilization"].get(blk["line"], 0))
+            for blk in merged}
+    summary = summarize(orders, merged, tardy, total_setup, util)
+    return {
+        "engine": "decompose",
+        "generated_at": datetime.now().strftime("%Y-%m-%d %H:%M"),
+        "summary": summary,
+        "tardy_orders": sorted(tardy, key=lambda x: -x["tardy_min"]),
+        "schedule": merged,
+    }
+
+
 # ---------------------------------------------------------------- xlsx ----
 
 def export_xlsx(result, path):

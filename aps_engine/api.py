@@ -66,10 +66,12 @@ def normalize_orders(orders, products, convert_units=False):
 
 def solve(orders, lines, products, engine="auto", time_limit=20,
           convert_units=False, out_path=None, xlsx_path=None,
-          products_raw=None, run_audit=True, priority_mode="default", seed=42):
+          products_raw=None, run_audit=True, priority_mode="default",
+          seed=42, mode="cp"):
     """一键排产：校验 → 归一化 → 引擎 → 审计 → 落盘。返回 result dict。
 
     out_path/xlsx_path 为 None 时不写盘；products_raw 用于 21 列导出（品类/单价/产能）。
+    mode="cp"（默认，语义不变）| "decompose"（B6 瓶颈分解：瓶颈线 CP、其余启发式）。
     """
     errors = validate_inputs(orders, lines, products)
     if errors:
@@ -84,8 +86,12 @@ def solve(orders, lines, products, engine="auto", time_limit=20,
                             time_limit=min(time_limit, 15), seed=seed)
         orders_n, ahp_stats = apply_ahp_priorities(orders_n, products,
                                                    line_util=pre["summary"]["utilization"])
-    result = scheduler.run(orders_n, lines, products, engine=engine,
-                           time_limit=time_limit, seed=seed)
+    if mode == "decompose":
+        result = scheduler.solve_decomposed(orders_n, lines, products,
+                                            time_limit=time_limit, seed=seed)
+    else:
+        result = scheduler.run(orders_n, lines, products, engine=engine,
+                               time_limit=time_limit, seed=seed)
 
     if run_audit:
         n, issues = audit_result(result)
