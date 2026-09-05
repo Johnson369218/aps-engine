@@ -59,7 +59,22 @@
 - `TriggerReport = {triggered, reasons[], scope: none|local|full|rolling, change_list[{order_code, line, before_min, after_min, frozen}], frozen_touched}`。
 - 范围合并：任一类触发 `full` → `full`；否则 `rush_order/shortage/breakdown` → `local`；`period` → `rolling`。
 - **冻结区 0 变动**：`change_list` 仅含非冻结任务；`frozen_touched` 恒为 0。
-- 真实重排由调度器执行后 `diff` 生成变更清单（v1 占位：非冻结任务按序输出）。
+- 真实重排由 `replan` 执行后 `diff` 生成变更清单（见 §4.1）。
+
+### 4.1 真实重排契约（replan，闭环落地）
+
+`replan.replan(plan_before, new_orders, lines, products, freeze_before=None, frozen_set=None)`
+
+- `plan_before`：现有排产 result（schedule.json）；`new_orders`：急单等引擎订单（id/product/qty/due/priority/allowed_lines）。
+- 返回 `{engine, generated_at, freeze_before, affected_lines, summary, schedule, change_list, frozen_touched}`。
+- **两阶段最小扰动**：
+  1. 阶段一「插入即得」：新订单塞进现有空隙（不搬动任何滚动任务），全部赶上交期 → `change_list` 只含 `added`；
+  2. 阶段二「真实重排」：塞不下才重排受影响线（新订单 `allowed_lines` 交集）的滚动任务 + 新订单，
+     交期优先、换型增量最小、latest-fit（贴交期当天生产，避免虚假提前）。
+- 未受影响线的滚动任务保持原位（0 扰动）；冻结区任务逐分钟不变（`frozen_touched=0`）。
+- 闭环 CLI：`tools/replan_cli.py`（`--plan/--rush/--freeze-before/--db/--out`），
+  落台账事实（订单 + `rush_order` 事件）→ `trigger.evaluate_triggers` → `replan.replan` → 变更清单；
+  输出为建议，待审批（拍板在人）。
 
 ---
 
@@ -72,7 +87,8 @@
 | D3 | `.venv/bin/python aps-engine/tests/test_report_back.py` | 2 PASS + `ALL PASS`（单位换算防呆）|
 | B3 | `.venv/bin/python aps-engine/tests/test_calibration.py` | 3 PASS + `ALL PASS`（±5%/≥10% + 审批提示）|
 | B4 | `.venv/bin/python aps-engine/tests/test_trigger.py` | 3 PASS + `ALL PASS`（6 类触发 + 冻结区 0 变动）|
-| 端到端 | 急单事件 → `evaluate_triggers` → 变更清单 | `triggered=True | scope=local | 变更清单=N 条 | frozen_touched=0` |
+| 重排 | `.venv/bin/python aps-engine/tests/test_replan.py` | 2 PASS + `ALL PASS`（冻结锁定 + 急单插入 + 真实变更清单）|
+| 闭环 | `.venv/bin/python aps-engine/tests/test_closed_loop.py` | 报工→台账→触发→重排→校准 全绿 |
 
 阶段 3 退出标准：台账 init/迁移幂等、订单/执行/事件落库（D1）+ 事件 CLI 入库可查（D2）+
 报工一句话回填 + 单位换算防呆（D3）+ 校准状态机 ±5%/≥10% 正确迁移且报告含审批提示（B3）+
