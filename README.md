@@ -126,8 +126,10 @@ v0.3.0 信任+闭环+入口 ✅（本版）→ v0.4.0 降本增强（批次合�
 3. 参考试点回归（仅本地，需客户数据）：`tests/test_solve.py`
 
 ## 行业解决方案
+- [docs/industry-fit-matrix.md](docs/industry-fit-matrix.md)（制造业 31 大类适配矩阵：强 21 / 中 5 / 弱 5，每个细分预配置标准功能）
+- **AI 识别向导**：`python tools/industry_wizard.py --text "注塑 手机壳 药瓶"` → 自动识别大类 + 标准功能推荐
 - [docs/solution-printing-sme.md](docs/solution-printing-sme.md)（中小印刷企业：柔印/凹印/分切/制袋，5 阶段 0 代码落地）
-- 机械加工（车/铣/钻/磨 多工序）→ `solve_jssp` + DNC；食品/通用单工序 → `solve()` + Modbus
+- 即插即用模板：`examples/printing_sme/`（印刷）、`examples/plastic_injection/`（注塑/塑料）；机械加工 → `solve_jssp` + DNC
 
 ## 方法论资产
 - [docs/validation.md](docs/validation.md)（验证声明：零客户数据 + 公开数据集证据链）

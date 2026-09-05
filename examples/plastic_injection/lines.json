@@ -1,0 +1,10 @@
+[
+  {"id": "L1", "name": "注塑机1#（120T）", "capacity": 1, "work_minutes_per_day": 480,
+   "shift_start": "08:00", "first_date": "2026-09-01", "weekends_off": false},
+  {"id": "L2", "name": "注塑机2#（200T）", "capacity": 1, "work_minutes_per_day": 480,
+   "shift_start": "08:00", "first_date": "2026-09-01", "weekends_off": false},
+  {"id": "L3", "name": "注塑机3#（350T）", "capacity": 1, "work_minutes_per_day": 480,
+   "shift_start": "08:00", "first_date": "2026-09-01", "weekends_off": false},
+  {"id": "L4", "name": "吹瓶机1#（PET）", "capacity": 1, "work_minutes_per_day": 480,
+   "shift_start": "08:00", "first_date": "2026-09-01", "weekends_off": false}
+]

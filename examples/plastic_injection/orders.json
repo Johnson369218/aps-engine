@@ -1,0 +1,10 @@
+[
+  {"id": "O-001", "product": "P_CASE", "qty": 15000, "due": "2026-09-01 18:00", "priority": 1, "allowed_lines": ["L1", "L2"]},
+  {"id": "O-002", "product": "P_BOTTLE", "qty": 30000, "due": "2026-09-02 18:00", "priority": 1, "allowed_lines": ["L4"]},
+  {"id": "O-003", "product": "P_CAP", "qty": 50000, "due": "2026-09-02 18:00", "priority": 2, "allowed_lines": ["L1", "L3"]},
+  {"id": "O-004", "product": "P_CASE", "qty": 12000, "due": "2026-09-03 18:00", "priority": 2, "allowed_lines": ["L2"]},
+  {"id": "O-005", "product": "P_DAILY", "qty": 20000, "due": "2026-09-03 18:00", "priority": 3, "allowed_lines": ["L3"]},
+  {"id": "O-006", "product": "P_BOTTLE", "qty": 25000, "due": "2026-09-04 18:00", "priority": 2, "allowed_lines": ["L4"]},
+  {"id": "O-007", "product": "P_CAP", "qty": 40000, "due": "2026-09-04 18:00", "priority": 1, "allowed_lines": ["L1", "L3"]},
+  {"id": "O-008", "product": "P_CASE", "qty": 18000, "due": "2026-09-05 18:00", "priority": 2, "allowed_lines": ["L1", "L2"]}
+]

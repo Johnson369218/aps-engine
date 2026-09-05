@@ -1,0 +1,14 @@
+[
+  {"id": "P_CASE", "name": "手机保护壳", "unit": "个", "capacity_8h": 40000,
+   "setup_min": {"P_BOTTLE": 50, "P_CAP": 40, "P_DAILY": 45},
+   "process_params": {"pressure": 120, "temperature": 230, "cycle": 12}},
+  {"id": "P_BOTTLE", "name": "药剂瓶(PET)", "unit": "个", "capacity_8h": 60000,
+   "setup_min": {"P_CASE": 50, "P_CAP": 35, "P_DAILY": 40},
+   "process_params": {"pressure": 100, "temperature": 210, "cycle": 10}},
+  {"id": "P_CAP", "name": "瓶盖", "unit": "个", "capacity_8h": 90000,
+   "setup_min": {"P_CASE": 40, "P_BOTTLE": 35, "P_DAILY": 35},
+   "process_params": {"pressure": 110, "temperature": 220, "cycle": 8}},
+  {"id": "P_DAILY", "name": "日用塑料件", "unit": "个", "capacity_8h": 50000,
+   "setup_min": {"P_CASE": 45, "P_BOTTLE": 40, "P_CAP": 35},
+   "process_params": {"pressure": 105, "temperature": 200, "cycle": 11}}
+]
