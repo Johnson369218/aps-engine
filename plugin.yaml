@@ -1,6 +1,6 @@
 name: aps-engine
 display_name: APS Engine · 智能排产引擎（通用）
-version: 0.2.1
+version: 0.3.0
 kind: skill-plugin
 description: >-
   通用 APS 排产引擎：订单/产线/产品 JSON 输入 → 输入校验 → CP-SAT 两阶段排产

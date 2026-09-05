@@ -1,5 +1,30 @@
 # Changelog
 
+## [0.3.0] - 2026-09-06（信任协同 + 闭环数据 + 入口规模化）
+
+### 阶段 2 · 信任与协同（人敢拍板）
+- B1 求解可复现：`seed=42` 默认固定（`solve/schedule_cli --seed`），同输入同 seed 任务序列逐字节一致
+- C3 基线回放：`tools/replay_baseline.py`（AI vs 规则基线对照报告）
+- C1 副驾 v1：`schedule_cli --compare`（heuristic 快排 vs CP 精排 + 推荐理由）
+
+### 阶段 3 · 闭环与数据底座（闭环转起来）
+- D1 SQLite 台账 `aps_engine/ledger.py`（orders/execution/events/adjust_log，migrate 幂等）
+- D2 事件入口 `tools/ledger_cli.py`；D3 报工 `tools/report_back.py`（单位换算防呆）
+- B3 执行校准 `aps_engine/calibration.py`（±5%/≥10% 状态机 + 执行回填，建议需审批）
+- B4 触发矩阵 `aps_engine/trigger.py`（6 类触发 + 冻结区 0 变动）
+- 真实重排 `aps_engine/replan.py`（冻结锁定 + 受影响线最小扰动 + 变更清单）+ `tools/replan_cli.py` 闭环
+
+### 阶段 5 · 入口与规模化（可复制、可交付）
+- E1 多通道消息网关 `aps_engine/channels.py`（Message 协议 + 角色权限）+ 真实推送 `aps_engine/webhooks.py`（钉钉加签/企微/飞书/微信 dsh-im）+ `tools/push_cli.py`
+- E2 输出三件套 `aps_engine/briefing.py`（员工/车间/老板 + 降级标注）
+- E4 韧性 `scripts/backup_ledger.sh`（台账滚动备份 7 份）
+- B6 瓶颈分解 `solve(mode="decompose")`（瓶颈线 CP、其余启发式）+ `tools/replay_rules.py`（规则回放推荐走审批）
+
+### 红线守约
+- `solve()` 默认语义、5-Sheet 契约、audit 6 项不变；新功能均新参数/新模块、默认关闭
+- 通道 webhook 密钥 `data/channels.json` 已 gitignore（模板 `data/channels.example.json`）
+- 验证只用公开语料与合成语料（12 场景全绿 + 全量测试 ALL PASS）
+
 ## [0.2.1] - 2026-08-28（架构 V2 修复）
 ### 上架准备（发布前）
 - 零客户数据红线：客户文件 gitignore 修复（行尾注释曾致忽略失效）、全仓库客户名匿名化、docs/validation.md 验证声明
