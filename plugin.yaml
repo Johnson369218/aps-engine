@@ -3,12 +3,12 @@ display_name: APS Engine · 智能排产引擎（通用）
 version: 0.4.0
 kind: skill-plugin
 description: >-
-  通用 APS 排产引擎：订单/产线/产品 JSON 输入 → 输入校验 → CP-SAT 两阶段排产
-  （排序指派 + 换型精确化，无 ortools 自动回退启发式）→ 6 项一致性审计 →
-  21 列排产表（Excel 公式联动）+ 甘特图 + 汇总；可选 AHP 多因素优先级、
-  多模型预测（TimesFM/GBDT）与蒙特卡洛概率层。行业规则（单位换算/红线/
-  排除清单）经 config/industry_example.json 适配，引擎核心不绑定任何企业。
-  参考试点为当前参考验证场景（见 adapters/ 参考集成与 tests/ 公开数据集评测）。
+  AI 驱动的通用 APS 排产与优化引擎：一句话/照片识别行业（制造业 31 大类 + 细分工艺，
+  如药包材 vs 普通注塑）→ CP-SAT 两阶段排产（排序 + 换型 2-opt，seed 可复现）→
+  多工序 Job-Shop（前序约束，ft06 达最优 55）→ 设备直连（Modbus TCP / DNC / REST /
+  作业单，dry-run 先确认）→ 闭环（报工 / 台账 / 急单重排 / 执行校准）。
+  多通道网关（微信/钉钉/企微/飞书）+ 输出三件套简报 + 5-Sheet 可核查 Excel。
+  行业规则经 config/industry_*.json 适配，引擎核心不绑定任何企业。
 author: Johnson369218
 email: kwoko_china@126.com
 license: MIT
